@@ -1,4 +1,4 @@
-﻿NewLanguageУкраїнська
+Українська
 #version 3.8
 
 YES                           "Так"
