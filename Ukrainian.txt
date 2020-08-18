@@ -22,8 +22,7 @@ TERRAIN                       "Мапа"
 TEAMS                         "Команди"
 BARRACKS                      "Казарми"
 PASSWORD                      "Пароль"
-#TODO #: Untranslated string
-#TODO UTILITIES                     "Utilities"
+UTILITIES                     "Утиліти"
 WORMS                         "Черв’яки"
 MISSION                       "Місія"
 REASON                        "Причина"
@@ -1127,240 +1126,123 @@ TMLIG_HELP                    "Ліва кнопка миші – вилучит
 #TODO 	"\n"
 #TODO 	"We strongly urge you use a combination of girder and ropes to make your way to the safety of the cavern ceiling."
 
-#TODO #: Untranslated string
-#TODO EVENTTEXT_0                   "Weapons drop!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_1                   "Supplies imminent."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_2                   "Secure the drop zones!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_3                   "Delivery successful, over and out."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_4                   "The iron eagle is on the way, over."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_5                   "Package delivered, over and out."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_6                   "That's it we're clean out, you're on your own!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_7                   "The crates are your only hope..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_8                   "Enemy air transport en route."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_9                   "Enemy transport closing."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_10                  "Almost here!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_11                  "It's arrived, now get the crate and get the hell out!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_12                  "No ammo? Try this for size!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_13                  "Mind your head!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_14                  "A first class delivery!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_15                  "Weapons drop successful!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_16                  "Don't let this equipment fall into the wrong hands..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_17                  "Express Delivery!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_18                  "Death by mail order."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_19                  "A little bit of healing goes a long way..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_20                  "Something to perk you up, sir."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_21                  "A blessed relief."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_22                  "Some timely assistance?"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_23                  "Medical supplies dispatched."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_24                  "Another helping hand."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_25                  "A little assistance for you."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_26                  "Every little bit helps."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_27                  "A little light relief."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_28                  "Anybody require medical assistance?"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_29                  "Is this your blood group?"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_30                  "Live damn you, Live!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_31                  "Medic!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_32                  "Nuke en-route."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_33                  "Time is against us sir, we need to deal with this quickly!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_34                  "Smoke 'em out if you can..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_35                  "Meteor strike imminent, dig in!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_36                  "It's on its way, ETA 5 minutes!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_37                  "Time is short, get a move on!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_38                  "Tactical nuclear missile launch detected."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_39                  "Warning! Strike imminent!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_40                  "A tremor has been detected at the north end of the island!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_41                  "Global warming! Watch the water level!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_42                  "Try not to get wet!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_43                  "Hurry, don't let them dig in!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_44                  "The General is escaping!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_45                  "Radiation will be the death of you!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_46                  "Reach for the skies!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_47                  "Climb a mountain not a molehill."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_48                  "Keep away from the edge, earthquake imminent!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_49                  "Where's Noah when you need him?"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_50                  "It's time to build those shelters."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_51                  "Hope you've got protection."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_52                  "WARNING! Seismic activity, 7.2 on the Richter scale!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_53                  "What happened to the five minute warning?"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_54                  "Global Extermination!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_55                  "WARNING! Destabilising fault-line..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_56                  "Caution, tectonic movement!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_57                  "The end of the world is nigh!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_58                  "Judgement Day."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_59                  "Enemy forces mobilising!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_60                  "Strike imminent!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_61                  "Next turn the enemy gets serious."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_62                  "The enemy is armed to the teeth!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_63                  "They've seen you, RUN!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_64                  "Enemy weapons embargo has been lifted."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_65                  "There may be trouble ahead..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_66                  "This conflict is escalating."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_67                  "Ride those thermals, trooper!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_68                  "War is hell."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_69                  "Better dig deep..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_70                  "There IS honour in death."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_71                  "Use the darkside!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_72                  "Secure the area!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_73                  "Dig down and dig deep."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_74                  "That fruits just about ripe and for the picking!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_75                  "Remember to get the crates to add armoury."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_76                  "A utility would be useful..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_77                  "You could do with some 1st aid."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_78                  "You'll need to use the rope..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_79                  "Think about using some girders as cover."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_80                  "You need to draw fire."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_81                  "Remember that you can drop items while on a rope!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_82                  "Learn to use the repeat swing of the rope!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_83                  "Learn all the jumping techniques."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_84                  "A back jump gets you up even higher."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_85                  "Make a note of the enemy units and their skills."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_86                  "Act quickly, think sooner."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_87                  "Skunks can reach places that other weapons cannot reach!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_88                  "Guns can be strafed up and down when fired."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_89                  "Crates can sometimes offer a solution to a mission."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_90                  "Girders can still be placed even whilst swinging on your rope."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_91                  "Need a leg up? Try an arrow or two..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_92                  "A girder could be your last line of defence..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_93                  "Animals and old women can go shopping you know..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_94                  "Parachutes don't slow your fall but can be controlled..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_95                  "A parachute! Ride those thermals, trooper."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_96                  "Crates and explosions don't mix."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_97                  "Air strikes are more effective from the correct direction!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_98                  "Moles love to dig down and they tend to explode too."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_99                  "A well-placed stick of dynamite will dislodge any stubborn Worm."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_100                 "Wind can have an effect on fire, be careful not to stand downwind!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_101                 "Measure the wind and send a bazooka curling!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_102                 "Extra Worms make great decoys."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_103                 "Roll out the barrels, they can be deadly too..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_104                 "This crate could be vital!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_105                 "Girders can help grenades reach their targets..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_106                 "Aqua sheep by name, aquatic by nature."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_107                 "Come on soldier, get a move on!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_108                 "You'd better hurry, there's not much time left!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_109                 "Quick! The water is rising!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_110                 "Here's something to help this time."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_111                 "If you're having trouble, use this."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_112                 "We thought you would appreciate this!"
-#TODO #: Untranslated string
-#TODO EVENTTEXT_113                 "Looks like you need help, rookie."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_114                 "This will come in handy..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_115                 "You need help..."
-#TODO #: Untranslated string
-#TODO EVENTTEXT_116                 "Try this."
+EVENTTEXT_0                   "Зброя прийшла!"
+EVENTTEXT_1                   "Скоро доставка."
+EVENTTEXT_2                   "Захистіть зони падіння!"
+EVENTTEXT_3                   "Доставка успішна, кінець зв'язку."
+EVENTTEXT_4                   "Залізний орел на підході, прийом."
+EVENTTEXT_5                   "Вантаж доставлено, кінець зв'язку."
+EVENTTEXT_6                   "Усе, ми своє виконали, а тепер ви самі!"
+EVENTTEXT_7                   "Ящики - то ваша єдина надія..."
+EVENTTEXT_8                   "Ворожий повітряний транспорт в дорозі."
+EVENTTEXT_9                   "Ворожий транспорт наближається."
+EVENTTEXT_10                  "Майже тут!"
+EVENTTEXT_11                  "Вантаж на місці, тепер беріть ящик і вибирайтесь до біса!"
+EVENTTEXT_12                  "Скінчились набої? Візьміть-но це!"
+EVENTTEXT_13                  "Бережіть голову!"
+EVENTTEXT_14                  "Першокласна доставка!"
+EVENTTEXT_15                  "Доставка зброї успішна!"
+EVENTTEXT_16                  "Краще цьому спорядженню не попадати у злі руки..."
+EVENTTEXT_17                  "Експрес-доставка!"
+EVENTTEXT_18                  "Смерть поштою."
+EVENTTEXT_19                  "Ці дрібка ліків пройшла довгий шлях..."
+EVENTTEXT_20                  "Дещо, що збадьорить вас, сер."
+EVENTTEXT_21                  "Блаженне полегшення."
+EVENTTEXT_22                  "Невже своєчасна допомога?"
+EVENTTEXT_23                  "Медикаменти відправлено."
+EVENTTEXT_24                  "Ще одна рука помочі."
+EVENTTEXT_25                  "Невеличка допомога для вас."
+EVENTTEXT_26                  "Кожне потрохи допомагає."
+EVENTTEXT_27                  "Маленьке, легеньке полегшення."
+EVENTTEXT_28                  "Комусь потрібна медична допомога?"
+EVENTTEXT_29                  "Яка ваша група крові?"
+EVENTTEXT_30                  "Живи, покидьку, живи!"
+EVENTTEXT_31                  "Лікаря!"
+EVENTTEXT_32                  "Ядерна бомба в дорозі."
+EVENTTEXT_33                  "Час - наш ворог, сер, нам треба впоратися з цим швидко!"
+EVENTTEXT_34                  "Викуріть їх, якщо зможете..."
+EVENTTEXT_35                  "Падіння метеора неминуче, заривайтесь!"
+EVENTTEXT_36                  "Наближається, розрахунковий час прибуття - 5 хвилин!"
+EVENTTEXT_37                  "Часу мало, ворушіться там!"
+EVENTTEXT_38                  "Виявлено запуск тактичної ядерної боєголовки."
+EVENTTEXT_39                  "Увага! Удару не уникнути!"
+EVENTTEXT_40                  "На північному краю острова було виявлено струси!"
+EVENTTEXT_41                  "Глобальне потепління! Стежте за рівнем води!"
+EVENTTEXT_42                  "Спробуйте не намокнути!"
+EVENTTEXT_43                  "Швидше, не дайте їм окопатись!"
+EVENTTEXT_44                  "Генерал утікає!"
+EVENTTEXT_45                  "Радіація уб'є вас усіх!"
+EVENTTEXT_46                  "Досягніть небес!"
+EVENTTEXT_47                  "Видряпайтесь на гору, а не на кротовину."
+EVENTTEXT_48                  "Тримайтесь подалі від прірви, землетрусу не уникнути!"
+EVENTTEXT_49                  "І де той Ной, коли його так треба?"
+EVENTTEXT_50                  "Час будувати бункери."
+EVENTTEXT_51                  "Сподіваюся, у вас є захист."
+EVENTTEXT_52                  "УВАГА! Сейсмічна активність, 7.2 за шкалою Ріхтера!"
+EVENTTEXT_53                  "Що сталось із п'ятихвилинним попередженням?"
+EVENTTEXT_54                  "Глобальне вимирання!"
+EVENTTEXT_55                  "УВАГА! Лінія розлому нестабільна..."
+EVENTTEXT_56                  "Обережно, тектонічний рух!"
+EVENTTEXT_57                  "Кінець світу вже поруч!"
+EVENTTEXT_58                  "Судний день."
+EVENTTEXT_59                  "Ворожі війська мобілізуються!"
+EVENTTEXT_60                  "Удар неминучий!"
+EVENTTEXT_61                  "У ворога серйозні плани на наступний хід."
+EVENTTEXT_62                  "Ворог озброєний до зубів!"
+EVENTTEXT_63                  "Вони побачили вас, ТІКАЙТЕ!"
+EVENTTEXT_64                  "Ембарго на ворожу зброю знято."
+EVENTTEXT_65                  "Можуть виникнути проблеми..."
+EVENTTEXT_66                  "Цей конфлікт розвивається."
+EVENTTEXT_67                  "Осідлай вітер, солдате!"
+EVENTTEXT_68                  "Війна - це пекло."
+EVENTTEXT_69                  "Краще рити глибоко..."
+EVENTTEXT_70                  "Смерть - це честь."
+EVENTTEXT_71                  "Перейдіть на темну сторону!"
+EVENTTEXT_72                  "Захистіть зону!"
+EVENTTEXT_73                  "Копайте вниз і глибоко."
+EVENTTEXT_74                  "Ті фрукти якраз достигли до збору!"
+EVENTTEXT_75                  "Не забудьте забрати ящики для поповнення арсеналу."
+EVENTTEXT_76                  "Утиліти би не зашкодили..."
+EVENTTEXT_77                  "Вам потрібна перша допомога."
+EVENTTEXT_78                  "Вам доведеться скористатись мотузкою..."
+EVENTTEXT_79                  "Задумайтесь над використанням балок як укриття."
+EVENTTEXT_80                  "Витягуйте зброю."
+EVENTTEXT_81                  "Пам'ятайте, що ви можете скидати зброю з мотузки!"
+EVENTTEXT_82                  "Навчіться користуватись розгойдуванням мотузки!"
+EVENTTEXT_83                  "Вивчіть усіх техніки стрибків."
+EVENTTEXT_84                  "Стрибок назад є найвищим."
+EVENTTEXT_85                  "Візьміть до уваги ворожі війська та їхні навички."
+EVENTTEXT_86                  "Дійте швидко, think думайте ще швидше."
+EVENTTEXT_87                  "Скунси можуть досягати місць, до яких іншій зброї зась!"
+EVENTTEXT_88                  "Вогнепальну зброю можна рухати вгору і вниз під час стрільби."
+EVENTTEXT_89                  "Іноді ящики можуть містити виконання завдання."
+EVENTTEXT_90                  "Балки можна ставити навіть під час розгойдування на мотузці."
+EVENTTEXT_91                  "Потрібно нагору? Спробуйте одну-дві стріли..."
+EVENTTEXT_92                  "Балка може бути останньою лінією оборони..."
+EVENTTEXT_93                  "Тварини і бабусі можуть збирати ящики..."
+EVENTTEXT_94                  "Парашути не сповільнюють падіння, але ними можна керувати..."
+EVENTTEXT_95                  "Парашут! Осідлай вітер, солдате."
+EVENTTEXT_96                  "Ящики і вибухи погано ладнають."
+EVENTTEXT_97                  "Авіаудари більш ефективні з правильного напрямку!"
+EVENTTEXT_98                  "Кроти люблять рити вглиб і вибухати."
+EVENTTEXT_99                  "Добре розміщений динаміт може зрушити й найупертішого черв'яка."
+EVENTTEXT_100                 "Вітер може впливати на вогонь, краще не стійте під вітром!"
+EVENTTEXT_101                 "Визначте силу вітру і закрутіть свій постріл з базуки!"
+EVENTTEXT_102                 "Зайві черв'яки служать чудовимим приманками."
+EVENTTEXT_103                 "Стріляйте в бочки, вони можуть бути смертоносними..."
+EVENTTEXT_104                 "Цей ящик життєво важливий!"
+EVENTTEXT_105                 "Балки можуть допомогти гранатам досягнути своєї цілі..."
+EVENTTEXT_106                 "Водяною вівцею зветься, водяною і є."
+EVENTTEXT_107                 "Швидше, солдате, ворушись!"
+EVENTTEXT_108                 "Краще поспішити, часу лишилось небагато!"
+EVENTTEXT_109                 "Швидше! Вода піднімається!"
+EVENTTEXT_110                 "Ось щось, що допоможе."
+EVENTTEXT_111                 "Якщо у вас проблеми, скористайтесь цим."
+EVENTTEXT_112                 "Ми подумали, що ви це оціните!"
+EVENTTEXT_113                 "Здається, тобі б не зашкодила допомога, новачку."
+EVENTTEXT_114                 "Це стане у пригоді..."
+EVENTTEXT_115                 "Вам потрібна допомога..."
+EVENTTEXT_116                 "Спробуйте це."
 
 #TODO #: Untranslated string
 #TODO MISSION_RETRY_1               "Come on, have another go..."
