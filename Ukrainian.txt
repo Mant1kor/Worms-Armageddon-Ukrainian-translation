@@ -4775,58 +4775,34 @@ GAME_WORM_SICKNESS_COMMENTS
 #TODO #: Untranslated string
 #TODO OPTEXT_HELP_RUBBERWORM_KAOS_MOD                  "Changes the utility crate probabilities (Fast Walk, Laser Sight, Damage*2, Invisibility, Low Gravity, Crate Spy, Jet Pack, Double Time, Crate Shower) from a set of presets, tailored to the \"Kaos\" scheme."
 
-#TODO #: Untranslated string
-#TODO # Option categories
+# Option categories
 
-#TODO OPTEXT_CAT_PHYSICS    "Physics"
-#TODO #: Untranslated string
-#TODO OPTEXT_CAT_GAMEPLAY   "Gameplay \1"
-#TODO #: Untranslated string
-#TODO OPTEXT_CAT_GLITCH     "Glitch Emulation"
-#TODO #: Untranslated string
-#TODO OPTEXT_CAT_INPUT      "Input"
-#TODO #: Untranslated string
-#TODO OPTEXT_CAT_VISUAL     "Visual"
-#TODO #: Untranslated string
-#TODO OPTEXT_CAT_RUBBERWORM "RubberWorm"
+ OPTEXT_CAT_PHYSICS    "Фізика"
+OPTEXT_CAT_GAMEPLAY   "Ігролад \1"
+OPTEXT_CAT_GLITCH     "Емуляція глюків"
+OPTEXT_CAT_INPUT      "Введення"
+OPTEXT_CAT_VISUAL     "Вигляд"
+OPTEXT_CAT_RUBBERWORM "RubberWorm"
 
-#TODO #: Untranslated string
-#TODO # Graphics/audio errors
+# Graphics/audio errors
 
-#TODO GLIB_NO_ERROR                 "No error"
-#TODO #: Untranslated string
-#TODO GLIB_UNSPECIFIED_ERROR        "Unspecified error"
-#TODO #: Untranslated string
-#TODO GLIB_X_FAILED                 "\1 failed"
-#TODO #: Untranslated string
-#TODO GLIB_ERROR_X                  "Error \1"
+GLIB_NO_ERROR                 "Нема помилки"
+GLIB_UNSPECIFIED_ERROR        "Невизначена помилка"
+GLIB_X_FAILED                 "\1 невдало"
+GLIB_ERROR_X                  "Помилка \1"
 
-#TODO #: Untranslated string
-#TODO GLIB_NO_DATA                  "No data"
-#TODO #: Untranslated string
-#TODO GLIB_FILE_OPEN_FAIL           "File open failure"
-#TODO #: Untranslated string
-#TODO GLIB_FILE_READ_FAIL           "File read failure"
-#TODO #: Untranslated string
-#TODO GLIB_UNSUPPORTED_FORMAT       "Unsupported format"
-#TODO #: Untranslated string
-#TODO GLIB_SURFACE_LOCK_FAIL        "Can't lock surface"
-#TODO #: Untranslated string
-#TODO GLIB_SURFACE_UNLOCK_FAIL      "Can't unlock surface"
-#TODO #: Untranslated string
-#TODO GLIB_SURFACE_LOST             "Surface lost"
-#TODO #: Untranslated string
-#TODO GLIB_DEVICE_NOT_INITIALISED   "Device not initialised"
-#TODO #: Untranslated string
-#TODO GLIB_BAD_DISPLAY_MODE         "Couldn't set the display mode"
-#TODO #: Untranslated string
-#TODO GLIB_UNSUPPORTED_BITRATE      "Unsupported bitrate"
-#TODO #: Untranslated string
-#TODO GLIB_UNSUPPORTED_CHANNELS     "Unsupported channels"
-#TODO #: Untranslated string
-#TODO GLIB_INTERNAL_ERROR           "Internal error"
+GLIB_NO_DATA                  "Нема даних"
+GLIB_FILE_OPEN_FAIL           "Помилка відкривання файлу"
+GLIB_FILE_READ_FAIL           "Помилка читання файлу"
+GLIB_UNSUPPORTED_FORMAT       "Непідтримуваний формат"
+GLIB_SURFACE_LOCK_FAIL        "Неможливо заблокувати поверхню"
+GLIB_SURFACE_UNLOCK_FAIL      "Неможливо розблокувати поверхню"
+GLIB_SURFACE_LOST             "Поверхню втрачено"
+GLIB_DEVICE_NOT_INITIALISED   "Пристрій не ініціалізовано"
+GLIB_BAD_DISPLAY_MODE         "Не вдалося виставити режим дисплея"
+GLIB_UNSUPPORTED_BITRATE      "Непідримуваний бітрейт"
+GLIB_UNSUPPORTED_CHANNELS     "Непідтримувані канали"
+GLIB_INTERNAL_ERROR           "Внутрішня помилка"
 
-#TODO #: Untranslated string
-#TODO GLIB_SOUND_BUFFER_LOST        "Sound buffer lost"
-#TODO #: Untranslated string
-#TODO GLIB_AUDIO_STREAM_ERROR       "Audio stream error"
+GLIB_SOUND_BUFFER_LOST        "Втрата буферу звуку"
+GLIB_AUDIO_STREAM_ERROR       "Помилка потоку аудіо"
