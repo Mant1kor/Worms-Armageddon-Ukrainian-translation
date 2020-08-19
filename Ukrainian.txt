@@ -793,338 +793,273 @@ TMLIG_HELP                    "Ліва кнопка миші – вилучит
 #TODO #: Untranslated string
 #TODO TEAMNAME10                    "Special Forces"
 
-#TODO #: Untranslated string
-#TODO MISSION_NAME_1                "Chateau Assassin."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_2                "All quiet in the library?"
-#TODO #: Untranslated string
-#TODO MISSION_NAME_3                "Operation Market Garden."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_4                "Chemical Warfare."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_5                "Countdown to Armageddon!"
-#TODO #: Untranslated string
-#TODO MISSION_NAME_6                "The Drop Zone."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_7                "Sand in your eye."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_8                "Jurassic Worm."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_9                "Aim long, aim true."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_10               "Big Shot."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_11               "Rumble in the Farmyard."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_12               "Go Bananas!"
-#TODO #: Untranslated string
-#TODO MISSION_NAME_13               "Horny Nuke."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_14               "Mad Cows."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_15               "Mars Star."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_16               "Trouble on Mount Wormore."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_17               "Stolen Goods."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_18               "Bazooka on the Rocks."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_19               "Water Surprise."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_20               "Hot Stuff."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_21               "Sinking Ice Cap."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_22               "Pumpkin Problems."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_23               "Wooden Ambush!"
-#TODO #: Untranslated string
-#TODO MISSION_NAME_24               "No Substitute."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_25               "Goody two-shoes."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_26               "Super Sheep to the rescue!"
-#TODO #: Untranslated string
-#TODO MISSION_NAME_27               "Rescue Agent Dennis!"
-#TODO #: Untranslated string
-#TODO MISSION_NAME_28               "Trouble in Toy Store."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_29               "Not Mushroom out there..."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_30               "Cool as ice."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_31               "Do the Locomotion."
-#TODO #: Untranslated string
-#TODO MISSION_NAME_32               "Spectral recovery?"
-#TODO #: Untranslated string
-#TODO MISSION_NAME_33               "Who left the flood-gates open?"
 
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_1
-#TODO 	"One of the enemy's top Generals is devising a remarkably fiendish plan from his covert base of operations.\n"
-#TODO 	"\n"
-#TODO 	"Thanks to recon, we have located the position of this base and require you to assassinate him before his plans can become operational. \n"
-#TODO 	"\n"
-#TODO 	"We expect that the enemy have intercepted this transmission and are preparing for your arrival, so extreme caution is required."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_2
-#TODO 	"Your troops have stumbled upon an enemy supply zone. \n"
-#TODO 	"\n"
-#TODO 	"Capture the area and plunder as much weaponry as possible to aid your cause. \n"
-#TODO 	"\n"
-#TODO 	"Be fast and efficient and keep your eye on the clock since we're gonna nuke the hell out of the place!"
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_3
-#TODO 	"Following the success of your last mission the enemy is now on the defensive. \n"
-#TODO 	"\n"
-#TODO 	"Your limited arsenal of weaponry should be sufficient to eliminate the enemy, but weapons supply drops are en-route so sit tight. \n"
-#TODO 	"\n"
-#TODO 	"Whilst you may appear to have the upper hand, do not get complacent."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_4
-#TODO 	"On arrival at the mission's rally point you will find your enemy dug in and resistant. \n"
-#TODO 	"\n"
-#TODO 	"Use the supplies dropped prior to your arrival to eliminate the enemy and halt their sinister chemical weapons production. \n"
-#TODO 	"\n"
-#TODO 	"Beware contamination.\n"
-#TODO 	"\n"
-#TODO 	"Put the enemy out of action ... permanently!"
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_5
-#TODO 	"An informant has indicated the enemy is about to renew an old campaign of terror. Their first target is to be a city official, a Worm renowned for its political importance. Unfortunately this comes at a most awkward time as the area is currently under siege of a fragmenting comet, which has decided to use the city as its landing zone.\n"
-#TODO 	"\n"
-#TODO 	"We can estimate that after 5 minutes some of these comet fragments will make an unwelcome appearance.\n"
-#TODO 	"\n"
-#TODO 	"Time is an additional enemy; save the politician and clear the area of our foes so we can evacuate the city."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_6
-#TODO 	"This mission requires a good dose of skill and guile to successfully complete. \n"
-#TODO 	"\n"
-#TODO 	"Guide your paratroopers down to the enemy and deal a swift and decisive blow to eliminate them.\n"
-#TODO 	"\n"
-#TODO 	"Secure the area, over and out."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_7
-#TODO 	"An experimental weapon can be found in a crate to be delivered to a specific zone in this area.\n"
-#TODO 	"\n"
-#TODO 	"The top of the pyramid in this area has previously been used as an important drop point for incoming materials and equipment. We advise you promptly secure this location in preparation for its delivery. \n"
-#TODO 	"\n"
-#TODO 	"We will monitor the airways and keep you notified as to the expected time of arrival for the all-important delivery."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_8
-#TODO 	"Scale those heights and get the much-needed weaponry to aid your quest to dig down and kill the captain of the enemy. \n"
-#TODO 	"\n"
-#TODO 	"Be careful; his subordinates won't want to let that happen so easily.."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_9
-#TODO 	"This one could be a mathematical nightmare, with angles and variables enough to demoralise even the most resilient Worm. \n"
-#TODO 	"\n"
-#TODO 	"However, persistence and a little luck may win the day, giving our forces a much needed morale-boosting victory.\n"
-#TODO 	"\n"
-#TODO 	"Don't waste time and get on with the job; the 3 minute warning has just sounded."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_10
-#TODO 	"This mission involves one Worm with an unlimited supply of shotgun bullets. \n"
-#TODO 	"\n"
-#TODO 	"There is a time limit, so move quickly to destroy the enemy and reach high ground.\n"
-#TODO 	"\n"
-#TODO 	"This where all that rifle range practise comes in useful.\n"
-#TODO 	"\n"
-#TODO 	"You did train didn't you? I hope so..."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_11
-#TODO 	"Your goal is to eliminate all the enemy Worms.\n"
-#TODO 	"\n"
-#TODO 	"Keep an eye out for special deliveries. Sturdy positioning is highly recommended as geometric reports suggest the area is susceptible to earth tremors; we'll try and warn you if one looks likely!\n"
-#TODO 	"\n"
-#TODO 	"You start with 2 Worms and there is no time limit, which means little pressure, but beware the enemy will not be quite so relaxed..."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_12
-#TODO 	"Defying gravity is perhaps the most unlikely solution to this little mission. \n"
-#TODO 	"\n"
-#TODO 	"The enemy is entrenched around the goal of this mission, a crate which contains a powerful weapon that could help bring a swift end to this conflict."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_13
-#TODO 	"A bold and daring approach is required to successfully complete this mission. \n"
-#TODO 	"\n"
-#TODO 	"Grab what you can and obtain the secret weapon located in the bottom left corner of the battle zone. \n"
-#TODO 	"\n"
-#TODO 	"Success in this mission could tip the balance of power in our favour."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_14
-#TODO 	"This could prove to be a tough one. \n"
-#TODO 	"\n"
-#TODO 	"Sharp reflexes and quick thinking are the key to success in this mission. \n"
-#TODO 	"\n"
-#TODO 	"The enemy is particularly vigilant here, so your movement time has been shaved to a minimum.\n"
-#TODO 	"\n"
-#TODO 	"We will try to aid you the best we can by supplying utilities to minimise their impact...\n"
-#TODO 	"\n"
-#TODO 	"Blow them to hell and back."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_15
-#TODO 	"In this mission you must destroy the crate guarded by the enemy. \n"
-#TODO 	"\n"
-#TODO 	"It contains a deadly weapon that the enemy was researching.\n"
-#TODO 	"\n"
-#TODO 	"You start with a crippled Worm, unaccustomed to the odd terrain. \n"
-#TODO 	"\n"
-#TODO 	"You have 3 minutes in which to complete this mission."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_16
-#TODO 	"A breakaway faction of the enemy has infiltrated a base amongst one of the most prestigious monuments in the world. \n"
-#TODO 	"\n"
-#TODO 	"The government of this location have expressed great contempt for this action and require the skill and expertise of your commandos to remove this threat.\n"
-#TODO 	"\n"
-#TODO 	"The leader of the faction simply calls itself General, a former head of the enemy forces; the General is your primary target. \n"
-#TODO 	"\n"
-#TODO 	"Eliminate him and the rest of the followers will surrender."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_17
-#TODO 	"Phase one of this mission has gone horribly wrong and the air-dropped weaponry supplies have fallen into enemy hands.\n"
-#TODO 	"\n"
-#TODO 	"Your Worms have been left with only a few utilities and close combat weapons with which to destroy the enemy and retrieve the crates.\n"
-#TODO 	"\n"
-#TODO 	"The enemy has placed the stolen supplies into what it believes are a secured location. \n"
-#TODO 	"\n"
-#TODO 	"However, clever use of the resources you have will prove that this not the case."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_18
-#TODO 	"The conflict has reached that point where supplies become short and weapons in demand. \n"
-#TODO 	"\n"
-#TODO 	"Unfortunately we only have one trusty weapon at this time. \n"
-#TODO 	"\n"
-#TODO 	"The bazooka still has one or two tricks it can show the enemy, so take what you've got and give 'em hell!"
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_19
-#TODO 	"A member of the enemy's elite command staff is hidden away with the belief that this Worm is untouchable. \n"
-#TODO 	"\n"
-#TODO 	"We consider this to be an attempt to make a mockery of our authority and armed forces.\n"
-#TODO 	"\n"
-#TODO 	"You must prove them wrong. Using the few weapons we provide, quash this belief once and for all.\n"
-#TODO 	"\n"
-#TODO 	"You will demonstrate that our forces are superior, inventive and that no enemy should ever underestimate our resolve again."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_20
-#TODO 	"Information is limited in this battlefield.\n"
-#TODO 	"\n"
-#TODO 	"It seems our best efforts to recon the area have been met with lethal force. \n"
-#TODO 	"\n"
-#TODO 	"We believe there may be a small stockade of a new type of weapon at this location. \n"
-#TODO 	"\n"
-#TODO 	"Find and secure it to strike a decisive blow."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_21
-#TODO 	"Your goal is to eliminate all other Worms.\n"
-#TODO 	"\n"
-#TODO 	"A single unit is all you have. \n"
-#TODO 	"\n"
-#TODO 	"Keep your wits about you and don't hang about for too long.\n"
-#TODO 	"\n"
-#TODO 	"Make good use of the limited resources you have; it's a case of brains before brawn.\n"
-#TODO 	"\n"
-#TODO 	"You have 5 minutes to complete the task before the land begins to sink.\n"
-#TODO 	"\n"
-#TODO 	"Watch yourself out there."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_22
-#TODO 	"In this mission you must retrieve the special weapons crate being held on the far right of the landscape.\n"
-#TODO 	"\n"
-#TODO 	"You start with only one Worm and limited weapons; use them wisely.\n"
-#TODO 	"\n"
-#TODO 	"Use Ninja Ropes and Girders to avoid the mines.\n"
-#TODO 	"\n"
-#TODO 	"An Earthquake could strike at any time."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_23
-#TODO 	"Ambush!  \n"
-#TODO 	"\n"
-#TODO 	"The enemy has been taken totally by surprise; use this element of surprise to press your advantage and batter the enemy where they stand. \n"
-#TODO 	"\n"
-#TODO 	"We'll help you where we can with supplies.\n"
-#TODO 	"\n"
-#TODO 	"This is quite simply a fight for survival.\n"
-#TODO 	"\n"
-#TODO 	"Eliminate or be eliminated."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_24
-#TODO 	"You take over this mission as the situation becomes critical. \n"
-#TODO 	"\n"
-#TODO 	"The Commandos have just succeeded in retrieving sensitive information from a grounded sub but have unfortunately lost their commander and require immediate assistance. \n"
-#TODO 	"\n"
-#TODO 	"The enemy is closing in but the greater threat will come from the tide, which is gradually rising.\n"
-#TODO 	"\n"
-#TODO 	"Get them to high ground and quick!"
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_25
-#TODO 	"This mission needs to involve the use of some accurate shooting if you are to succeed and clever use of our fluffy friends.\n"
-#TODO 	"\n"
-#TODO 	"Enemy supplies scattered throughout the area will provide any of the extra munitions you may require.\n"
-#TODO 	"\n"
-#TODO 	"However, should things get too sticky then we will lend assistance. \n"
-#TODO 	"\n"
-#TODO 	"Be prepared for the worst."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_26
-#TODO 	"This mission requires tremendous skill to navigate the cavern using your only available weapon. \n"
-#TODO 	"\n"
-#TODO 	"Your friend will collect the required weapon needed to successfully remove the enemy threat."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_27
-#TODO 	"Agent Dennis has been ambushed; the enemy know his location and have detached a small task force to eliminate him.\n"
-#TODO 	"\n"
-#TODO 	"Although our agent is a monster of a Worm and a fine specimen too, he is not too well endowed in the brains department.\n"
-#TODO 	"\n"
-#TODO 	"Use all of your cunning and guile to see this one through to the end and bring him back alive."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_28
-#TODO 	"After sending in a group of our own crack troops to retrieve a scientist abducted by the enemy our troops have broken radio silence and are now requesting instructions for the final phase of their mission.\n"
-#TODO 	"\n"
-#TODO 	"This is where you come in. \n"
-#TODO 	"\n"
-#TODO 	"It is paramount that the scientist survives at any cost.\n"
-#TODO 	"\n"
-#TODO 	"This would be straightforward but for the enemy, who are in hot pursuit and determined not to let the scientist escape."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_29
-#TODO 	"Collect the secret crate guarded by the enemy; it contains a weapon vital to a later mission. Watch out for the mined area.\n"
-#TODO 	"\n"
-#TODO 	"There is no time limit, but we advise you to hurry up..."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_30
-#TODO 	"A renegade enemy soldier is holding the earth to ransom, threatening to blow up the south pole!\n"
-#TODO 	"\n"
-#TODO 	"For mission success you need to act quickly and decisively. \n"
-#TODO 	"\n"
-#TODO 	"Time is running out and we fear an imminent attack in this zone. \n"
-#TODO 	"\n"
-#TODO 	"You need to find out what weapons you need to perform that task... a utility may be useful!\n"
-#TODO 	"\n"
-#TODO 	"Kill the soldier, restore order and avert calamity!"
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_31
-#TODO 	"At an abandoned train yard a locomotive stands idle. This vehicle has been requisitioned by those who would plot against our organisation.\n"
-#TODO 	"\n"
-#TODO 	"Amongst the scrap of the locomotive sits a crate containing what can only be described as a destructive force like we have never seen. We need you to use a specially trained infiltration Worm to collect this crate and give our R&D boys another new weapon to toy with."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_32
-#TODO 	"An agent has infiltrated our HQ, stolen some important tapes and attached them to a weather balloon, which is intended for enemy aircraft pickup. \n"
-#TODO 	"\n"
-#TODO 	"We have tracked the balloon and know that not all has gone to plan for the enemy.\n"
-#TODO 	"\n"
-#TODO 	"The balloon is slowly descending and will free fall into the ocean. \n"
-#TODO 	"\n"
-#TODO 	"Use girders to prevent the crate's destruction and collect it once successful."
-#TODO #: Untranslated string
-#TODO MISSION_DETAIL_33
-#TODO 	"Run for the hills. \n"
-#TODO 	"\n"
-#TODO 	"Noah is nowhere to be seen and the water lapping round your ankles and rapidly rising. \n"
-#TODO 	"\n"
-#TODO 	"Combine your weapons and utilities for maximum effect. \n"
-#TODO 	"\n"
-#TODO 	"We strongly urge you use a combination of girder and ropes to make your way to the safety of the cavern ceiling."
+MISSION_NAME_1                "Маєток убивць."
+MISSION_NAME_2                "Чи тихо у бібліотеці?"
+MISSION_NAME_3                "Операція «Город»."
+MISSION_NAME_4                "Хімікатна війна."
+MISSION_NAME_5                "Зворотній відлік до армагедону!"
+MISSION_NAME_6                "Зона висадки."
+MISSION_NAME_7                "Піщинка в оці."
+MISSION_NAME_8                "Юрський черв'як."
+MISSION_NAME_9                "Цільсь довго, цільсь точно."
+MISSION_NAME_10               "Великий постріл."
+MISSION_NAME_11               "Гуркіт на фермі."
+MISSION_NAME_12               "Банани, вперед!"
+MISSION_NAME_13               "Збуджена ядерна бомба."
+MISSION_NAME_14               "Скажені корови."
+MISSION_NAME_15               "Марсіанська зірка."
+MISSION_NAME_16               "Проблеми на горі Вормор."
+MISSION_NAME_17               "Крадені дрібнички."
+MISSION_NAME_18               "Базука на скелях."
+MISSION_NAME_19               "Мокра несподіванка."
+MISSION_NAME_20               "Гарячі штучки."
+MISSION_NAME_21               "Айзберг тоне."
+MISSION_NAME_22               "Гарбузові проблеми."
+MISSION_NAME_23               "Засідка у деревах!"
+MISSION_NAME_24               "Незамінний."
+MISSION_NAME_25               "Добра пара чобіт."
+MISSION_NAME_26               "Супервівця летить на допомогу!"
+MISSION_NAME_27               "Врятуйте агента Денніса!"
+MISSION_NAME_28               "Проблеми у магазині іграшок."
+MISSION_NAME_29               "Не гриби тут..."
+MISSION_NAME_30               "Холодний як лід."
+MISSION_NAME_31               "Пішли у подорож."
+MISSION_NAME_32               "Спектральне відновлення?"
+MISSION_NAME_33               "Хто лишив шлюз відчиненим?"
+
+MISSION_DETAIL_1
+	"Один з найкращих ворожих генералів придумує надзвичайно підступний план, переховуючись у своїй таємній базі.\n"
+	"\n"
+	"завдяки розвідці ми визначили місцерозташування цієї бази, і тепер просимо вас убити генерала, поки він не почав втілювати свої задуми. \n"
+	"\n"
+	"Ми очікуємо, що ворог перехопив це повідомлення і тепер готується до вашого прибуття, тому радимо бути дуже уважними."
+MISSION_DETAIL_2
+	"Ваші війська наткнулися на ворожу зону постачання. \n"
+	"\n"
+	"Захопіть ділянку і викрадіть в процесі якнайбільше зброї. \n"
+	"\n"
+	"Дійте швидко та рішуче, а також стежте за часом, оскільки ми збираємося підірвати тут усе до бісової матері!"
+MISSION_DETAIL_3
+	"Після блискучого успіху вашої попередньої операції ворог заліг в глуху оборону. \n"
+	"\n"
+	"Вашого обмеженого арсеналу має вистачити, щоб перебити ворогів, але доставка зброї вже в дорозі, тому чекайте на неї. \n"
+	"\n"
+	"Хоч може й у вас кращі шанси, не будьте надто самовпевненими."
+MISSION_DETAIL_4
+	"Щойно ви прибудете на початкову точку місії, ви виявите, що ворог зарився вглиб і готовий до опору. \n"
+	"\n"
+	"Скористайтесь скинутим озброєнням, щоб знищити ворога і припинити його виробництво хімічної зброї. \n"
+	"\n"
+	"Стережіться відходів.\n"
+	"\n"
+	"Веведіть ворога з ладу... назавжди!"
+MISSION_DETAIL_5
+	"Наші інформатори виявили, що вороги збираються поновити свою терористичну кампанію. Їхньою першою ціллю стане міський чиновник - черв'як, знаний за свою політичну компетентність. На жаль, атака відбудеться у найневідповідніший для цього час - на місто зараз падають уламки комети.\n"
+	"\n"
+	"Згідно наших розрахунків, уламки цієї комети впадуть на місто через 5 хвилин.\n"
+	"\n"
+	"Час є нашим додатковим ворогом; врятуйте політика і зачистьте ділянку від наших ворогів, щоб ми могли покинути місто."
+MISSION_DETAIL_6
+	"Ця місія потребує чималих навичок і терпіння для її виконання. \n"
+	"\n"
+	"Спустіться на своїх парашутистах вниз до ворога і завдайте йому швидкого й рішучого удару.\n"
+	"\n"
+	"Захопіть ділянку, кінець зв'язку."
+MISSION_DETAIL_7
+	"У цій ділянці мають доставити ящик із експериментальною зброєю.\n"
+	"\n"
+	"Вершину піраміди колись використовували як важливу точку скидання для матеріалів та обладнання. Ми радимо вам взяти контроль над цим місцем до того, як прийде доставка. \n"
+	"\n"
+	"Ми стежитимемо за повітряними шляхами і повідомимо вас, коли ця надважлива доставка прибуде."
+MISSION_DETAIL_8
+	"Видеріться на ті висоти й дістаньте необхідний для завдання арсенал, щоб проритися до ворожого капітана і вбити його. \n"
+	"\n"
+	"Будьте уважними, його підлеглі стануть вам на заваді."
+MISSION_DETAIL_9
+	"Ця місія може стати математичним жахіттям, яке своїми кутами і змінними запросто здатне деморалізувати навіть найхоробрішого черв'яка. \n"
+	"\n"
+	"Одначе, наполегливість і трохи фортуни можуть врятувати деньдавши цим нашим військам блискучу перемогу.\n"
+	"\n"
+	"Не гайте часу і беріться до роботи; трихвилинне попередження щойно прозвучало."
+MISSION_DETAIL_10
+	"У цій місії братиме участь черв'як із необмеженою кількістю набоїв для рушниці. \n"
+	"\n"
+	"Час обмежений, тому постарайтесь якнайшвидше убити ворога та прикинутись Обі-Ваном Кенобі - вилізти вище.\n"
+	"\n"
+	"Ось тут і пригодиться тренування у тирі.\n"
+	"\n"
+	"Ви ж тренувалися? Сподіваюся, що так..."
+MISSION_DETAIL_11
+	"Ваша мета - винищити усіх ворожих черв'яків.\n"
+	"\n"
+	"Стежте за спецдоставками. Також ми рекомендуємо зайняти надійні позиції, оскільки геометричні звіти виявили сейсмічну активність; як почнуться струси - ми вас попередимо!\n"
+	"\n"
+	"У вашому розпорядженні будуть 2 черв'яки і не буде часового обмеження, що трохи полегшує завдання, але не варто забувати про ворога..."
+MISSION_DETAIL_12
+	"Протидія гравітації - це найменш імовірна розв'язка цього маленького завдання. \n"
+	"\n"
+	"Ворог окопався довкола мети місії - ящика, що містить потужну зброю, яка може швидко покласти цьому конфлікту край."
+MISSION_DETAIL_13
+	"Для успішного виконання цієї місії потрібен нестандартнай і зухвалий підхід. \n"
+	"\n"
+	"Заберіть, що зможете і отримайте таємну зброю, яка знаходиться в нижньому лівому куті зони бойових дій. \n"
+	"\n"
+	"Успішне виконання цієї місії може перехилити терези сили на нашу сторону."
+MISSION_DETAIL_14
+	"Ця місія може виявитися нелегкою. \n"
+	"\n"
+	"Швидкі рефлекси і гаряча голова є невід'ємними частинами успішного виконання цієї місії. \n"
+	"\n"
+	"Тут ворог надзвичайно пильний, тому у вас лишається мінімальний час на маневри.\n"
+	"\n"
+	"Ми постараємось допомогти вам, організувавши доставку утиліт...\n"
+	"\n"
+	"Підірвіть їх до дідька лисого."
+MISSION_DETAIL_15
+	"У цій місії ми доручаємо вам знищити ящик, який стереже ворог. \n"
+	"\n"
+	"У цьому ящику знаходиться смертоносна зброя, розробкою якої займається ворог.\n"
+	"\n"
+	"У вашому розпорядженні буде скалічений черв'як, геть не пристосований до подібного ландшафту. \n"
+	"\n"
+	"На виконання цієї місії дається 3 хвилини."
+MISSION_DETAIL_16
+	"Відстала ворожа фракція проникла на базу одного із найпрестижніших монументів світу. \n"
+	"\n"
+	"Уряд цього місця висловлює велике занепокоєння в зв'язку з їхніми діями і потребує для усунення цієї загрози навичок і вмінь ваших командо.\n"
+	"\n"
+	"Лідер фракції вважає себе генералом, він є колишнім головнокомандувачем ворожих військ; генерал - це ваша основна ціль. \n"
+	"\n"
+	"Убийте лідера, і решта його послідовників капітулюють."
+MISSION_DETAIL_17
+	"Перша фаза цієї місії зазнала гучного фіаско, бо озброєння із повітряної доставки попало в лапи ворога.\n"
+	"\n"
+	"У ваших черв'яків лишилося тільки пару утиліт і зброї ближнього бою, і цим вони мають перебити ворогів та повернути ящики.\n"
+	"\n"
+	"Ворог розмістив крадені припаси там, де на його думку нам не дістатись. \n"
+	"\n"
+	"Але розумне використання ресурсів доведе, що ворог помилявся."
+MISSION_DETAIL_18
+	"Конфлікт досягнув тієї точки, коли зброя стала на вагу золота. \n"
+	"\n"
+	"На жаль, цього разу в нас є тільки одна зброя, якій можна довіритись. \n"
+	"\n"
+	"З базукою все одно можна показати ворогу один-два цікавих фокуси, тому беріть, що маєте, і задайте покидькам жару!"
+MISSION_DETAIL_19
+	"Член командування ворожих елітних військ заховався, врячи в те, що його черв'як недоторканний. \n"
+	"\n"
+	"Ми вважаємо це глузуванням над авторитетом наших збройних сил.\n"
+	"\n"
+	"Ви мусите довести ворогу протилежне. Користуючись дрібкою наданої зброї, збийте пиху з його мармизи раз і назавжди.\n"
+	"\n"
+	"Цим ви продемонструєте, що наші війська сильніші, винахідливіші і витриваліші, і що жоден ворог не має права недооцінювати нашу могутність."
+MISSION_DETAIL_20
+	"На цьому полі битви інформація обмежена.\n"
+	"\n"
+	"Здається, наші найкращі розвідники зустріли тут ударну групу ворога. \n"
+	"\n"
+	"Ми гадаємо, що там можуть приховувати новий вид озброєння. \n"
+	"\n"
+	"Знайдіть цю зброю, щоб завдати ворогу нищівного удару."
+MISSION_DETAIL_21
+	"Ваша мета - повбивати усіх інших черв'яків.\n"
+	"\n"
+	"У вашому розпорядженні тільки один солдат. \n"
+	"\n"
+	"Тримайтеся здорового глузду і не затримуйтесь надто довго.\n"
+	"\n"
+	"Розумно тратьте свої обмежені ресурси; тут краще спершу подумати, а потім підривати.\n"
+	"\n"
+	"У вас є 5 хвилин на виконання завдання, потім острів почне поступово тонути.\n"
+	"\n"
+	"Стережіться там."
+MISSION_DETAIL_22
+	"У цій місії ви мусите забрати ящик із особливою зброєю, який знаходиться на далекому правому краю місцевості.\n"
+	"\n"
+	"Вам буде доступний тільки одни черв'як і дуже мало зброї; тому користуйтесь нею з розумом.\n"
+	"\n"
+	"Уникайте мін з допомогою мотузки ніндзя та балок.\n"
+	"\n"
+	"І ще одне, з хвилини на хвилину має початися землетрус."
+MISSION_DETAIL_23
+	"Засідка!  \n"
+	"\n"
+	"Ворога застали геть зненацька; скористайтесь цим елементом несподіванки, щоб знищити ворога на місці. \n"
+	"\n"
+	"Ми допоможемо вам із припасами.\n"
+	"\n"
+	"А так то це проста битва за виживання.\n"
+	"\n"
+	"Пам'ятайте: убий або убитим будь."
+MISSION_DETAIL_24
+	"Ми передаємо керування цією місією, оскільки ситуація виходить з-під контролю. \n"
+	"\n"
+	"Загону вдалося отримати важливу інформацію з викинутої на берег субмарини, але на жаль загін втратив свого командира і потребує негайної допомоги. \n"
+	"\n"
+	"Наближаються вороги, проте набагато більшу загрозу становлять хвилі, які поступово піднімаються.\n"
+	"\n"
+	"Заберіть загін нагору якнайшвидше!"
+MISSION_DETAIL_25
+	"Для успішного виконання ця місія вимагає навичок точної стрільби і мудрого використання наших пухнастих друзів.\n"
+	"\n"
+	"Ворожі припаси, розкидані довкола усієї місцевості, забезпечать вас додатковим озброєнням.\n"
+	"\n"
+	"Однак як тільки почне пахнути смаленим, ми вишлемо підкріплення. \n"
+	"\n"
+	"Готуйтеся до найгіршого."
+MISSION_DETAIL_26
+	"Ця місія вимагає неабияких вмінь, щоб маневрувати у печері з допомогою вашої єдиної зброї. \n"
+	"\n"
+	"Ваш пухнастий друг збере озброєння, яке потрібне для успішного усунення ворога."
+MISSION_DETAIL_27
+	"Агент Денніс попав у засідку! Ворог знає його місцезнаходження і вислав невелику оперативну групу, щоб його убити.\n"
+	"\n"
+	"Хоча наш агент і бравий вояка, але думає він явно не тією головою.\n"
+	"\n"
+	"Використайте усю свою підступність і віроломність, щоб вивести його з цього пекла живим."
+MISSION_DETAIL_28
+	"Ми вислали наш першокласний загін військ, щоб вирвати з ворожого полону науковця. наші війська вийшли на зв'язок і тепер вимагають подальших інструкцій для фінальної фази їхньої місії.\n"
+	"\n"
+	"Ось тепер приходите ви. \n"
+	"\n"
+	"Першочерговою є безпека науковця.\n"
+	"\n"
+	"Це було би легким завданням, якби не ворог, загнаний в глухий кут і який вирішив не дати науковцю вислизнути."
+MISSION_DETAIL_29
+	"Заберіть таємний ящик, який охороняє ворог; у ньому міститься зброя, необхідна для одерї з наступних місій. Стережіться мінного поля.\n"
+	"\n"
+	"Часового обмеження немає, але ми рекомендуємо вам поспішити..."
+MISSION_DETAIL_30
+	"Ворожий солдат-відступник вимагає викуп, погрожуючи підірвати піденний полюс!\n"
+	"\n"
+	"Для успішного виконання місія вам треба буде діяти швидко і рішуче. \n"
+	"\n"
+	"Часу лишається мало, і ми боїмося, що атаки на цю зону не уникнути. \n"
+	"\n"
+	"Вам доведеться самотужки здогадатись, яка зброя знадобиться для цього завдання... утиліти можуть стати у пригоді!\n"
+	"\n"
+	"Убийте солдата та відновіть мир і справедливість!"
+MISSION_DETAIL_31
+	"На покинутому пероні самотньо стоїть локомотив. Цей транспортний засіб захопили зловмисники, які мають непевні задуми щодо нашої організації.\n"
+	"\n"
+	"Поміж уламків локомотива стоїться собі ящик, який містить небачену ще нами руйнівну силу. Нам треба, щоб ви забрали спеціально натренованим черв'яком-шпигуном цей ящик і принесли нашим братчикам нову забавку."
+MISSION_DETAIL_32
+	"До нашої штаб-квартири проник ворожий агент і викрав важливі записи, приєднавши їх до повітряної кулі, звісно, для того, щоб потім їх забрали вороги. \n"
+	"\n"
+	"Ми відслідкували повітряну кулю і знаємо, що не все пішло за планом ворога.\n"
+	"\n"
+	"Повітряна куля повільно опускається і падає в океан. \n"
+	"\n"
+	"Застосуйте балки, щоб не дати знищити ящик і заберіть його вміст."
+MISSION_DETAIL_33
+	"Утікайте на пагорби. \n"
+	"\n"
+	"Щось того Ноя ніде не видно. а вода вже лоскоче ваші литки і стрімко піднімається. \n"
+	"\n"
+	"Поєднайте свою зброю і утиліти для максимального успіху. \n"
+	"\n"
+	"Рекомендуємо вам скористатися поєднанням балок і мотузки, щоб дістатися склепіння печери."
 
 EVENTTEXT_0                   "Зброя прийшла!"
 EVENTTEXT_1                   "Скоро доставка."
