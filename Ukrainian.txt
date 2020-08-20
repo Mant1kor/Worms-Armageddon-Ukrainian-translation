@@ -994,125 +994,76 @@ EVENTTEXT_114                 "Це стане у пригоді..."
 EVENTTEXT_115                 "Вам потрібна допомога..."
 EVENTTEXT_116                 "Спробуйте це."
 
-#TODO #: Untranslated string
-#TODO MISSION_RETRY_1               "Come on, have another go..."
-#TODO #: Untranslated string
-#TODO MISSION_RETRY_2               "Go on, try again."
-#TODO #: Untranslated string
-#TODO MISSION_RETRY_3               "Tough luck - give it another shot."
-#TODO #: Untranslated string
-#TODO MISSION_RETRY_4               "Keep your head up, you'll do it this time."
-#TODO #: Untranslated string
-#TODO MISSION_RETRY_5               "Prove you can do it!"
-#TODO #: Untranslated string
-#TODO MISSION_RETRY_6               "Come on soldier!"
-#TODO #: Untranslated string
-#TODO MISSION_RETRY_7               "Try again, but this time make an effort."
-#TODO #: Untranslated string
-#TODO MISSION_RETRY_8               "You again?"
+MISSION_RETRY_1               "Давайте, спробуйте ще разок..."
+MISSION_RETRY_2               "Ну ж бо, спробуйте знову."
+MISSION_RETRY_3               "Не пощастило - зробіть ще одну спробу."
+MISSION_RETRY_4               "Не опускайте носа, цього разу вам вдастся."
+MISSION_RETRY_5               "Доведіть, що ви на це здатні!"
+MISSION_RETRY_6               "Ну ж бо, солдате!"
+MISSION_RETRY_7               "Спробуйте знову, але цього разу старайтесь."
+MISSION_RETRY_8               "Знову ви?"
 
-#TODO #: Untranslated string
-#TODO MISSION_DIFFICULTY_1          "This task is for rookies."
-#TODO #: Untranslated string
-#TODO MISSION_DIFFICULTY_2          "This mission is considered easy."
-#TODO #: Untranslated string
-#TODO MISSION_DIFFICULTY_3          "As far as difficulty goes, this one is ranked moderate."
-#TODO #: Untranslated string
-#TODO MISSION_DIFFICULTY_4          "This is a tough mission, for veterans only."
-#TODO #: Untranslated string
-#TODO MISSION_DIFFICULTY_5          "Only the best will complete this mission. Very difficult."
+MISSION_DIFFICULTY_1          "Це завдання для новачків."
+MISSION_DIFFICULTY_2          "Ця місія вважається легкою."
+MISSION_DIFFICULTY_3          "За зростанням складності, ця місія вважається середньою."
+MISSION_DIFFICULTY_4          "Це складна місія, лишень для ветеранів."
+MISSION_DIFFICULTY_5          "Лишень мічені виконають цю місію. Вона дуже складна."
 
-#TODO #: Untranslated string
-#TODO ERROR_MISSION                 "The mission data could not be found; please check that the Worms Armageddon game CD is in your CD-ROM drive."
-#TODO #: Untranslated string
-#TODO MISSION_HELP_BRONZE           "This medal allows you to attempt the next mission."
-#TODO #: Untranslated string
-#TODO MISSION_HELP_SILVER           "This reward unlocks the mission terrain for normal play."
-#TODO #: Untranslated string
-#TODO MISSION_HELP_GOLD             "This top honour counts towards secret options!"
-#TODO #: Untranslated string
-#TODO MISSION_HELP_RECORD           "This is the best performance by any team on this computer."
-#TODO #: Untranslated string
-#TODO MISSION_HELP_TEAM             "This is the record held by this team."
+ERROR_MISSION                 "Не вдалося знайти дані місії; переконайтеся, що диск із Worms Armageddon вставлений у ваш дисковод."
+MISSION_HELP_BRONZE           "Ця медаль дозволяє вам спробувати наступну місію."
+MISSION_HELP_SILVER           "Ця нагорода розблоковує ландшафт місії для нормальної гри."
+MISSION_HELP_GOLD             "Ця найвища відзнака зараховується до таємних опцій!"
+MISSION_HELP_RECORD           "Це найкраще виконання будь-якої команди на цьому комп'ютері."
+MISSION_HELP_TEAM             "Це рекорд, встановлений цією командою."
 
-#TODO #: Untranslated string
-#TODO MISSION_FILE_NOT_FOUND        "WARNING: Mission File not found"
-#TODO #: Untranslated string
-#TODO MISSION_NOT_SET               "ERROR: Mission Not Set"
-#TODO #: Untranslated string
-#TODO MISSION_NUMBER_MISMATCH       "ERROR - The Mission found is not the same as the mission set - \1"
-#TODO #: Untranslated string
-#TODO MISSION_NOT_ENOUGH_TEAMS      "ERROR - Not enough teams - \1"
-#TODO #: Untranslated string
-#TODO MISSION_TOO_MANY_TEAMS        "ERROR - Too many teams - \1"
-#TODO #: Untranslated string
-#TODO MISSION_INVALID_SCHEME        "ERROR: Could not load Mission scheme"
-#TODO #: Untranslated string
-#TODO MISSION_BAD_HUMAN_WORMCOUNT   "ERROR - Invalid number of worms in HumanTeam - \1"
-#TODO #: Untranslated string
-#TODO MISSION_INVALID_SKILL         "ERROR - Invalid skill for \1 - \2"
-#TODO #: Untranslated string
-#TODO MISSION_INVALID_COLOUR        "ERROR - Invalid team colour for \1 - \2"
-#TODO #: Untranslated string
-#TODO MISSION_INVALID_WORMCOUNT     "ERROR - Invalid number of worms in \1 - \2"
-#TODO #: Untranslated string
-#TODO MISSION_NO_LAND               "ERROR: Failed due to no land file specified"
-#TODO #: Untranslated string
-#TODO TRAINING_FILE_NOT_FOUND       "WARNING: Training File not found"
-#TODO #: Untranslated string
-#TODO MISSION_TOO_MANY_TURN_EVENTS  "ERROR: Too many turn events (maximum is \1)"
-#TODO #: Untranslated string
-#TODO MISSION_TOO_MANY_SEQ_EVENTS   "ERROR: Too many sequence events (maximum is \1)"
+MISSION_FILE_NOT_FOUND        "УВАГА: файл місії не знайдено"
+MISSION_NOT_SET               "ПОМИЛКА: не визначено місію"
+MISSION_NUMBER_MISMATCH       "ПОМИЛКА - знайдена місія не відповідає визначеній місії - \1"
+MISSION_NOT_ENOUGH_TEAMS      "ПОМИЛКА - замало команд - \1"
+MISSION_TOO_MANY_TEAMS        "ПОМИЛКА - забагато команд - \1"
+MISSION_INVALID_SCHEME        "ПОМИЛКА: не вдалося завантажити схему місії"
+MISSION_BAD_HUMAN_WORMCOUNT   "ПОМИЛКА - некоректна кількість черв'яків у людській команді - \1"
+MISSION_INVALID_SKILL         "ПОМИЛКА - некоректне вміння для \1 - \2"
+MISSION_INVALID_COLOUR        "ПОМИЛКА - некоректний колір команди для \1 - \2"
+MISSION_INVALID_WORMCOUNT     "ПОМИЛКА - некоректна кількість черв'яків у \1 - \2"
+MISSION_NO_LAND               "ПОМИЛКА: не визначено файл карти"
+TRAINING_FILE_NOT_FOUND       "УВАГА: файл тренування не знайдено"
+MISSION_TOO_MANY_TURN_EVENTS  "ПОМИЛКА: забагато подій ходу (\1 - то максимум)"
+MISSION_TOO_MANY_SEQ_EVENTS   "ПОМИЛКА: забагато послідовних подій (\1 - то максимум)"
 
-#TODO #: Untranslated string
-#TODO # Scheme files
+# Scheme files
 
-#TODO SCHEME_ERROR_FILENOTFOUND     "WARNING: No Scheme File found"
-#TODO #: Untranslated string
-#TODO SCHEME_ERROR_HEADERREADERROR  "ERROR: Failed to read Scheme File Header"
-#TODO #: Untranslated string
-#TODO SCHEME_ERROR_BADHEADER        "ERROR: Bad Scheme File Header"
-#TODO #: Untranslated string
-#TODO SCHEME_ERROR_FILEREADERROR    "ERROR: Failed to read Scheme File"
-#TODO #: Untranslated string
-#TODO SCHEME_ERROR_UNKNOWNVERSION   "ERROR: Unknown Scheme Version"
-#TODO #: Untranslated string
-#TODO SCHEME_ERROR_INVALIDDATA      "ERROR: Invalid Scheme Data Values"
-#TODO #: Untranslated string
-#TODO SCHEME_ERROR_CREATEFILE       "ERROR: Could Not create Scheme File"
-#TODO #: Untranslated string
-#TODO SCHEME_WARNING_POWERLEVELS    "Warning: Nonstandard Weapon Power levels. This may cause desynchronisations and incompatible recorded game files."
-#TODO #: Untranslated string
-#TODO NONSTANDARD_POWER_LEVELS      "Warning: The Scheme used in this game file has nonstandard Weapon Power levels, and may result in a desynchronisation."
-#TODO #: Untranslated string
-#TODO SCHEME_IMPORTED_RUBBERWORM    "This file, \"\1\", has been recognized as containing RubberWorm v\2 settings (determined by nonzero superweapon crate probabilities)."
+SCHEME_ERROR_FILENOTFOUND     "УВАГА: не знайдено файл схеми"
+SCHEME_ERROR_HEADERREADERROR  "ПОМИЛКА: не вдалося прочитати заголовок файлу схеми"
+SCHEME_ERROR_BADHEADER        "ПОМИЛКА: пошкоджений заголовок файлу схеми"
+SCHEME_ERROR_FILEREADERROR    "ПОМИЛКА: не вдалося прочитати файл схеми"
+SCHEME_ERROR_UNKNOWNVERSION   "ПОМИЛКА: невідома версія схеми"
+SCHEME_ERROR_INVALIDDATA      "ПОМИЛКА: некоректні значення даних схеми"
+SCHEME_ERROR_CREATEFILE       "ПОМИЛКА: не вдалося створити файл схеми"
+SCHEME_WARNING_POWERLEVELS    "Увага: виявлено нестандартні рівні потужності зброї. У зв'язку з цим можуть виникнути десинхронізації і несумісні файли повторів гри."
+NONSTANDARD_POWER_LEVELS      "Увага: схема, яка використовується у файлі гри містить нестандартні рівні потужності зброї, і може цим спричинити десинхронізацію."
+SCHEME_IMPORTED_RUBBERWORM    "У файл \"\1\" виявлено налаштування RubberWorm v\2 (оскільки там шанс на випадіння суперзброї з ящика вище нуля)."
 
-#TODO #: Untranslated string
-#TODO # Team files
+# Team files
 
-#TODO TEAM_ERROR_CREATEFILE         "ERROR: Could not open/create team file"
-#TODO #: Untranslated string
-#TODO TEAM_ERROR_SAVE               "ERROR: Could not save team file"
-#TODO #: Untranslated string
-#TODO TEAM_ERROR_TEMPFILE           "ERROR: Could not create team temporary file"
-#TODO #: Untranslated string
-#TODO TEAM_ERROR_NOMORESLOTS        "ERROR: No more team slots"
+TEAM_ERROR_CREATEFILE         "ПОМИЛКА: не вдалося відкрити/створити файл команди"
+TEAM_ERROR_SAVE               "ПОМИЛКА: не вдалося зберегти файл команди"
+TEAM_ERROR_TEMPFILE           "ПОМИЛКА: не вдалося створити тимчасовий файл команди"
+TEAM_ERROR_NOMORESLOTS        "ПОМИЛКА: нема вільних місць для команди"
 
-#TODO #: Untranslated string
-#TODO TEAM_ERROR_TITLE              "Team File Error"
-#TODO #: Untranslated string
-#TODO TEAM_FORMAT_ERROR_LOAD_BACKUP
-#TODO 	"Format Error reading team file \"\1\".\n"
-#TODO 	"Fall back to \"\2\"?\n"
-#TODO 	"\n"
-#TODO 	"Warning: An answer of \"No\" will result in all team changes being discarded upon exiting W:A."
-#TODO #: Untranslated string
-#TODO TEAM_FORMAT_ERROR_LOAD_RESET
-#TODO 	"Format Error reading team file \"\1\".\n"
-#TODO 	"No valid backup team files could be found.\n"
-#TODO 	"Delete all teams and restore the default team set?\n"
-#TODO 	"\n"
-#TODO 	"Warning: An answer of \"No\" is nondestructive, but will result in all team changes being discarded upon exiting W:A. An answer of \"Yes\" will also result in the automatic team file backups being reset to default."
+TEAM_ERROR_TITLE              "Помилка файлу команди"
+TEAM_FORMAT_ERROR_LOAD_BACKUP
+	"Виникла помилка формату під час читання файлу команди \"\1\".\n"
+	"Відновити файл до \"\2\"?\n"
+	"\n"
+	"Увага: якщо ви оберете \"Ні\", то усі ваші зміни в команді зникнуть, коли ви вийдете з W:A."
+TEAM_FORMAT_ERROR_LOAD_RESET
+	"Виникла помилка формату під час читання файлу команди \"\1\".\n"
+	"Не знайдено коректних резервних копій файлів команди.\n"
+	"Видалити усі команди і відновити стандартний набір команд?\n"
+	"\n"
+	"Увага: якщо ви оберете варіант \"Ні\", команди не пропадуть зразу, але усі зміни в командах зникнуть, коли ви вийдете з W:A. Якщо ви оберете варіант \"Так\", то команди також скинуться до стандартних."
+
 
 #TODO #: Untranslated string
 #TODO # Main Menu screen
