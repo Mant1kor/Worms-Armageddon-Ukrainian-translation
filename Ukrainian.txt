@@ -1065,230 +1065,155 @@ TEAM_FORMAT_ERROR_LOAD_RESET
 	"Увага: якщо ви оберете варіант \"Ні\", команди не пропадуть зразу, але усі зміни в командах зникнуть, коли ви вийдете з W:A. Якщо ви оберете варіант \"Так\", то команди також скинуться до стандартних."
 
 
-#TODO #: Untranslated string
-#TODO # Main Menu screen
+# Main Menu screen
+#TODO MAINMENU_VCPU                 "Однокористувацькі ігри"
+MAINMENU_H_VCPU               "До меню однокористувацьких ігор."
+MAINMENU_CREATEGAME           "Створити гру."
+MAINMENU_H_CREATEGAME         "Створити одно- або багатокористувацьку гру."
+MAINMENU_NETWORK              "Гра в мережі"
+MAINMENU_H_NETWORK            "Грати в локальній мережі або в Інтернеті."
+MAINMENU_SYSTEM               "Налаштування"
+MAINMENU_H_SYSTEM             "До меню налаштувань."
+MAINMENU_QUIT                 "Вихід"
+MAINMENU_H_QUIT               "Вийти з гри і повернутися до реального світу."
+CM_EXITGAME                   "Вихід"
+CM_EXITMESSAGE                "Ви певні, що хочете вийти?"
+CM_EXITDISABLED               "Вибачайте, але цього разу вам не втекти."
 
-#TODO MAINMENU_VCPU                 "Single player games"
-#TODO #: Untranslated string
-#TODO MAINMENU_H_VCPU               "Go to the single player menu."
-#TODO #: Untranslated string
-#TODO MAINMENU_CREATEGAME           "Create a game."
-#TODO #: Untranslated string
-#TODO MAINMENU_H_CREATEGAME         "Create a single or multi-player game."
-#TODO #: Untranslated string
-#TODO MAINMENU_NETWORK              "Network game"
-#TODO #: Untranslated string
-#TODO MAINMENU_H_NETWORK            "Play over a local area network or the Internet."
-#TODO #: Untranslated string
-#TODO MAINMENU_SYSTEM               "Options"
-#TODO #: Untranslated string
-#TODO MAINMENU_H_SYSTEM             "Go to the options menu."
-#TODO #: Untranslated string
-#TODO MAINMENU_QUIT                 "Quit"
-#TODO #: Untranslated string
-#TODO MAINMENU_H_QUIT               "Quit the game and return to the real world."
-#TODO #: Untranslated string
-#TODO CM_EXITGAME                   "Quit"
-#TODO #: Untranslated string
-#TODO CM_EXITMESSAGE                "Are you sure you want to quit?"
-#TODO #: Untranslated string
-#TODO CM_EXITDISABLED               "Sorry, you cannot quit at this time."
+# Training screen
 
-#TODO #: Untranslated string
-#TODO # Training screen
+TRAINING_COMBO_ENTRIES_1      "Перегони суперовець"
+TRAINING_COMBO_ENTRIES_2      "Тир"
+TRAINING_COMBO_ENTRIES_3      "Скажені ящики"
+TRAINING_COMBO_ENTRIES_4      "Артилерійський полігон"
+TRAINING_COMBO_ENTRIES_5_CD   "Евтаназія"
+TRAINING_COMBO_ENTRIES_5_STEAM
+                              "Передове тренування зброї"
+TRAINING_RECORD               "Наразі рекорд тут \1 секунд, його встановила команда \2."
+TRAINING_AIM_BRONZE           "Для БРОНЗОВОЇ медалі потрібно пройти тренування за \1 секунд... щасти вам!"
+TRAINING_AIM_SILVER           "Щоб отримати СРІБНУ медаль, вам треба досягнути часу \1 секунд або більше!"
+TRAINING_TRAIN_DETAILS_1
+	"Запустіть супервівцю і літайте довкола місцевості якнайдовше. \n"
+	"\n"
+	"Збирання предметів збільшить ваш час. \n"
+	"\n"
+	"За отримання ЗОЛОТОЇ відзнаки у цьому тренуванні на вас чекатиме особлива винагорода!"
+TRAINING_TRAIN_DETAILS_2
+	"Стріляйте у мішені, щоб додати до таймеру додаткові секунди.\n"
+	"\n"
+	"Якщо відлік досягне нуля, тренування завершено."
+TRAINING_TRAIN_DETAILS_3
+	"Скористайтеся мотузкою, аби маневрувати на рівні; кожен зібраний вами ящик додасть кілька секунд до часу.\n"
+	"\n"
+	"Тренування завершиться, коли зворотний відлік досягне нуля."
+TRAINING_TRAIN_DETAILS_4
+	"Із фіксованої локації скористайтеся своєю артилерією і підрвіть мішені. \n"
+	"\n"
+	"за кожну підірвану мішень вам додається час; тренування завршується коли час вичерпується."
+TRAINING_TRAIN_DETAILS_5
+	"У цьому тренування у вас буде вибір зброї; скористайтесь нею, щоб якнайшвидше перебити бабульок! \n"
+	"\n"
+	"Подивимось, як довго ви протримаєтесь!"
+TRAINING_AIM_GOLD             "Щоб отримати ЗОЛОТУ медаль, вам треба пройти тренування за \1 секунд. Пробуйте!"
+TRAINING_BRONZE               "Чудово. Ваш час \1 заслуговує БРОНЗОВОЇ медалі за це тренування. Продовжуйте практикуватись і покращувати навички."
+TRAINING_SILVER               "Вітання, ваш прекрасний час \1 виграє вам СРІБНУ медаль у цій дисципліні. Ще трохи практики, і ви станете майстром."
+TRAINING_GOLD                 "Фантастика! Ваш досконалий час \1 означає, що ви заслуговуєте найвищої нагороди, ЗОЛОТОЇ медалі! Ми вітаємо вас! Але пам'ятайте, що практика все одно не зашкодить!"
+TRAINING_H_COMBO_TRAINING     "Виберіть дисципліну, у якій ви хочете попрактикуватись."
+TRAINING_H_TRAINING_DETAILS   "Дисципліна, яку ви обрали."
+TRAINING_BOX_DETAILS          "Деталі тренування"
+TRAINING_STARTTRAINING        "Почати тренування"
+TRAINING_NOTEAMSELECTED       "Команди не вибрано."
+TRAINING_H_STARTTRAINING      "Почати тренування у цій дисципліні."
+TRAINING_H_BACK               "Повернутися до попереднього меню."
+TRAINING_BOX_TEAM_SELECTED    "Обрана команда"
+TRAINING_TXT_TEAMRECORD       "Рекорд команди:"
+TRAINING_H_TEAM_SELECTED      "Команда, яку ви обрали."
+TRAINING_H_TEAMRECORD         "Наявний рекорд цієї команди в ції дисципліні."
+TRAINING_NEWTEAM              "Створити команду"
+TRAINING_H_NEWTEAM            "Створити нову команду"
+TRAINING_AWARD                "Ваші досягнення винагороджено таємною опцією!"
+TRAINING_FAIL                 "На жаль, вашого часу \1 недостатньо, аби заслужити винагороди. Спробуйте знову, мо' цього разу вийде!"
+TRAINING_NEW_RECORD           "Чудово, ваш час \1 став новим рекордом у цьому тренуванні!"
 
-#TODO TRAINING_COMBO_ENTRIES_1      "Super Sheep Racing"
-#TODO #: Untranslated string
-#TODO TRAINING_COMBO_ENTRIES_2      "Rifle Range"
-#TODO #: Untranslated string
-#TODO TRAINING_COMBO_ENTRIES_3      "Crazy Crates"
-#TODO #: Untranslated string
-#TODO TRAINING_COMBO_ENTRIES_4      "Artillery Range"
-#TODO #: Untranslated string
-#TODO TRAINING_COMBO_ENTRIES_5_CD   "Euthanasia"
-#TODO #: Untranslated string
-#TODO TRAINING_COMBO_ENTRIES_5_STEAM
-#TODO                               "Advanced Weapon Training"
-#TODO #: Untranslated string
-#TODO TRAINING_RECORD               "The current record in this event is \1 seconds, held by \2."
-#TODO #: Untranslated string
-#TODO TRAINING_AIM_BRONZE           "The time required for a BRONZE medal is \1 seconds... good luck!"
-#TODO #: Untranslated string
-#TODO TRAINING_AIM_SILVER           "To achieve a SILVER medal, you need to achieve a time of \1 seconds or more!"
-#TODO #: Untranslated string
-#TODO TRAINING_TRAIN_DETAILS_1
-#TODO 	"Launch the Super-Sheep and fly around the landscape for as long as possible. \n"
-#TODO 	"\n"
-#TODO 	"Collecting items will increase the time you have available. \n"
-#TODO 	"\n"
-#TODO 	"A special award is given should you qualify for a GOLD medal in this event!"
-#TODO #: Untranslated string
-#TODO TRAINING_TRAIN_DETAILS_2
-#TODO 	"Shoot the targets to add valuable seconds to the timer.\n"
-#TODO 	"\n"
-#TODO 	"If the timer reaches zero, the practice is over."
-#TODO #: Untranslated string
-#TODO TRAINING_TRAIN_DETAILS_3
-#TODO 	"Use your rope to manoeuvre around the level; each crate you collect adds valuable seconds to the timer.\n"
-#TODO 	"\n"
-#TODO 	"The event ends when the timer reaches zero."
-#TODO #: Untranslated string
-#TODO TRAINING_TRAIN_DETAILS_4
-#TODO 	"From a fixed location, use your artillery to explode the targets. \n"
-#TODO 	"\n"
-#TODO 	"Get extra time for each target you hit; training ends when the time runs out."
-#TODO #: Untranslated string
-#TODO TRAINING_TRAIN_DETAILS_5
-#TODO 	"For this event, you have a selection of weapons; use them to take out the old women as quickly as possible! \n"
-#TODO 	"\n"
-#TODO 	"See how long you can last!"
-#TODO #: Untranslated string
-#TODO TRAINING_AIM_GOLD             "To receive a GOLD medal, you need to achieve a time of \1 seconds. Go to it!"
-#TODO #: Untranslated string
-#TODO TRAINING_BRONZE               "Well done. Your time of \1 qualifies you for a BRONZE medal award in this event. Keep practicing to improve your skills."
-#TODO #: Untranslated string
-#TODO TRAINING_SILVER               "Congratulations, your excellent time of \1 means that you have attained a SILVER medal in this discipline. A little more practice and you will have mastered this event."
-#TODO #: Untranslated string
-#TODO TRAINING_GOLD                 "Fantastic! The superb time of \1 means the highest accolade is yours, a GOLD medal in this event! We salute you! But remember to keep practising to improve your time!"
-#TODO #: Untranslated string
-#TODO TRAINING_H_COMBO_TRAINING     "Select which training discipline you wish to practice."
-#TODO #: Untranslated string
-#TODO TRAINING_H_TRAINING_DETAILS   "The training discipline you have selected."
-#TODO #: Untranslated string
-#TODO TRAINING_BOX_DETAILS          "Training Details"
-#TODO #: Untranslated string
-#TODO TRAINING_STARTTRAINING        "Begin Training"
-#TODO #: Untranslated string
-#TODO TRAINING_NOTEAMSELECTED       "No Team Selected."
-#TODO #: Untranslated string
-#TODO TRAINING_H_STARTTRAINING      "Commence training the current discipline."
-#TODO #: Untranslated string
-#TODO TRAINING_H_BACK               "Return to the previous menu."
-#TODO #: Untranslated string
-#TODO TRAINING_BOX_TEAM_SELECTED    "Select Team"
-#TODO #: Untranslated string
-#TODO TRAINING_TXT_TEAMRECORD       "Team record:"
-#TODO #: Untranslated string
-#TODO TRAINING_H_TEAM_SELECTED      "The currently selected team."
-#TODO #: Untranslated string
-#TODO TRAINING_H_TEAMRECORD         "The current record for this team in this discipline."
-#TODO #: Untranslated string
-#TODO TRAINING_NEWTEAM              "Create team"
-#TODO #: Untranslated string
-#TODO TRAINING_H_NEWTEAM            "Create a new team."
-#TODO #: Untranslated string
-#TODO TRAINING_AWARD                "Your achievements have resulted in the award of a secret option!"
-#TODO #: Untranslated string
-#TODO TRAINING_FAIL                 "Bad luck, your time of \1 was not enough to win an award. Try again, practice makes perfect!"
-#TODO #: Untranslated string
-#TODO TRAINING_NEW_RECORD           "Excellent, your time of \1 is a new record in this event!"
-
-#TODO #: Untranslated string
-#TODO TRAININGOVERVIEW              "Basic Training"
-#TODO #: Untranslated string
-#TODO TRAININGOVERVIEWTEXT
-#TODO 	"This training mode comprises of a short course of tasks which will improve your basic skills.\n"
-#TODO 	"\n"
-#TODO 	"Should you be successful, you will be awarded a Medal, which will allow you to try your hand at the Missions.\n"
-#TODO 	"\n"
-#TODO 	"The better you perform, the more missions you can attempt."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT1                "Grenade skills grade 1."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT2                "Shotgun skills."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT3                "Bazooka skills grade 1."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT4                "Rope grade 1."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT5                "Grenade skills grade 2."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT6                "Using Firepunch."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT7                "Rope grade 2."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT8                "Bazooka skills grade 2."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT9                "Grenade skills grade 3."
-#TODO #: Untranslated string
-#TODO TRAINING_TEXT10               "Girders and Sheep."
-#TODO #: Untranslated string
-#TODO TRAINING_DESC1
-#TODO 	"You have 50 seconds to destroy the 2 targets using the grenade.\n"
-#TODO 	"\n"
-#TODO 	"Remember to use the fuse settings. \n"
-#TODO 	"\n"
-#TODO 	"Grenades are not affected by the wind."
-#TODO #: Untranslated string
-#TODO TRAINING_DESC2                "You have 60 seconds in which to shoot 6 targets."
-#TODO #: Untranslated string
-#TODO TRAINING_DESC3
-#TODO 	"You have 40 seconds to destroy the targets.\n"
-#TODO 	"\n"
-#TODO 	"The Bazooka is affected by the wind."
-#TODO #: Untranslated string
-#TODO TRAINING_DESC4
-#TODO 	"Use the rope to cross the play-field, collect the crate and destroy the target.\n"
-#TODO 	"\n"
-#TODO 	"This must be performed with one turn.\n"
-#TODO 	"\n"
-#TODO 	"Learn how to use the repeat swing function of the rope."
-#TODO #: Untranslated string
-#TODO TRAINING_DESC5                "You have 60 seconds to destroy the targets."
-#TODO #: Untranslated string
-#TODO TRAINING_DESC6
-#TODO 	"This exercise also teaches you to find other ways of using weapons, particularly using different jumping methods.\n"
-#TODO 	"\n"
-#TODO 	"You have 50 seconds to destroy the targets."
-#TODO #: Untranslated string
-#TODO TRAINING_DESC7
-#TODO 	"You have 60 seconds to destroy the target.\n"
-#TODO 	"\n"
-#TODO 	"Using the rope, collect the weapon and use it on the target area."
-#TODO #: Untranslated string
-#TODO TRAINING_DESC8
-#TODO 	"You have 60 seconds to destroy the targets.\n"
-#TODO 	"\n"
-#TODO 	"Remember, the Bazooka is affected by the wind. In this exercise you will have to use a little-known trick...\n"
-#TODO 	"\n"
-#TODO 	"Tip! In World War 2, the British Forces had a Bouncing Bomb!"
-#TODO #: Untranslated string
-#TODO TRAINING_DESC9
-#TODO 	"You have 99 seconds to destroy the targets using the grenade.\n"
-#TODO 	"\n"
-#TODO 	"Remember to use the fuse settings.\n"
-#TODO 	"\n"
-#TODO 	"Grenades are not affected by the wind."
-#TODO #: Untranslated string
-#TODO TRAINING_DESC10
-#TODO 	"This exercise requires you to lay a pontoon bridge across the screen so that you can send your sheep to knock the target into the water.\n"
-#TODO 	"\n"
-#TODO 	"You have 60 seconds to achieve this."
-#TODO #: Untranslated string
-#TODO TRAININGFAIL1                 "You have failed to complete this exercise and therefore also failed Basic Training. You will need to restart Basic Training and try again."
-#TODO #: Untranslated string
-#TODO TRAININGFAIL2
-#TODO 	"Tough luck, you have failed this event and Basic Training is over.\n"
-#TODO 	"\n"
-#TODO 	"Try again and attempt to improve your award."
-#TODO #: Untranslated string
-#TODO TRAININGSUCCESS1
-#TODO 	"Congratulations!\n"
-#TODO 	"\n"
-#TODO 	"You have been awarded a Basic Training Bronze Medal award.\n"
-#TODO 	"\n"
-#TODO 	"You can now attempt the first few missions!"
-#TODO #: Untranslated string
-#TODO TRAININGSUCCESS2              "Excellent, your skills have earned you a Silver Medal award in Basic Training; you can now access more missions!"
-#TODO #: Untranslated string
-#TODO TRAININGSUCCESS3
-#TODO 	"Well done, Soldier!\n"
-#TODO 	"\n"
-#TODO 	"You have successfully completed the full Basic Training program.\n"
-#TODO 	"\n"
-#TODO 	"You now have access to all the missions!\n"
-#TODO 	"\n"
-#TODO 	"Good luck!"
+TRAININGOVERVIEW              "Базове тренування"
+TRAININGOVERVIEWTEXT
+	"Це тренування містить в собі короткий курс завдань, які покращать ваші базові навички.\n"
+	"\n"
+	"Якщо ви пройдете тренування, ви отримаєте медаль, що дозволить вам спробувати свої сили на справжньому полі битви - місіях.\n"
+	"\n"
+	"Чим кращим буде ваш результат, тим більше місій ви зможете спробувати."
+TRAINING_TEXT1                "Володіння гранатою - розряд 1."
+TRAINING_TEXT2                "Володіння рушницею."
+TRAINING_TEXT3                "Володіння базукою - розряд 1."
+TRAINING_TEXT4                "Мотузка - розряд 1."
+TRAINING_TEXT5                "Володіння гранатою - розряд 2."
+TRAINING_TEXT6                "Використання вогняного удару."
+TRAINING_TEXT7                "Мотузка - розряд 2."
+TRAINING_TEXT8                "Володіння базукою - розряд 2."
+TRAINING_TEXT9                "Володіння гранатою - розряд 3."
+TRAINING_TEXT10               "Балки і вівця."
+TRAINING_DESC1
+	"У вас є 50 секунд, аби знищити 2 мішені з використанням гранати.\n"
+	"\n"
+	"Не забувайте, що запал можна міняти. \n"
+	"\n"
+	"На гранати не впливає вітер."
+TRAINING_DESC2                "У вас є 60 секунд на те, аби вистрелити у 6 мішеней."
+TRAINING_DESC3
+	"У вас є 40 секунд, аби знищити всі мішені.\n"
+	"\n"
+	"На базуку впливає вітер."
+TRAINING_DESC4
+	"Скористайтеся мотузкою, аби перетнути поле битви, підібрати ящик і знищити мішень.\n"
+	"\n"
+	"Усе це ви маєте встигнути за один хід.\n"
+	"\n"
+	"навчіться використовувати розгойдування мотузки."
+TRAINING_DESC5                "У вас є 60 секунд, аби знищити всі мішені."
+TRAINING_DESC6
+	"Ця вправа навчить вас шукати альтернативні методи застосування зброї, а саме використання різних способів стрибка.\n"
+	"\n"
+	"У вас є 50 секунд, аби знищити всі мішені."
+TRAINING_DESC7
+	"У вас є 60 секунд, аби знищити мішень.\n"
+	"\n"
+	"З допомогою мотузки підберіть зброю і застосуйте її на ділянку з мішенню."
+TRAINING_DESC8
+	"У вас є 60 секунд, аби знищити всі мішені.\n"
+	"\n"
+	"Пам'ятайте, на базуку впливає вітер. У цій вправі вам доведеться використати один прецікавий трюк...\n"
+	"\n"
+	"Підказка! У Другій Світовій британські війська мали стрибучу бомбу!"
+TRAINING_DESC9
+	"У вас є 99 секунд, аби знищити мішень з допомогою гранати.\n"
+	"\n"
+	"Не забувайте, що запал можна міняти.\n"
+	"\n"
+	"на гранати не впливає вітер."
+TRAINING_DESC10
+	"У цій вправі ви мусите прокласти міст з балок вздовж екрану, аби послати свою вівцю скинути ціль у воду.\n"
+	"\n"
+	"на це вам дається 60 секунд."
+TRAININGFAIL1                 "Вам не вдалося виконати цю вправу і через це ви провалили базове тренування. Тепер починайте базове тренування спочатку і пробуйте знову."
+TRAININGFAIL2
+	"Не пощастило, вам не вдалося пройти випробування і базове тренування завершено.\n"
+	"\n"
+	"Спробуйте цього разу показати ліпший результат."
+TRAININGSUCCESS1
+	"Вітання!\n"
+	"\n"
+	"Вас нагороджено бронзовою медаллю у базовому тренуванні.\n"
+	"\n"
+	"Тепер ви можете спробувати виконати перші пару місій!"
+TRAININGSUCCESS2              "Прекрасно, своїми навичками ви заслужули срібну медаль у базовому тренуванні; тепер вам доступні ще кілька місій!"
+TRAININGSUCCESS3
+	"Чудово, солдате!\n"
+	"\n"
+	"Ви успішно виконали повну програму базового тренування.\n"
+	"\n"
+	"Тепер вам доступні для виконання всі місії!\n"
+	"\n"
+	"Щасти вам!"
 
 #TODO #: Untranslated string
 #TODO # Mission screen
