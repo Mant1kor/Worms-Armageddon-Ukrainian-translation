@@ -1290,366 +1290,203 @@ TEAM_FORMAT_ERROR_LOAD_RESET
 #TODO 	"\n"
 #TODO 	"Good luck!"
 
-#TODO #: Untranslated string
-#TODO # Mission screen
+# Mission screen
 
-#TODO MISSION_BOX_TEAM_SELECT       "Selected team"
-#TODO #: Untranslated string
-#TODO MISSION_BOX_DETAILS           "Mission Details"
-#TODO #: Untranslated string
-#TODO MISSION_BOX_DETAILS_NUMBER    "Mission \1 Details"  # Parameter \1 is the mission number, from 1 to 33
-#TODO #: Untranslated string
-#TODO MISSION_STARTMISSION          "Start Mission"
-#TODO #: Untranslated string
-#TODO MISSION_NOTEAM                "No Team Selected"
-#TODO #: Untranslated string
-#TODO MISSION_NO_MISSION            "No Mission Selected."
-#TODO #: Untranslated string
-#TODO MISSION_H_STARTMISSION        "Start the mission."
-#TODO #: Untranslated string
-#TODO MISSION_H_CANCEL              "Return to previous menu."
-#TODO #: Untranslated string
-#TODO MISSION_H_NEXT                "Select the next mission."
-#TODO #: Untranslated string
-#TODO MISSION_H_PREVIOUS            "Select the previous mission."
-#TODO #: Untranslated string
-#TODO MISSION_H_SELECTED            "Which team will attempt the mission."
-#TODO #: Untranslated string
-#TODO MISSION_H_DETAILS             "Mission overview."
-#TODO #: Untranslated string
-#TODO MISSION_H_MISSION             "The currently selected mission."
-#TODO #: Untranslated string
-#TODO MT_COL3                       "Attempts"
-#TODO #: Untranslated string
-#TODO MT_HELP                       "Left click to select a team. Right click to edit a team."
+MISSION_BOX_TEAM_SELECT       "Обрана команда"
+MISSION_BOX_DETAILS           "Деталі місії"
+MISSION_BOX_DETAILS_NUMBER    "Деталі \1 місії"  # Parameter \1 is the mission number, from 1 to 33
+MISSION_STARTMISSION          "Почати місію"
+MISSION_NOTEAM                "Не вибрано команди"
+MISSION_NO_MISSION            "Не вибрано місії"
+MISSION_H_STARTMISSION        "Почати місію."
+MISSION_H_CANCEL              "Повернутися до попереднього меню."
+MISSION_H_NEXT                "Вибрати наступну місію."
+MISSION_H_PREVIOUS            "Вибрати попередню місію."
+MISSION_H_SELECTED            "Команда, яка спробує виконати місію."
+MISSION_H_DETAILS             "Огляд місії"
+MISSION_H_MISSION             "Місія, яка зараз вибрана."
+MT_COL3                       "Спроби"
+MT_HELP                       "Ліва кнопка миші - обрати команду. Права - для її редагування."
 
-#TODO #: Untranslated string
-#TODO MISSIONREJECT1
-#TODO 	"There's no room for rookies here!\n"
-#TODO 	"\n"
-#TODO 	"Your team needs to have earned at least a Bronze Medal in Basic Training before it can access the missions.\n"
-#TODO 	"\n"
-#TODO 	"Go to the Training menu and get a Basic Training award!"
-#TODO #: Untranslated string
-#TODO MISSIONREJECT2
-#TODO 	"We feel that the mission you are attempting may be beyond your capabilities, therefore we need teams with a minimum of a Silver Medal in Basic Training.\n"
-#TODO 	"\n"
-#TODO 	"Go back to the Training menu and get some more practice."
-#TODO #: Untranslated string
-#TODO MISSIONREJECT3
-#TODO 	"It's commendable that you wish to try such a difficult mission, but we will only accept recruits who have been awarded a Gold Medal in Basic Training!\n"
-#TODO 	"\n"
-#TODO 	"Come back when you have successfully achieved this."
+MISSIONREJECT1
+	"Тут нема місця для новачків!\n"
+	"\n"
+	"Ваша команда має мати як мінімум бронзову медаль за базове тренування перед тим, як переходити до місій.\n"
+	"\n"
+	"Йдіть до меню тренування і отримайте відзнаку за базове тренування!"
+MISSIONREJECT2
+	"Ми гадаємо, що ця місія понад ваші можливості, оскільки для її виконання нам потрібні команди, які мають як мінімум срібну медаль за базове тренування.\n"
+	"\n"
+	"Поверніться до меню тренувань і попрактикуйтеся більше."
+MISSIONREJECT3
+	"Це звісно похвально, що ви намагаєтесь спробувати свої сили у такій складній місії, але ми приймемо лишень тих добровольців, у яких є золота медаль за базове тренування!\n"
+	"\n"
+	"Повернуться, коли її отримаєте."
 
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_TITLE          "Mission Success"
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_MESSAGE_1      "Congratulations, mission accomplished."
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_MESSAGE_2      "You completed the mission with \1 seconds remaining."
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_MESSAGE_2a     "You completed the mission with \1 units of energy remaining."
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_MESSAGE_3      "Your performance on this mission has been rewarded with a \1 medal!"
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_MESSAGE_4      "Congratulations, that's a new record for this mission!"
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_MESSAGE_5      "For your endeavours, you have been awarded a secret option!"
+MISSIONSUCCESS_TITLE          "Місію виконано"
+MISSIONSUCCESS_MESSAGE_1      "Наші вітання, місію успішно завершено."
+MISSIONSUCCESS_MESSAGE_2      "Ви виконали місію із ще \1 зайвими секундами."
+MISSIONSUCCESS_MESSAGE_2a     "Ви виконали місію із ще \1 зайвими очками енергії."
+MISSIONSUCCESS_MESSAGE_3      "Ваше виконання цієї місії заслуговує медалі \1!"
+MISSIONSUCCESS_MESSAGE_4      "Вітання, ви поставили новий рекорд у цій місії!"
+MISSIONSUCCESS_MESSAGE_5      "за ваші старання вас винагороджено таємною опцією!"
 
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_AWARD1         "Red blood awarded!"
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_AWARD2         "Aqua sheep awarded!"
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_AWARD3         "Sheep heaven awarded!"
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_AWARD4         "God mode awarded!"
-#TODO #: Untranslated string
-#TODO MISSIONSUCCESS_AWARD5         "Utilities awarded!"
+MISSIONSUCCESS_AWARD1         "Отримано червону кров!"
+MISSIONSUCCESS_AWARD2         "Отримано водяну вівцю"
+MISSIONSUCCESS_AWARD3         "Отримано овечий рай!"
+MISSIONSUCCESS_AWARD4         "Отримано божественний режим!"
+MISSIONSUCCESS_AWARD5         "Отримано утиліти!"
 
-#TODO #: Untranslated string
-#TODO MISSIONFAILED_TITLE           "Mission Failed"
-#TODO #: Untranslated string
-#TODO MISSIONFAILED_MESSAGE         "You failed the mission. Re-group and try again."
+MISSIONFAILED_TITLE           "Місію провалено"
+MISSIONFAILED_MESSAGE         "Ви провалили місію. Перегрупуйтесь і спробуйте знову."
 
-#TODO #: Untranslated string
-#TODO MISSIONCOMPLETE_TITLE         "All missions completed!"
-#TODO #: Untranslated string
-#TODO MISSIONCOMPLETE_MESSAGE       "Fantastic! You have completed the final mission!"
+MISSIONCOMPLETE_TITLE         "Усі місії виконано!"
+MISSIONCOMPLETE_MESSAGE       "Неймовірно! Ви викона останню місію!"
 
-#TODO #: Untranslated string
-#TODO # Options screen
+# Options screen
 
-#TODO OPTIONS_BOX_TEAMS             "Team options"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_LISTTEAMS           "A list of existing teams."
-#TODO #: Untranslated string
-#TODO OPTIONS_CRTEAM                "Create a team."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_CRTEAM              "Create a new team."
-#TODO #: Untranslated string
-#TODO OPTIONS_EDTEAM                "Edit team"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_EDTEAM              "Edit the team details."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_DELTEAM             "Delete the team."
-#TODO #: Untranslated string
-#TODO OPTIONS_VIEWTEAM              "View team statistics."
-#TODO #: Untranslated string
-#TODO CM_DELETETEAM                 "Delete"
-#TODO #: Untranslated string
-#TODO CM_DELETETEAMMESSAGE          "Are you sure you wish to delete this team?"
+OPTIONS_BOX_TEAMS             "Налаштування команди"
+OPTIONS_H_LISTTEAMS           "Список наявних команд."
+OPTIONS_CRTEAM                "Створити команду."
+OPTIONS_H_CRTEAM              "Створити нову команду."
+OPTIONS_EDTEAM                "Редагувати команду"
+OPTIONS_H_EDTEAM              "Редагувати деталі команди."
+OPTIONS_H_DELTEAM             "Видалити команду."
+OPTIONS_VIEWTEAM              "Переглянути статистику команди."
+CM_DELETETEAM                 "Видалити"
+CM_DELETETEAMMESSAGE          "Ви певні, що хочете видалити цю команду?"
 
-#TODO #: Untranslated string
-#TODO OPTIONS_BOX_SCHEME            "Scheme options"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_LISTSCHEME          "A list of schemes you can view or edit."
-#TODO #: Untranslated string
-#TODO OPTIONS_DEL_SCHEME            "Delete"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_DEL_SCHEME          "Deletes the selected scheme."
-#TODO #: Untranslated string
-#TODO OPTIONS_WEAPONS               "Weapons editor"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_WEAPONS             "Edit the weapons."
-#TODO #: Untranslated string
-#TODO OPTIONS_TERRAIN               "Terrain editor"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_TERRAIN             "Create or edit a terrain."
-#TODO #: Untranslated string
-#TODO OPTIONS_GAMEOPTIONS           "Game options"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_GAMEOPTIONS         "Edit the game options."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_EXTOPTIONS          "Edit the extended game options."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_EXTOPTIONS_LOCKED   "Complete the Training, Mission, and Deathmatch campaign to unlock extended scheme options."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_CURRENT             "The current scheme being edited."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_SAVESCHEME          "Saves the selected scheme."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_LOADSCHEME          "Loads the selected scheme."
-#TODO #: Untranslated string
-#TODO CM_OVERWRITE_SCHEME_MESSAGE
-#TODO 	"Are you sure you wish to overwrite\n"
-#TODO 	"the \"\1\" scheme?"
-#TODO #: Untranslated string
-#TODO CM_OVERWRITE_SCHEME_TITLE     "Overwrite scheme?"
-#TODO #: Untranslated string
-#TODO CM_DELETE_SCHEME_TITLE        "Delete scheme?"
-#TODO #: Untranslated string
-#TODO CM_DELETE_SCHEME_MESSAGE
-#TODO 	"Are you sure you wish to\n"
-#TODO 	"delete the \"\1\" scheme?"
+OPTIONS_BOX_SCHEME            "Налаштування схеми"
+OPTIONS_H_LISTSCHEME          "Списох схем, які ви можете переглянути чи редагувати."
+OPTIONS_DEL_SCHEME            "Видалити"
+OPTIONS_H_DEL_SCHEME          "Видаляє обрану схему."
+OPTIONS_WEAPONS               "Редактор зброї"
+OPTIONS_H_WEAPONS             "Редагувати зброю."
+OPTIONS_TERRAIN               "Редактор ландшафту"
+OPTIONS_H_TERRAIN             "Створити або редагувати ландшафт."
+OPTIONS_GAMEOPTIONS           "Налаштування гри"
+OPTIONS_H_GAMEOPTIONS         "Редагувати налаштування гри."
+OPTIONS_H_EXTOPTIONS          "Редагувати розширені налаштування гри."
+OPTIONS_H_EXTOPTIONS_LOCKED   "Пройдіть усі тренування, місії та бої на смерть, аби розблокувати розширені налаштування."
+OPTIONS_H_CURRENT             "Цю схему наразі редагують."
+OPTIONS_H_SAVESCHEME          "Зберігає обрану схему."
+OPTIONS_H_LOADSCHEME          "Завантажує обрану схему."
+CM_OVERWRITE_SCHEME_MESSAGE
+	"Ви певні, що хочете перезаписати\n"
+	"схему \"\1\"?"
+CM_OVERWRITE_SCHEME_TITLE     "Перезаписати схему?"
+CM_DELETE_SCHEME_TITLE        "Видалити схему?"
+CM_DELETE_SCHEME_MESSAGE
+	"Ви певні, що хочете видалити\n"
+	"схему \"\1\"?"
 
-#TODO #: Untranslated string
-#TODO OPTIONS_BOX_AUDIO             "Audio options - Volume = \1%"
-#TODO #: Untranslated string
-#TODO OPTIONS_BOX_EFFECTS           "Effects volume."
-#TODO #: Untranslated string
-#TODO OPTIONS_AMBIENCE              "Ambience"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_AMBIENCE            "Turn the audio ambience on or off."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_RE_VOLUME           "Select the sound effects volume."
+OPTIONS_BOX_AUDIO             "Налаштування звуку - гучність = \1%"
+OPTIONS_BOX_EFFECTS           "Гучність ефектів."
+OPTIONS_AMBIENCE              "Оточення"
+OPTIONS_H_AMBIENCE            "Увімкнути або вимкнути звукове оточення."
+OPTIONS_H_RE_VOLUME           "Оберіть гучність звукових ефектів."
 
-#TODO #: Untranslated string
-#TODO OPTIONS_BOX_GRAPHICS          "Graphics options"
-#TODO #: Untranslated string
-#TODO OPTIONS_BOX_VIDEO             "Video options"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_COLOURSCHEME        "Change the colour scheme. Helpful if you have anomalous colour vision."
+OPTIONS_BOX_GRAPHICS          "Налаштування графіки"
+OPTIONS_BOX_VIDEO             "Налаштування відео"
+OPTIONS_H_COLOURSCHEME        "Змінити колірну схему. Допомагає, якщо у вас є зорові дефекти."
 
-#TODO #: Untranslated string
-#TODO LANGUAGE                      "Language"
+LANGUAGE                      "Мова"
 
-#TODO #: Untranslated string
-#TODO OPTIONS_ADVANCED              "Advanced"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_ADVANCED            "Go to the advanced configuration menu."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_RE_OK               "Return to the main menu."
-#TODO #: Untranslated string
-#TODO OPTIONS_H_BACK                "Return to the previous menu."
+OPTIONS_ADVANCED              "Додатково"
+OPTIONS_H_ADVANCED            "Перейти до меню додаткових налаштувань."
+OPTIONS_H_RE_OK               "Повернутися до головного меню."
+OPTIONS_H_BACK                "Повернутися до попереднього меню."
 
-#TODO #: Untranslated string
-#TODO OPTIONS_GENERAL               "System options"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_GENERAL             "Change the system options."
-#TODO #: Untranslated string
-#TODO OPTIONS_BOX_DETAIL            "Detail level"
-#TODO #: Untranslated string
-#TODO OPTIONS_H_RE_DETAIL           "The level of graphics detail in the game. Lower it to improve performance."
-#TODO #: Untranslated string
-#TODO OPTIONS_TXT_MIN               "Minimum"
-#TODO #: Untranslated string
-#TODO OPTIONS_TXT_MAX               "Maximum"
+OPTIONS_GENERAL               "Налаштування системи"
+OPTIONS_H_GENERAL             "Змінити налаштування системи."
+OPTIONS_BOX_DETAIL            "Рівень деталей"
+OPTIONS_H_RE_DETAIL           "Рівень деталізації графіки у грі. Понизьте його для ліпшої швидкодії."
+OPTIONS_TXT_MIN               "Мінімальній"
+OPTIONS_TXT_MAX               "Максимальний"
 
-#TODO #: Untranslated string
-#TODO # Advanced Options screen
+# Advanced Options screen
 
-#TODO COMPATIBILITY                 "Compatibility"
-#TODO #: Untranslated string
-#TODO FRONTEND                      "Front-end"
-#TODO #: Untranslated string
-#TODO SLOWFRONTENDWORKAROUND        "Slow frontend workaround"
-#TODO #: Untranslated string
-#TODO H_SLOWFRONTENDWORKAROUND      "Enables a compatibility tweak for certain new video cards, which may resolve low responsiveness and refresh rates in the front-end."
-#TODO #: Untranslated string
-#TODO DISABLED                      "Disabled"
-#TODO #: Untranslated string
-#TODO ALTERNATIVE                   "Alternative"
-#TODO #: Untranslated string
-#TODO GAME                          "Game"
-#TODO #: Untranslated string
-#TODO TIMERWORKAROUND               "Timer workaround"
-#TODO #: Untranslated string
-#TODO H_TIMERWORKAROUND             "Prevents W:A from using the system's high-resolution timer."
-#TODO #: Untranslated string
-#TODO GRAPHICS                      "Graphics"
-#TODO #: Untranslated string
-#TODO H_RENDERER                    "Select which graphics API Worms Armageddon should use."
-#TODO #: Untranslated string
-#TODO DIRECTDRAW8                   "DirectDraw (8-bit)"
-#TODO #: Untranslated string
-#TODO H_DIRECTDRAW8                 "8-bit (256-colour) DirectDraw 2 with hardware palette."
-#TODO #: Untranslated string
-#TODO DIRECTDRAW32                  "DirectDraw (32-bit)"
-#TODO #: Untranslated string
-#TODO H_DIRECTDRAW32                "32-bit DirectDraw 2 with software palette transform."
-#TODO #: Untranslated string
-#TODO DIRECT3D_7                    "Direct3D 7"
-#TODO #: Untranslated string
-#TODO H_DIRECT3D_7                  "Direct3D 7 with software palette transform. Requires DirectX 7."
-#TODO #: Untranslated string
-#TODO DIRECT3D_9_SOFTWARE           "Direct3D 9 (CPU)"
-#TODO #: Untranslated string
-#TODO H_DIRECT3D_9_SOFTWARE         "Direct3D 9 with software palette transform. Requires DirectX 9."
-#TODO #: Untranslated string
-#TODO DIRECT3D_9_SHADER             "Direct3D 9 (shader)"
-#TODO #: Untranslated string
-#TODO H_DIRECT3D_9_SHADER           "Direct3D 9 with a palette transform shader. Requires DirectX 9 and Pixel Shader 2.0 support."
-#TODO #: Untranslated string
-#TODO OPENGL_SOFTWARE               "OpenGL (CPU)"
-#TODO #: Untranslated string
-#TODO H_OPENGL_SOFTWARE             "OpenGL with software palette transform."
-#TODO #: Untranslated string
-#TODO OPENGL_SHADER                 "OpenGL (shader)"
-#TODO #: Untranslated string
-#TODO H_OPENGL_SHADER               "OpenGL with a palette transform shader. Requires OpenGL 4.0 with fragment shader support."
-#TODO #: Untranslated string
-#TODO VSYNC                         "Wait for vertical sync"
-#TODO #: Untranslated string
-#TODO H_VSYNC                       "Draw only entire frames at a time. Lowers latency when disabled, but causes screen tearing."
-#TODO #: Untranslated string
-#TODO SETCOMPATFLAGS                "Set Windows compatibility flags"
-#TODO #: Untranslated string
-#TODO H_SETCOMPATFLAGS              "Configures the WA.exe compatibility flags in the Windows registry. Improves DirectDraw and Direct3D 7 compatibility in Windows 8."
-#TODO #: Untranslated string
-#TODO ASSISTEDVSYNC                 "Assisted vertical sync"
-#TODO #: Untranslated string
-#TODO H_ASSISTEDVSYNC               "Manually synchronize API vertical sync calls to screen refresh. Lowers latency."
-#TODO #: Untranslated string
-#TODO WINDOWEDMODE                  "Windowed mode"
-#TODO #: Untranslated string
-#TODO H_WINDOWEDMODE                "Specifies whether W:A should run in full-screen exclusive mode or windowed mode."
-#TODO #: Untranslated string
-#TODO USEHARDWARECURSORS            "Use hardware cursors"
-#TODO #: Untranslated string
-#TODO H_USEHARDWARECURSORS          "Eliminates mouse cursor lag in most parts of the front end, but may not work in 8-bit colour mode on all systems. Prevents the cursor from being visible in screenshots."
-#TODO #: Untranslated string
-#TODO HARDWARERENDERING             "Use hardware rendering"
-#TODO #: Untranslated string
-#TODO H_HARDWARERENDERING           "Renders game sprites using video hardware, instead of a software renderer. Improves performance, may have compatibility issues."
-#TODO #: Untranslated string
-#TODO USEVRAM                       "Use VRAM"
-#TODO #: Untranslated string
-#TODO H_USEVRAM                     "Allows or prevents usage of hardware video memory."
-#TODO #: Untranslated string
-#TODO DOUBLEBUFFERING               "Use double buffering"
-#TODO #: Untranslated string
-#TODO H_DOUBLEBUFFERING             "Enables or disables in-game double buffering. Disabling fixes flickering under VMware."
-#TODO #: Untranslated string
-#TODO FRONTENDPALETTEFIX            "Palette fix"
-#TODO #: Untranslated string
-#TODO H_FRONTENDPALETTEFIX          "Enables workarounds to prevent palette loss in the front-end."
-#TODO #: Untranslated string
-#TODO FRONTENDPALETTEFIX0           "Set system palette use"
-#TODO #: Untranslated string
-#TODO FRONTENDPALETTEFIX1           "Set GDI palette"
-#TODO #: Untranslated string
-#TODO FRONTENDPALETTEFIX2           "Re-set DirectX palette"
-#TODO #: Untranslated string
-#TODO FRONTENDPALETTEFIX3           "Listen to palette changes"
-#TODO #: Untranslated string
-#TODO TWEAKS                        "Tweaks"
-#TODO #: Untranslated string
-#TODO SKIPINTRO                     "Skip Intro"
-#TODO #: Untranslated string
-#TODO H_SKIPINTRO                   "Specifies whether to skip the intro and logos when W:A is started."
-#TODO #: Untranslated string
-#TODO OFFLINEROPEKNOCKING           "Offline rope knocking"
-#TODO #: Untranslated string
-#TODO H_OFFLINEROPEKNOCKING         "Enables \"rope knocking\" in Offline Multi-Player and Quick CPU games."
-#TODO #: Untranslated string
-#TODO LEGACYUTILITYKEY              "Legacy utility key"
-#TODO #: Untranslated string
-#TODO H_LEGACYUTILITYKEY            "Use the key used for typing the ` character for the current input language to select utilities, instead of using the key under Escape (for non-US keyboard layouts)."
-#TODO #: Untranslated string
-#TODO PHONE                         "Phone chat notification"
-#TODO #: Untranslated string
-#TODO H_PHONE                       "Disables or enables the in-game telephone icon (used for notification of new chat messages)."
-#TODO #: Untranslated string
-#TODO LARGERFONTS                   "Use larger fonts"
-#TODO #: Untranslated string
-#TODO H_LARGERFONTS                 "Use a larger font in some places in-game and in the front-end."
-#TODO #: Untranslated string
-#TODO PLAYAUDIOINBACKGROUND         "Play audio in background"
-#TODO #: Untranslated string
-#TODO H_PLAYAUDIOINBACKGROUND       "Play sound effects even when W:A is in the background."
-#TODO #: Untranslated string
-#TODO ASSOCIATIONS                  "Auto-register associations"
-#TODO #: Untranslated string
-#TODO H_ASSOCIATIONS                "Enables associating W:A with replays and wa:// on W:A start-up"
-#TODO #: Untranslated string
-#TODO WORMKIT                       "Load WormKit modules"
-#TODO #: Untranslated string
-#TODO H_WORMKIT                     "Load all DLL files starting with \"wk\" from W:A's directory on start-up."
-#TODO #: Untranslated string
-#TODO USECOMMUNITYSERVERLIST        "Use community server list"
-#TODO #: Untranslated string
-#TODO H_USECOMMUNITYSERVERLIST      "Load CommunityServerList.htm (instead of ServerList.htm), which redirects to a third-party server list linking to community WormNET servers."
-#TODO #: Untranslated string
-#TODO STEREOEFFECTS                 "Stereo effects - \1"
-#TODO #: Untranslated string
-#TODO H_STEREOEFFECTS               "Adjusts the intensity of the stereo sound effects."
-#TODO #: Untranslated string
-#TODO REVERSESTEREO                 "Reverse"
-#TODO #: Untranslated string
-#TODO H_REVERSESTEREO               "Reverses the stereo sound effects."
-#TODO #: Untranslated string
-#TODO MAPAREAWARNLIMIT              "Map memory warning - \1"
-#TODO #: Untranslated string
-#TODO H_MAPAREAWARNLIMIT            "Sets the threshold for which to display the map loading prompt, to prevent a Denial of Service attack by loading a very large map."
-#TODO #: Untranslated string
-#TODO RESETMAPAREAWARNLIMIT         "Reset"
-#TODO #: Untranslated string
-#TODO H_RESETMAPAREAWARNLIMIT       "Resets the threshold to the default value."
-#TODO #: Untranslated string
-#TODO BYTES_SYMBOL                  "\1B"
-#TODO #: Untranslated string
-#TODO RESET                         "Reset"
-#TODO #: Untranslated string
-#TODO H_RESETOPTIONS                "Reset all Worms Armageddon settings to their default values."
-#TODO #: Untranslated string
-#TODO CONFIRM_RESETOPTIONS          "This will reset all settings and exit the game. Continue?"
-#TODO #: Untranslated string
-#TODO RESTART_REQUIRED              "Please restart the game for the new settings to take effect."
-#TODO #: Untranslated string
-#TODO REGISTER_ASSOCIATIONS         "Register associations"
-#TODO #: Untranslated string
-#TODO H_REGISTER_ASSOCIATIONS       "Associate W:A with replay files and the wa:// URL protocol"
+COMPATIBILITY                 "Сумісність"
+FRONTEND                      "Інтерфейс"
+SLOWFRONTENDWORKAROUND        "Повільний інтерфейс"
+H_SLOWFRONTENDWORKAROUND      "Вмикає налаштування сумісності для деяких нових відеокарт, яке має покращити швидкодію інтерфейсу."
+DISABLED                      "Вимкнено"
+ALTERNATIVE                   "Альтернатива"
+GAME                          "Гра"
+TIMERWORKAROUND               "Обробка таймеру"
+H_TIMERWORKAROUND             "Не дозволяє W:A використовувати системний таймер високого розширення."
+GRAPHICS                      "Графіка"
+H_RENDERER                    "Оберіть яке графічне API Worms Armageddon буде використовувати."
+DIRECTDRAW8                   "DirectDraw (8-біт)"
+H_DIRECTDRAW8                 "8-біт (256-кольорів) DirectDraw 2 з палітрою обладнання."
+DIRECTDRAW32                  "DirectDraw (32-біт)"
+H_DIRECTDRAW32                "32-біт DirectDraw 2 з програмним перетворенням палітри."
+DIRECT3D_7                    "Direct3D 7"
+H_DIRECT3D_7                  "Direct3D 7 з програмним перетворенням палітри. Потребує DirectX 7."
+DIRECT3D_9_SOFTWARE           "Direct3D 9 (ЦП)"
+H_DIRECT3D_9_SOFTWARE         "Direct3D 9 з програмним перетворенням палітри. Потребує DirectX 9."
+DIRECT3D_9_SHADER             "Direct3D 9 (шейдер)"
+H_DIRECT3D_9_SHADER           "Direct3D 9 з шейдером для перетворення палітри. Потребує DirectX 9 і підтримку Pixel Shader 2.0."
+OPENGL_SOFTWARE               "OpenGL (ЦП)"
+H_OPENGL_SOFTWARE             "OpenGL з програмним перетворенням палітри."
+OPENGL_SHADER                 "OpenGL (шейдер)"
+H_OPENGL_SHADER               "OpenGL з шейдером для перетворення палітри. Потребує OpenGL 4.0 з підтримкою фрагметних шейдерів."
+VSYNC                         "Чекати на вертикальну синхронізацію"
+H_VSYNC                       "Малювати кадри лишень повністю. Коли вимкнено - знижує затримку, але зображення може смикатись."
+SETCOMPATFLAGS                "Виставити параметри сумісності Windows"
+H_SETCOMPATFLAGS              "Налаштовує параметри сумісності WA.exe у реєстрі Windows. Покращує сумісність DirectDraw і Direct3D 7 у Windows 8."
+ASSISTEDVSYNC                 "Допоміжна вертикальна синхронізація"
+H_ASSISTEDVSYNC               "Вручну синхронізує ветикальну синхронізацію API і частоту оновлення екрану. Знижує затримку."
+WINDOWEDMODE                  "Віконний режим"
+H_WINDOWEDMODE                "Визначає чи W:A буде запускатися у повноекранному режимі чи у віконному."
+USEHARDWARECURSORS            "Використовувати апаратний курсор"
+H_USEHARDWARECURSORS          "Усуває глюк з курсором мишки у більшій частині інтерфейсу, але може не працювати у режимі кольорів 8-біт на всіх системах. Також курсор мишки не буде видно на знятках екрану."
+HARDWARERENDERING             "Використовувати апаратне прискорення"
+H_HARDWARERENDERING           "Малює спрайти ги з допомогою апаратного забезпечення замість програмного. Поліпшує швидкодію, але можуть виникнути проблеми із сумісністю."
+USEVRAM                       "Використання VRAM"
+H_USEVRAM                     "Дозволяє або забороняє використання апаратної відеопам'яті."
+DOUBLEBUFFERING               "Використовувати подвійну буферизацію"
+H_DOUBLEBUFFERING             "Вмикає або вимикає подвійну буферизацію в грі. Вимкнення вирішує проблему миготіння на віртуальних машинах."
+FRONTENDPALETTEFIX            "Виправлення палітри"
+H_FRONTENDPALETTEFIX          "Вмикає параметри, якізапобігають втраті палітри у інтерфейсі."
+FRONTENDPALETTEFIX0           "Визначити застосування системної палітри"
+FRONTENDPALETTEFIX1           "Визначити палітру GDI"
+FRONTENDPALETTEFIX2           "Перевизначити палітру DirectX"
+FRONTENDPALETTEFIX3           "Слухати зміни палітри"
+TWEAKS                        "Інші параметри"
+SKIPINTRO                     "Пропускати заставку"
+H_SKIPINTRO                   "Чи варто програвати заставку при запуску W:A."
+OFFLINEROPEKNOCKING           "Штовхання з мотузки"
+H_OFFLINEROPEKNOCKING         "Вмикає \"штовхання з мотузки\" у локальних багатокористувацьких і швидких іграх."
+LEGACYUTILITYKEY              "Стара клавіша утиліт"
+H_LEGACYUTILITYKEY            "Використовувати клавішу ` замість використання клавіші, яка знаходиться під Escape."
+PHONE                         "Телефонні сповіщення чату"
+H_PHONE                       "Вмикає або вимикає іконку телефону в грі (вона використовується для сповіщень про нові повідомлення в чаті)."
+LARGERFONTS                   "Використовувати більші шрифти"
+H_LARGERFONTS                 "Використовувати більший шрифт, де це можливо."
+PLAYAUDIOINBACKGROUND         "Програвати звуки в фоні"
+H_PLAYAUDIOINBACKGROUND       "Програвати звукові ефекти навіть коли W:A згорнуто."
+ASSOCIATIONS                  "Автореєстрація асоціацій"
+H_ASSOCIATIONS                "Дозволяє асоціювати W:A з повторами та wa:// при запуску W:A"
+WORMKIT                       "Завантажувати модулі WormKit"
+H_WORMKIT                     "Завантажувати усі файли DLL, які починаються на \"wk\" і знаходяться у папці W:A при запуску."
+USECOMMUNITYSERVERLIST        "Використовувати список серверів спільноти"
+H_USECOMMUNITYSERVERLIST      "Завантажувати CommunityServerList.htm (замість ServerList.htm), який перекидає на зовнішній список серверів WormNET."
+STEREOEFFECTS                 "Ефекти стерео - \1"
+H_STEREOEFFECTS               "Налаштувати інтенсивність стерео звукових ефектів."
+REVERSESTEREO                 "Реверс"
+H_REVERSESTEREO               "Реверсує стерео звукові ефекти."
+MAPAREAWARNLIMIT              "Попередження пам'яті - \1"
+H_MAPAREAWARNLIMIT            "Визначити поріг, при якому показуватиметь попередження про використання пам'яті під час завантаження мапи."
+RESETMAPAREAWARNLIMIT         "Скинути"
+H_RESETMAPAREAWARNLIMIT       "Скидає поріг до стандартного значення."
+BYTES_SYMBOL                  "\1Б"
+RESET                         "Скинути"
+H_RESETOPTIONS                "Скинути усі налаштування Worms Armageddon до стандарнтних."
+CONFIRM_RESETOPTIONS          "Це скине усі налаштування і викине вас з гри. Продовжити?"
+RESTART_REQUIRED              "Будь ласка, перезапустіть гру, аби зміни вступили в дію."
+REGISTER_ASSOCIATIONS         "Реєструвати асоціації"
+H_REGISTER_ASSOCIATIONS       "Асоціювати W:A з файлами повторів і URL-протоколом wa://"
 
 #TODO #: Untranslated string
 #TODO # Multiplayer screens
