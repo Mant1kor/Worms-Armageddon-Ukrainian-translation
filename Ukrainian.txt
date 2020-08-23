@@ -1413,591 +1413,339 @@ RESTART_REQUIRED              "Будь ласка, перезапустіть �
 REGISTER_ASSOCIATIONS         "Реєструвати асоціації"
 H_REGISTER_ASSOCIATIONS       "Асоціювати W:A з файлами повторів і URL-протоколом wa://"
 
-#TODO #: Untranslated string
-#TODO # Multiplayer screens
+# Multiplayer screens
+#TODO MULTIPLAY_H_WORMS             "Ліва кнопка миші - додати черв'яка до команди. Права кнопка миші - вилучити."
+MULTIPLAY_H_ALLY              "Обрати союзну групу для цієї команди."
+MULTIPLAY_H_HANDICAP          "Оберіть, щоб підсилити або послабити команду."
+MULTIPLAY_BOX_SCHEME          "Налаштування схеми"
+MULTIPLAY_WEAPONS             "Зброя"
+MULTIPLAY_H_WEAPONS           "Переглянути налаштування зброї."
+MULTIPLAY_H_OPTIONS           "Переглянути налаштування гри."
+MULTIPLAY_H_EXTOPTIONS        "Переглянути розширені налаштування гри."
+MULTIPLAY_OPTIONS             "Налаштування"
+MULTIPLAY_H_SAVE              "Зберегти наявні налаштування як ігрову схему."
+MULTIPLAY_DELETE              "Видалити"
+MULTIPLAY_H_DELETE            "Видалити обрану схему."
+MULTIPLAY_H_STARTHEALTH
+	"Оберіть початкову кількість енергії, яку матимуть черв'яки.\n"
+	"Утримуйте Shift для точного налаштування."
+MULTIPLAY_H_ROUNDTIME
+	"Оберіть тривалість раунду до початку раптової смерті.\n"
+	"Утримуйте Shift для точного налаштування."
+MULTIPLAY_H_TURNTIME
+	"Оберіть час, який гравці матимуть на хід.\n"
+	"Утримуйте Shift для точного налаштування."
+MULTIPLAY_H_WINS              "Кількість перемог, потрібна для того, щоб виграти гру."
+MULTIPLAY_H_NEWTEAM           "Ввести деталі нової команди."
+MULTIPLAY_START               "Почати гру"
+MULTIPLAY_H_START             "Усі готові, погнали!"
+MULTIPLAY_H_COMBO_SCHEME      "Обрана ігрова схема."
+MULTIPLAY_TXT_SCHEME          "Схема"
+MULTIPLAY_NEWTEAM             "Створити нову команду"
 
-#TODO MULTIPLAY_H_WORMS             "Left click to add a Worm to the team. Right click to remove."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_ALLY              "Select an allied group for this team."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_HANDICAP          "Select to handicap or help the team."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_BOX_SCHEME          "Scheme options"
-#TODO #: Untranslated string
-#TODO MULTIPLAY_WEAPONS             "Weapons"
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_WEAPONS           "Set or view the weapon options."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_OPTIONS           "Set or view the game options."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_EXTOPTIONS        "Set or view the extended game options."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_OPTIONS             "Options"
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_SAVE              "Save the current configuration as a game scheme."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_DELETE              "Delete"
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_DELETE            "Delete the selected scheme."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_STARTHEALTH
-#TODO 	"Select the initial energy level that Worms will have.\n"
-#TODO 	"Hold Shift for fine tuning."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_ROUNDTIME
-#TODO 	"Select how long a round will last before sudden death begins.\n"
-#TODO 	"Hold Shift for fine tuning."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_TURNTIME
-#TODO 	"Select how long players have to make their moves.\n"
-#TODO 	"Hold Shift for fine tuning."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_WINS              "Set the number of victories required to win the match."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_NEWTEAM           "Enter the details of a new team."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_START               "Start the game"
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_START             "You're all set let's go!"
-#TODO #: Untranslated string
-#TODO MULTIPLAY_H_COMBO_SCHEME      "The currently selected game scheme."
-#TODO #: Untranslated string
-#TODO MULTIPLAY_TXT_SCHEME          "Scheme"
-#TODO #: Untranslated string
-#TODO MULTIPLAY_NEWTEAM             "Create a new team"
+SCHM_BEGINNER                 "[ Початківець ]"
+SCHM_DEFAULT                  "[ Середній ]"
+SCHM_ADVANCED                 "[ Профі ]"
+SCHM_CLASSIC                  "[ Класика ]"
+SCHM_ARMAGEDDON               "[ Армагедон ]"
+SCHM_BLASTZONE                "[ Зона вибухів ]"
+SCHM_SUDDENSINKING            "[ Раптовий потоп ]"
+SCHM_TOURNAMENT               "[ Турнір ]"
+SCHM_RETRO                    "[ Ретро ]"
+SCHM_STRATEGIC                "[ Стратегічна ]"
+SCHM_DARKSIDE                 "[ Темна сторона ]"
+SCHM_ARTILLERY                "[ Артилерія ]"
+SCHM_FULL                     "[ Повний черв'якогедон ]"
 
-#TODO #: Untranslated string
-#TODO SCHM_BEGINNER                 "[ Beginner ]"
-#TODO #: Untranslated string
-#TODO SCHM_DEFAULT                  "[ Intermediate ]"
-#TODO #: Untranslated string
-#TODO SCHM_ADVANCED                 "[ Pro ]"
-#TODO #: Untranslated string
-#TODO SCHM_CLASSIC                  "[ Classic ]"
-#TODO #: Untranslated string
-#TODO SCHM_ARMAGEDDON               "[ Armageddon ]"
-#TODO #: Untranslated string
-#TODO SCHM_BLASTZONE                "[ Blast Zone ]"
-#TODO #: Untranslated string
-#TODO SCHM_SUDDENSINKING            "[ Sudden Sinking ]"
-#TODO #: Untranslated string
-#TODO SCHM_TOURNAMENT               "[ Tournament ]"
-#TODO #: Untranslated string
-#TODO SCHM_RETRO                    "[ Retro ]"
-#TODO #: Untranslated string
-#TODO SCHM_STRATEGIC                "[ Strategic ]"
-#TODO #: Untranslated string
-#TODO SCHM_DARKSIDE                 "[ The Darkside ]"
-#TODO #: Untranslated string
-#TODO SCHM_ARTILLERY                "[ Artillery ]"
-#TODO #: Untranslated string
-#TODO SCHM_FULL                     "[ The Full Wormage ]"
+# Multiple screens
 
-#TODO #: Untranslated string
-#TODO # Multiple screens
+GENERIC_EDIT_H_OK             "Зберегти зміни і повернутися до попереднього меню."
+GENERIC_EDIT_H_OK_TOP         "Зберегти зміни і вийти."
+GENERIC_EDIT_H_CANCEL         "Відхилити зміни і повернутися до попереднього меню."
+GENERIC_EDIT_H_CANCEL_TOP     "Відхилити зміни і вийти."
+GENERIC_VIEW_H_OK             "Повернутися до попереднього меню."
 
-#TODO GENERIC_EDIT_H_OK             "Save these changes and return to the previous menu."
-#TODO #: Untranslated string
-#TODO GENERIC_EDIT_H_OK_TOP         "Save these changes and exit."
-#TODO #: Untranslated string
-#TODO GENERIC_EDIT_H_CANCEL         "Discard these changes and return to the previous menu."
-#TODO #: Untranslated string
-#TODO GENERIC_EDIT_H_CANCEL_TOP     "Discard these changes and exit."
-#TODO #: Untranslated string
-#TODO GENERIC_VIEW_H_OK             "Return to the previous menu."
+GENERIC_EDIT_PROMPT_EXIT2     "Вийти без зберігання змін?"  # choice between Yes (exit and discard changes) and No (don't exit)
+GENERIC_EDIT_PROMPT_EXIT3     "Зберегти зміни?"                 # choice between Yes (exit and save changes), No (exit and discard changes), and Cancel (don't exit)
 
-#TODO #: Untranslated string
-#TODO GENERIC_EDIT_PROMPT_EXIT2     "Exit without saving changes?"  # choice between Yes (exit and discard changes) and No (don't exit)
-#TODO #: Untranslated string
-#TODO GENERIC_EDIT_PROMPT_EXIT3     "Save changes?"                 # choice between Yes (exit and save changes), No (exit and discard changes), and Cancel (don't exit)
+# Team editor screen
 
-#TODO #: Untranslated string
-#TODO # Team editor screen
+TEAMEDITOR_H_CREATE_OK        "Натисніть, аби створити нову команду."
+TEAMEDITOR_H_CREATE_CANCEL    "Вийти без створення цієї команди."
 
-#TODO TEAMEDITOR_H_CREATE_OK        "Click to create a new team."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_CREATE_CANCEL    "Exit without creating this team."
+TEAMEDITOR_DELETE             "Видалити команду"
+TEAMEDITOR_BOX_TEAMNAME       "Назва команди"
+TEAMEDITOR_BOX_MEMBERS        "Учасники команди"
+TEAMEDITOR_BOX_CONTROL        "Налаштування керування"
+TEAMEDITOR_BOX_TEAMOPTIONS    "Налаштування команди"
+TEAMEDITOR_TXT_FANFARE        "Фанфара"
+TEAMEDITOR_TXT_VOICE          "Озвучення"
+TEAMEDITOR_TXT_SPECIAL        "Особлива зброя"
+TEAMEDITOR_TXT_FLAG           "Стяг команди"
+TEAMEDITOR_H_TEAMNAME         "Введіть назву своєї команди."
+TEAMEDITOR_H_TEAM             "Введіть ім'я учасника своєї команди."
+TEAMEDITOR_H_RANDOMTEAM       "Створити випадкову назву команди. Клацніть двічі, аби створити випадкову команду."
+TEAMEDITOR_H_RANDOM           "Створити випадкового учасника команди."
+TEAMEDITOR_H_SKILL            "Оберіть, чи командою буде керувати людина чи ШІ із одним з п'яти рівнів навичок."
+TEAMEDITOR_H_VOICE            "Оберіть озвучення, яке буде використовувати команда."
+TEAMEDITOR_H_FANFARE          "Оберіть фанфару, яку буде використовувати ваша команда."
+TEAMEDITOR_H_SPECIAL          "Оберіть особливу зброю, яку буде використовувати ваша команда."
+TEAMEDITOR_H_DELETE           "Натисніть, аби видалити команду."
+TEAMEDITOR_H_FLAG             "Оберіть прапор вашої команди."
+TEAMEDITOR_TXT_GRAVESTONE     "Надгробок"
+TEAMEDITOR_H_PLAY             "Грати фанфару вашої команди."
+TEAMEDITOR_H_GRAVESTONE       "Оберіть надгробок, який лишатиметься після смерті ваших черв'яків."
+TEAMEDITOR_H_PLAY_SOUNDBANK   "Випробувати це озвучення."
 
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_DELETE             "Delete team"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_BOX_TEAMNAME       "Team Name"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_BOX_MEMBERS        "Team Members"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_BOX_CONTROL        "Control options"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_BOX_TEAMOPTIONS    "Team options"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_TXT_FANFARE        "Fanfare"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_TXT_VOICE          "Voice bank"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_TXT_SPECIAL        "Special weapon"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_TXT_FLAG           "Team banner"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_TEAMNAME         "Enter the name of your team."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_TEAM             "Enter the name of your team member."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_RANDOMTEAM       "Create a random team name. Double click to create a random team."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_RANDOM           "Create a random team member."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_SKILL            "Select human control or one of five computer skill levels."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_VOICE            "Select which voice bank this team will use."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_FANFARE          "Select which fanfare your team will use."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_SPECIAL          "Select the special weapon your team will use."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_DELETE           "Click to delete this team."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_FLAG             "Select your team's flag."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_TXT_GRAVESTONE     "Gravestone"
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_PLAY             "Play the fanfare your team will use."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_GRAVESTONE       "Select the gravestone that your Worms leave behind."
-#TODO #: Untranslated string
-#TODO TEAMEDITOR_H_PLAY_SOUNDBANK   "Test this soundbank."
+TM_TEAMNAME                   "Назва"
+TM_TEAM1                      "Черв'як 1"
+TM_TEAM2                      "Черв'як 2"
+TM_TEAM3                      "Черв'як 3"
+TM_TEAM4                      "Черв'як 4"
+TM_TEAM5                      "Черв'як 5"
+TM_TEAM6                      "Черв'як 6"
+TM_TEAM7                      "Черв'як 7"
+TM_TEAM8                      "Черв'як 8"
+TM_HUMAN                      "Людина"
+TM_CPU_1                      "ШІ - новачок"
+TM_CPU_2                      "ШІ - легкий"
+TM_CPU_3                      "ШІ - середній"
+TM_CPU_4                      "ШІ - ветеран"
+TM_CPU_5                      "ШІ - генерал"
 
-#TODO #: Untranslated string
-#TODO TM_TEAMNAME                   "Name"
-#TODO #: Untranslated string
-#TODO TM_TEAM1                      "Worm 1"
-#TODO #: Untranslated string
-#TODO TM_TEAM2                      "Worm 2"
-#TODO #: Untranslated string
-#TODO TM_TEAM3                      "Worm 3"
-#TODO #: Untranslated string
-#TODO TM_TEAM4                      "Worm 4"
-#TODO #: Untranslated string
-#TODO TM_TEAM5                      "Worm 5"
-#TODO #: Untranslated string
-#TODO TM_TEAM6                      "Worm 6"
-#TODO #: Untranslated string
-#TODO TM_TEAM7                      "Worm 7"
-#TODO #: Untranslated string
-#TODO TM_TEAM8                      "Worm 8"
-#TODO #: Untranslated string
-#TODO TM_HUMAN                      "Human"
-#TODO #: Untranslated string
-#TODO TM_CPU_1                      "CPU Rookie"
-#TODO #: Untranslated string
-#TODO TM_CPU_2                      "CPU Easy"
-#TODO #: Untranslated string
-#TODO TM_CPU_3                      "CPU Average"
-#TODO #: Untranslated string
-#TODO TM_CPU_4                      "CPU Veteran"
-#TODO #: Untranslated string
-#TODO TM_CPU_5                      "CPU General"
+AUDIOOPTIONS                  "Налаштування звуку"
+TEAMFLAG                      "Прапор"
 
-#TODO #: Untranslated string
-#TODO AUDIOOPTIONS                  "Audio options"
-#TODO #: Untranslated string
-#TODO TEAMFLAG                      "Flag"
+# Round end screen
 
-#TODO #: Untranslated string
-#TODO # Round end screen
+ROUNDEND_RESULTS              "Результати"
+ROUNDEND_CONTINUE             "Грати наступний раунд"
+ROUNDEND_H_CONTINUE           "Продовжити гру в наступному раунді."
+ROUNDEND_H_TXT_RESULTS        "Переможці минулого раунду."
+ROUNDEND_NEW_MATCH            "Нова гра"
+ROUNDEND_H_NEW_MATCH          "Грати на іншій схемі із тими ж людьми"
+ROUNDEND_NEW_MATCH_PROMPT     "Завершити цей раунд і лишити тих самих гравців?"
 
-#TODO ROUNDEND_RESULTS              "Results"
-#TODO #: Untranslated string
-#TODO ROUNDEND_CONTINUE             "Play next round"
-#TODO #: Untranslated string
-#TODO ROUNDEND_H_CONTINUE           "Continue to the next round."
-#TODO #: Untranslated string
-#TODO ROUNDEND_H_TXT_RESULTS        "Who won the last round."
-#TODO #: Untranslated string
-#TODO ROUNDEND_NEW_MATCH            "New Match"
-#TODO #: Untranslated string
-#TODO ROUNDEND_H_NEW_MATCH          "Play a different scheme with the same people"
-#TODO #: Untranslated string
-#TODO ROUNDEND_NEW_MATCH_PROMPT     "Terminate this round of games while keeping the same players?"
+# Scheme options screen
 
-#TODO #: Untranslated string
-#TODO # Scheme options screen
+SCHEMEOPTIONS_H_WORMSELECT_OFF
+                              "Черв'яки ходять по порядку."
+SCHEMEOPTIONS_H_WORMSELECT_ON "Цим параметром ви можете обрати, яким черв'яком ходити."
+SCHEMEOPTIONS_H_WORMSELECT_RANDOM
+                              "Черв'яки ходять у випадковому порядку."
+SCHEMEOPTIONS_H_ARTILLERYMODE_ON
+                              "Черв'яки не можуть повзати чи стрибати."
+SCHEMEOPTIONS_H_ARTILLERYMODE_OFF
+                              "Черв'яки можуть повзати і стрибати як зазвичай."
+SCHEMEOPTIONS_H_TELEPORTIN_ON "Перед початком гри ви вручну розміщуєте своїх черв'яків."
+SCHEMEOPTIONS_H_TELEPORTIN_OFF
+                              "Черв'яків випадково розкидає по ландшафту."
+SCHEMEOPTIONS_TXT_STOCKPILING "Накопичення"
+SCHEMEOPTIONS_H_STOCKPILING_ON
+                              "Отримувати нові набої в кінці кожного раунду і лишати предмети з попереднього раунду."
+SCHEMEOPTIONS_H_STOCKPILING_OFF
+                              "Ваші набої оновлюються кожного раунду, але предмети з попередніх раундів не зберігаються."
+SCHEMEOPTIONS_H_STOCKPILING_ANTI
+                              "У вас один комплект набоїв на цілу гру!"
+SCHEMEOPTIONS_H_SUDDENDEATH_OFF
+                              "Коли час раунду добігає нуля, раунд закінчиться."
+SCHEMEOPTIONS_H_SUDDENDEATH_DRAIN
+                              "Коли закінчиться час раунду, буде скинути ядерна бомба і черв'яки поступово помиратимуть."
+SCHEMEOPTIONS_H_WATERRISING   "Швидкість підйому води під час раптової смерті."
+SCHEMEOPTIONS_TXT_SUDDENDEATH
+	"Раптова смерть\n"
+	"починається тоді, коли\n"
+	"час раунду досягає нуля."
+SCHEMEOPTIONS_H_ENERGY_SLIDER "Скільки енергії черв'яки втрачатимуть кожного ходу під час раптової смерті."
+SCHEMEOPTIONS_TXT_CRATE       "Зброя"
+SCHEMEOPTIONS_BOX_GAME        "Налаштування гри"
+SCHEMEOPTIONS_BOX_SUDDENDEATH "Налаштування раптової смерті"
+SCHEMEOPTIONS_BOX_CRATES      "Налаштування ящиків"
+SCHEMEOPTIONS_BOX_TIME        "Налаштування часу"
+SCHEMEOPTIONS_BOX_OBJECTS     "Налаштування об'єктів"
+SCHEMEOPTIONS_BOX_OTHER       "Загальні налаштування"
+SCHEMEOPTIONS_TXT_FIRSTAID    "Аптечка"
+SCHEMEOPTIONS_TXT_UTILITIES   "Утиліти"
+SCHEMEOPTIONS_TXT_HEALTH      "Кількість першої допомоги"
+SCHEMEOPTIONS_H_DONORCARD     "Лишати донорські карти чи ні."
+SCHEMEOPTIONS_H_CRATE         "Шанс на отримання ящика у відсотках."
+SCHEMEOPTIONS_H_UTILITIES     "Шанс на отримання ящика з утилітами у відсотках."
+SCHEMEOPTIONS_H_FIRSTAID      "Шанс на отримання аптечки у відсотках."
+SCHEMEOPTIONS_H_NOCRATE       "Шанс у відсотках на те, що ящик не випаде."
+SCHEMEOPTIONS_H_NOCRATE_AUTO  "Натисніть, аби вручну відрегулювати шанс на те, що ящик не випаде."
+SCHEMEOPTIONS_H_HEALTH
+	"Кількість енергії в аптечці.\n"
+	"Утримуйте Shift для точного налаштування."
 
-#TODO SCHEMEOPTIONS_H_WORMSELECT_OFF
-#TODO                               "The Worms are moved in rotation."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_WORMSELECT_ON "With this option you can choose which Worm to move."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_WORMSELECT_RANDOM
-#TODO                               "The Worms are moved randomly."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_ARTILLERYMODE_ON
-#TODO                               "Worms cannot walk or jump."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_ARTILLERYMODE_OFF
-#TODO                               "Worms can walk and jump as usual."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_TELEPORTIN_ON "Before the game begins, you take turns to place your Worms."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_TELEPORTIN_OFF
-#TODO                               "Worms are randomly positioned on the landscape."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_TXT_STOCKPILING "Stockpiling"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_STOCKPILING_ON
-#TODO                               "Receive new ammo stocks on each round and keep remaining items from the previous round."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_STOCKPILING_OFF
-#TODO                               "Your ammo is restocked each round but any items remaining from the last round are lost."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_STOCKPILING_ANTI
-#TODO                               "You only get one set of ammo and it has to last the entire match!"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_SUDDENDEATH_OFF
-#TODO                               "When the round time is zero the round will end."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_SUDDENDEATH_DRAIN
-#TODO                               "When the round time expires, a nuke is dropped and energy is gradually lost."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_WATERRISING   "How fast the water rises during sudden death."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_TXT_SUDDENDEATH
-#TODO 	"Sudden death\n"
-#TODO 	"is triggered by the round\n"
-#TODO 	"time reaching zero."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_ENERGY_SLIDER "How much energy you will lose each turn during sudden death."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_TXT_CRATE       "Weapons"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_BOX_GAME        "Game options"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_BOX_SUDDENDEATH "Sudden death options"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_BOX_CRATES      "Crate options"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_BOX_TIME        "Time options"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_BOX_OBJECTS     "Object options"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_BOX_OTHER       "General options"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_TXT_FIRSTAID    "First-aid"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_TXT_UTILITIES   "Utilities"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_TXT_HEALTH      "First-aid points"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_DONORCARD     "Option to leave Donor cards or not."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_CRATE         "The percentage chance of getting a weapon crate."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_UTILITIES     "The percentage chance of getting a utility crate."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_FIRSTAID      "The percentage chance of getting a first-aid crate."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_NOCRATE       "The percentage chance of not getting a crate."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_NOCRATE_AUTO  "Click to toggle manual control of no-crate probability."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_HEALTH
-#TODO 	"The energy value of a first-aid crate.\n"
-#TODO 	"Hold Shift for fine tuning."
+SCHEMEOPTIONS_H_AUTO          "Увімкнути або вимкнути автоматичні повтори."
+SCHEMEOPTIONS_H_FALLDAMAGE    "Увімкнути або вимкнути шкоду від падіння."
+SCHEMEOPTIONS_H_DISPTIME      "Керуватт показом часу раунду."
+SCHEMEOPTIONS_TXT_DELAY       "Затримка"
+SCHEMEOPTIONS_TXT_RETREAT     "Відступ на землі"
+SCHEMEOPTIONS_TXT_ROPERETREAT "Відступ на мотузці"
+SCHEMEOPTIONS_H_DELAY         "Затримка між ходами гравців у локальній грі."
+SCHEMEOPTIONS_H_RETREAT
+	"Налаштувати час на відступ після використання зброї.\n"
+	"Утримуйте Shift для точного налаштування."
+SCHEMEOPTIONS_H_ROPERETREAT
+	"Налаштувати час на відступ після скидання зброї з мотузки.\n"
+	"Утримуйте Shift для точного налаштування."
+SCHEMEOPTIONS_H_DUDS          "Увімкнути або вимкнути несправні міни."
+SCHEMEOPTIONS_H_OBJECTS_COMBO "Оберіть, які об'єкти будуть на мапі."
+SCHEMEOPTIONS_H_MINEFUSE      "Час запалу міни."
+SCHEMEOPTIONS_H_OBJECTS_DATA  "На мапі не буде об'єктів."
+SCHEMEOPTIONS_H_OBJECTS_DATA1
+	"На мапі буде до 8 мін.\n"
+	"Утримуйте Shift для зміни кількості."
+SCHEMEOPTIONS_H_OBJECTS_DATA2
+	"На мапі буде до 8 діжок з нафтою.\n"
+	"Утримуйте Shift для зміни кількості."
+SCHEMEOPTIONS_H_OBJECTS_DATA5
+	"На мапі буде до 8 об'єктів.\n"
+	"Утримуйте Shift для зміни кількост."
+SCHEMEOPTIONS_H_SUDDENDEATH_CLASSIC
+                              "У кожного черв'яка лишиться по 1 здоров'я. (Класичний режим)"
+SCHEMEOPTIONS_H_SUDDENDEATH_NOLOSS
+                              "Після завершення часу раунду не буде втрачено здоров'я."
 
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_AUTO          "This turns automatic replays on or off."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_FALLDAMAGE    "Turn fall damage on or off."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_DISPTIME      "Toggle the round-time remaining display."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_TXT_DELAY       "Delay"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_TXT_RETREAT     "Land retreat"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_TXT_ROPERETREAT "Rope retreat"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_DELAY         "The delay between players taking control in a hot-seat game."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_RETREAT
-#TODO 	"Adjust the time you have to retreat after using a weapon.\n"
-#TODO 	"Hold Shift for fine tuning."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_ROPERETREAT
-#TODO 	"Adjust the time you have to retreat after dropping from a rope.\n"
-#TODO 	"Hold Shift for fine tuning."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_DUDS          "Turn dud mines on or off."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_OBJECTS_COMBO "Select which type of objects you would like on the terrain."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_MINEFUSE      "The time that the fuse lasts on a mine."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_OBJECTS_DATA  "There will be no objects on the terrain."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_OBJECTS_DATA1
-#TODO 	"There will be up to 8 mines on the terrain.\n"
-#TODO 	"Hold Shift to change the amount."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_OBJECTS_DATA2
-#TODO 	"There will be up to 8 Oil-Drums on the terrain.\n"
-#TODO 	"Hold Shift to change the amount."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_OBJECTS_DATA5
-#TODO 	"There will be up to 8 objects on the terrain.\n"
-#TODO 	"Hold Shift to change the amount."
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_SUDDENDEATH_CLASSIC
-#TODO                               "Every Worm's energy will be reduced to 1 point. (Classic mode)"
-#TODO #: Untranslated string
-#TODO SCHEMEOPTIONS_H_SUDDENDEATH_NOLOSS
-#TODO                               "No energy will be lost when the round time expires."
+# Scheme weapons screen
 
-#TODO #: Untranslated string
-#TODO # Scheme weapons screen
+SCHEMEWEAPONS_H_AMMO          "Кількість набоїв на початку гри."
+SCHEMEWEAPONS_AMMO            "Набої"
+SCHEMEWEAPONS_H_DAMAGE        "Налаштування потужності зброї."
+SCHEMEWEAPONS_DAMAGE          "Потужність"
+SCHEMEWEAPONS_H_DELAY         "Хід, на якому зброя стане доступною."
+SCHEMEWEAPONS_DELAY           "Затримка"
+SCHEMEWEAPONS_H_CRATE         "Шанс на випадіння цієї зброї у ящиках."
+SCHEMEWEAPONS_CRATES          "Ящики"
+SCHEMEWEAPONS_H_ALLOWSUPER    "Увімкнути або вимкнути суперзброю."
+SCHEMEWEAPONS_ALLOWSUPER_ON   "Зуперзброю увімкнено."
+SCHEMEWEAPONS_ALLOWSUPER_OFF  "Суперзброю вимкнено"
+SCHEMEWEAPONS_H_ALLOWSPECIAL  "Якщо увімкнено, у команд буде особлива зброя на початку."
+SCHEMEWEAPONS_ALLOWSPECIAL_ON "Особливу зброю команди увімкнено."
+SCHEMEWEAPONS_H_SLIDER_AMMO   "Налаштувати кількість набоїв цієї зброї на початку гри."
+SCHEMEWEAPONS_H_SLIDER_POWER  "Налаштувати потужність цієї зброї."
+SCHEMEWEAPONS_H_SLIDER_DELAY  "Налаштувати хід, на якому ця зброя стане доступною."
+SCHEMEWEAPONS_H_SLIDER_CRATE  "Налаштувати шанс на випадіння цієї зброї у ящику."
+SCHEMEWEAPONS_H_JETPACK_FUEL
+	"Налаштувати кількість пального у реативному ранцю; утримуйте Shift для точного налаштування.\n"
+	"Значення 0 означає нескінченне пальне."
+SCHEMEWEAPONS_ALLOWSPECIAL_OFF
+                              "Особливу зброю команди вимкнено."
 
-#TODO SCHEMEWEAPONS_H_AMMO          "How much ammo you will start the game with."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_AMMO            "Ammo"
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_DAMAGE        "The weapon power settings."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_DAMAGE          "Power"
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_DELAY         "Which turn the weapon will become available."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_DELAY           "Delay"
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_CRATE         "How likely you are to get these weapons in crates."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_CRATES          "Crates"
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_ALLOWSUPER    "Turn the super weapons on or off."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_ALLOWSUPER_ON   "Super weapons are allowed."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_ALLOWSUPER_OFF  "Super weapons are off"
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_ALLOWSPECIAL  "If set, the teams will start with their special weapon."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_ALLOWSPECIAL_ON "Team special weapons are on."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_SLIDER_AMMO   "Adjust the amount of ammo this weapon starts with."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_SLIDER_POWER  "Adjust the power setting of this weapon."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_SLIDER_DELAY  "Adjust which turn this weapon will become available."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_SLIDER_CRATE  "Adjust the chance of getting this weapon in a crate."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_H_JETPACK_FUEL
-#TODO 	"Adjust the amount of Jet Pack fuel; hold Shift for fine tuning.\n"
-#TODO 	"A setting of 0 represents infinite fuel."
-#TODO #: Untranslated string
-#TODO SCHEMEWEAPONS_ALLOWSPECIAL_OFF
-#TODO                               "Team special weapons are off."
+# Cheats
 
-#TODO #: Untranslated string
-#TODO # Cheats
+CH_TITLE                      "Хитрощі"
+CH_SHEEPHEAVEN                "Коробка з хутром."
+CH_REDBLOOD                   "Фарбування стін."
+CH_GODMODE                    "Невразливість."
+CH_AQUASHEEP                  "Вдосконалення вівці"
+CH_FREEDOM                    "Режим свободи."
+CH_INDESTRUCTIBLELAND         "Твердий як камінь!"
+CH_GRENADE_UPGRADE            "Сила ананасу."
+CH_SHOTGUN_UPGRADE            "Потужна рушниця."
+CH_BANANA_UPGRADE             "Добрий фрукт."
+CH_BOW_UPGRADE                "Робін Гуд."
+CH_H_SHEEPHEAVEN              "В усіх ящиках будуть наші пухнасті друзі."
+CH_H_REDBLOOD                 "Черв'яки стікатимуть кров'ю при попаданні в них."
+CH_H_GODMODE                  "Черв'яки невразливі; їх можна лишень втопити."
+CH_H_AQUASHEEP                "Перетворює вашу супервівцю на ВОДЯНУ ВІВЦЮ, яка може плавати і літати."
+CH_H_INDESTRUCTIBLELAND       "Вмикає незнищенний ландшафт. Увага: обережніше з обраною для гри мапою!"
+CH_H_GRENADE_UPGRADE          "Збільшує потенційну потужність гранат."
+CH_H_SHOTGUN_UPGRADE          "Покращує потужність рушниці."
+CH_H_BANANA_UPGRADE           "Перетворює усі банано-бомби на супербанано-бомби."
+CH_H_BOW_UPGRADE              "Покращує потоужність довгого лука."
 
-#TODO CH_TITLE                      "Cheats"
-#TODO #: Untranslated string
-#TODO CH_SHEEPHEAVEN                "Box of fluff."
-#TODO #: Untranslated string
-#TODO CH_REDBLOOD                   "Splat Attack."
-#TODO #: Untranslated string
-#TODO CH_GODMODE                    "Invincibility."
-#TODO #: Untranslated string
-#TODO CH_AQUASHEEP                  "Sheep Upgrade"
-#TODO #: Untranslated string
-#TODO CH_FREEDOM                    "Freedom Mode."
-#TODO #: Untranslated string
-#TODO CH_INDESTRUCTIBLELAND         "Rock Solid!"
-#TODO #: Untranslated string
-#TODO CH_GRENADE_UPGRADE            "Pineapple Power."
-#TODO #: Untranslated string
-#TODO CH_SHOTGUN_UPGRADE            "12Bore Shotgun."
-#TODO #: Untranslated string
-#TODO CH_BANANA_UPGRADE             "The kindly grocer."
-#TODO #: Untranslated string
-#TODO CH_BOW_UPGRADE                "Robin Hood."
-#TODO #: Untranslated string
-#TODO CH_H_SHEEPHEAVEN              "Causes all crates to contain our fluffy friends."
-#TODO #: Untranslated string
-#TODO CH_H_REDBLOOD                 "Makes the Worms bleed when shot."
-#TODO #: Untranslated string
-#TODO CH_H_GODMODE                  "The Worms are invincible except for drowning in the water."
-#TODO #: Untranslated string
-#TODO CH_H_AQUASHEEP                "Upgrades any of your Super Sheep into AQUA SHEEP, which can swim as well as fly."
-#TODO #: Untranslated string
-#TODO CH_H_INDESTRUCTIBLELAND       "Enables indestructible land. Note: Be careful which terrain you elect to play on!"
-#TODO #: Untranslated string
-#TODO CH_H_GRENADE_UPGRADE          "Increases the potential power of grenades."
-#TODO #: Untranslated string
-#TODO CH_H_SHOTGUN_UPGRADE          "Increases the performance of the shotgun."
-#TODO #: Untranslated string
-#TODO CH_H_BANANA_UPGRADE           "Upgrades any banana bombs to Super Banana Bombs."
-#TODO #: Untranslated string
-#TODO CH_H_BOW_UPGRADE              "Improves performance of the Longbow."
+# Network screens
 
-#TODO #: Untranslated string
-#TODO # Network screens
+NETWORK_H_PLAYERS             "Гравці у цій грі."
+NETWORK_H_TEAMS               "Команди у цій грі."
+NETWORK_NEXT_ROUND            "Продовжити..."
+NETWORK_H_NEXT_ROUND          "Продовжити гру."
+NETWORK_H_READY               "Підтвердьте свою готовність до продовдення."
+NETWORK_READY                 "Готовий"
+NETWORK_QUIT                  "Вийти"
+NETWORK_H_EXIT                "Вийти з цієї гри."
+NETWORK_H_KICKPLAYER          "Вилучити гравця з гри."
+NETWORK_H_MESSAGEBOX          "Повідомлення від інших гравців у грі."
+NETWORK_H_MESSAGEENTRY        "Вводьте повідомлення до інших гравців тут."
+NETWORK_LEADING               "\1 наразі лідирує."
 
-#TODO NETWORK_H_PLAYERS             "The players in the current game."
-#TODO #: Untranslated string
-#TODO NETWORK_H_TEAMS               "The teams in the current game."
-#TODO #: Untranslated string
-#TODO NETWORK_NEXT_ROUND            "Continue..."
-#TODO #: Untranslated string
-#TODO NETWORK_H_NEXT_ROUND          "Continue the game."
-#TODO #: Untranslated string
-#TODO NETWORK_H_READY               "Confirm that you are ready to continue."
-#TODO #: Untranslated string
-#TODO NETWORK_READY                 "Ready"
-#TODO #: Untranslated string
-#TODO NETWORK_QUIT                  "Quit"
-#TODO #: Untranslated string
-#TODO NETWORK_H_EXIT                "Quit the current game."
-#TODO #: Untranslated string
-#TODO NETWORK_H_KICKPLAYER          "Remove a player from the game."
-#TODO #: Untranslated string
-#TODO NETWORK_H_MESSAGEBOX          "Messages from other players in the game."
-#TODO #: Untranslated string
-#TODO NETWORK_H_MESSAGEENTRY        "Type messages to the other players here."
-#TODO #: Untranslated string
-#TODO NETWORK_LEADING               "\1 is currently leading."
+NETWORKEND_PLAYAGAIN          "Грати знову"
+NETWORKEND_H_PLAYAGAIN        "Зіграти ще одну гру з тими ж гравцями."
+NETWORKEND_QUIT               "Вихід"
+NETWORKEND_H_QUIT             "Покинути гру."
 
-#TODO #: Untranslated string
-#TODO NETWORKEND_PLAYAGAIN          "Play again"
-#TODO #: Untranslated string
-#TODO NETWORKEND_H_PLAYAGAIN        "Have another game with the same players."
-#TODO #: Untranslated string
-#TODO NETWORKEND_QUIT               "Exit"
-#TODO #: Untranslated string
-#TODO NETWORKEND_H_QUIT             "Exit the game."
+# Single Player screen
 
-#TODO #: Untranslated string
-#TODO # Single Player screen
+SINGLE_QUICKCPU               "Швидка гра"
+SINGLE_MISSION                "Місії"
+SINGLE_TARGET                 "Тренування"
+SINGLE_H_QUICKCPU             "Грати швидку гру проти комп'ютера."
+SINGLE_H_MISSION              "Спробувати місію."
+SINGLE_H_TARGET               "Пройти тренування."
+SINGLE_H_BACK                 "Повернутися до головного меню."
 
-#TODO SINGLE_QUICKCPU               "Quickstart"
-#TODO #: Untranslated string
-#TODO SINGLE_MISSION                "Missions"
-#TODO #: Untranslated string
-#TODO SINGLE_TARGET                 "Target practice"
-#TODO #: Untranslated string
-#TODO SINGLE_H_QUICKCPU             "Play a quick game against the computer."
-#TODO #: Untranslated string
-#TODO SINGLE_H_MISSION              "Attempt a mission."
-#TODO #: Untranslated string
-#TODO SINGLE_H_TARGET               "Training disciplines."
-#TODO #: Untranslated string
-#TODO SINGLE_H_BACK                 "Return to the main menu."
+SINGLE_DEATHMATCH             "Бій на смерть"
+SINGLE_H_DEATHMATCH           "Грати бій на смерть."
 
-#TODO #: Untranslated string
-#TODO SINGLE_DEATHMATCH             "Deathmatch"
-#TODO #: Untranslated string
-#TODO SINGLE_H_DEATHMATCH           "Play a deathmatch game."
+# Deathmatch screen
 
-#TODO #: Untranslated string
-#TODO # Deathmatch screen
+DEATHMATCH_BOX_DETAILS        "Деталі бою на смерть"
+DEATHMATCH_H_QUICKGAME_DETAILS
+                              "Показує ваш ранг."
+DEATHMATCH_H_NEWTEAM          "Натисніть, аби створити нову команду."
+DEATHMATCH_START              "Почати"
+DEATHMATCH_H_START            "Почати гру."
+DEATHMATCH_H_WORMS            "Кількість черв'яків у цій команді."
 
-#TODO DEATHMATCH_BOX_DETAILS        "Deathmatch details"
-#TODO #: Untranslated string
-#TODO DEATHMATCH_H_QUICKGAME_DETAILS
-#TODO                               "Displays your rank."
-#TODO #: Untranslated string
-#TODO DEATHMATCH_H_NEWTEAM          "Click to create a new team."
-#TODO #: Untranslated string
-#TODO DEATHMATCH_START              "Start"
-#TODO #: Untranslated string
-#TODO DEATHMATCH_H_START            "Start the game."
-#TODO #: Untranslated string
-#TODO DEATHMATCH_H_WORMS            "The number of Worms in this team."
+QUICKDETAILS_1                "Випробуйте свої сили проти ШІ, який сильнішає з кожним боєм на смерть!"
+QUICKDETAILS_2
+	"Ця команда зіграла \1 боїв на смерть, з яких виграла \2 і програла \3.\n"
+	"Команда убила \4 черв'яків, але \5 черв'яків з цієї команди загинули самі."
+QUICKDETAILS_3                "Наразі ранг цієї команди у боях на смерть - \1."
 
-#TODO #: Untranslated string
-#TODO QUICKDETAILS_1                "Take on the CPU in increasingly tougher Deathmatch battles!"
-#TODO #: Untranslated string
-#TODO QUICKDETAILS_2
-#TODO 	"This team has played \1 Deathmatch games, winning \2 and losing \3.\n"
-#TODO 	"The team has slaughtered \4 Worms and \5 of this team's Worms have been put to the sword."
-#TODO #: Untranslated string
-#TODO QUICKDETAILS_3                "The current Deathmatch ranking for this team is \1."
+TEAMRANK_0                    "Абсолютний початківець"
+TEAMRANK_1                    "Початківець"
+TEAMRANK_2                    "Недосвідчений"
+TEAMRANK_3                    "Новачок"
+TEAMRANK_4                    "Учень"
+TEAMRANK_5                    "Нижче середнього"
+TEAMRANK_6                    "Середній"
+TEAMRANK_7                    "Прийнятний"
+TEAMRANK_8                    "Вище середнього"
+TEAMRANK_9                    "Некомпетентний"
+TEAMRANK_10                   "Компетентний"
+TEAMRANK_11                   "Дуже компетентний"
+TEAMRANK_12                   "Ветеран"
+TEAMRANK_13                   "Визначний"
+TEAMRANK_14                   "Високошанований"
+TEAMRANK_15                   "Генерал"
+TEAMRANK_16                   "Майор"
+TEAMRANK_17                   "Фельдмаршал"
+TEAMRANK_18                   "Герой"
+TEAMRANK_19                   "Суперзірка"
+TEAMRANK_20                   "Еліта"
 
-#TODO #: Untranslated string
-#TODO TEAMRANK_0                    "Absolute beginner"
-#TODO #: Untranslated string
-#TODO TEAMRANK_1                    "Beginner"
-#TODO #: Untranslated string
-#TODO TEAMRANK_2                    "Inexperienced"
-#TODO #: Untranslated string
-#TODO TEAMRANK_3                    "Rookie"
-#TODO #: Untranslated string
-#TODO TEAMRANK_4                    "Novice"
-#TODO #: Untranslated string
-#TODO TEAMRANK_5                    "Below average"
-#TODO #: Untranslated string
-#TODO TEAMRANK_6                    "Average"
-#TODO #: Untranslated string
-#TODO TEAMRANK_7                    "Reasonable"
-#TODO #: Untranslated string
-#TODO TEAMRANK_8                    "Above average"
-#TODO #: Untranslated string
-#TODO TEAMRANK_9                    "Fairly competent"
-#TODO #: Untranslated string
-#TODO TEAMRANK_10                   "Competent"
-#TODO #: Untranslated string
-#TODO TEAMRANK_11                   "Highly competent"
-#TODO #: Untranslated string
-#TODO TEAMRANK_12                   "Veteran"
-#TODO #: Untranslated string
-#TODO TEAMRANK_13                   "Distinguished"
-#TODO #: Untranslated string
-#TODO TEAMRANK_14                   "Highly distinguished"
-#TODO #: Untranslated string
-#TODO TEAMRANK_15                   "General"
-#TODO #: Untranslated string
-#TODO TEAMRANK_16                   "Major"
-#TODO #: Untranslated string
-#TODO TEAMRANK_17                   "Field Marshall"
-#TODO #: Untranslated string
-#TODO TEAMRANK_18                   "Hero"
-#TODO #: Untranslated string
-#TODO TEAMRANK_19                   "Superstar"
-#TODO #: Untranslated string
-#TODO TEAMRANK_20                   "Elite"
+QCL_TITLE                     "Не пощастило"
+QCL_MESSAGE                   "Не пощастило, вас відлупцювали... спробуйте знову!"
+QC_MEDAL                      "за ваші старання вас нагородили медаллю \1."
 
-#TODO #: Untranslated string
-#TODO QCL_TITLE                     "Hard Luck"
-#TODO #: Untranslated string
-#TODO QCL_MESSAGE                   "Bad luck, you were beaten... try again!"
-#TODO #: Untranslated string
-#TODO QC_MEDAL                      "For your exploits, you have been awarded the \1 medal."
+QCW_TITLE                     "Вітання!"
+QCW_MESSAGE                   "Вітаємо завойовника світу!"
+QC_RANK                       "Ваш ранг - \1."
 
-#TODO #: Untranslated string
-#TODO QCW_TITLE                     "Congratulations!"
-#TODO #: Untranslated string
-#TODO QCW_MESSAGE                   "Congratulations, to the victor the spoils!"
-#TODO #: Untranslated string
-#TODO QC_RANK                       "Your rank is \1."
+# Match end screen
 
-#TODO #: Untranslated string
-#TODO # Match end screen
-
-#TODO MATCHEND_H_BACK               "Return to the main menu."
-#TODO #: Untranslated string
-#TODO MATCHEND_BOX_WINNER           "The winner"
-#TODO #: Untranslated string
-#TODO MATCHEND_BOX_RESULTS          "Awards"
-#TODO #: Untranslated string
-#TODO MATCHEND_BOX_DETAILS          "Details"
-#TODO #: Untranslated string
-#TODO MATCHEND_RESTART              "Play again"
-#TODO #: Untranslated string
-#TODO MATCHEND_H_RESTART            "Play another match with the same teams."
-#TODO #: Untranslated string
-#TODO MATCHEND_H_RESULTS            "These are the awards that have been given."
-#TODO #: Untranslated string
-#TODO MATCHEND_H_DETAILS            "Details of the game."
-#TODO #: Untranslated string
-#TODO MATCHEND_H_WINNER             "The winner of the game."
+MATCHEND_H_BACK               "Повернутися до головного меню."
+MATCHEND_BOX_WINNER           "Переможець"
+MATCHEND_BOX_RESULTS          "Нагороди"
+MATCHEND_BOX_DETAILS          "Деталі"
+MATCHEND_RESTART              "Грати знову"
+MATCHEND_H_RESTART            "Грати ще одну гру з тими ж командами."
+MATCHEND_H_RESULTS            "Це нагороди, які видали."
+MATCHEND_H_DETAILS            "Деталі гри."
+MATCHEND_H_WINNER             "Переможець гри."
 
 #TODO #: Untranslated string
 #TODO # Map editor
