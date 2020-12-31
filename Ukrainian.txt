@@ -3647,344 +3647,200 @@ GAME_WORM_SICKNESS_COMMENTS
 #TODO #: New string
 #TODO # Extended (v3) scheme options.
 
-#TODO OPTEXT_BOX_OPTEXT                            "Extended Game Options"
+ OPTEXT_BOX_OPTEXT                            "Розширені налаштування гри"
 
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RESET_EDIT                       "Reset this field to its default value."
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RESET_VIEW                       "Indicates that this field has been changed from its default value."
+OPTEXT_HELP_RESET_EDIT                       "Скинути це поле до стандартного значення."
+OPTEXT_HELP_RESET_VIEW                       "Показує, що це поле було змінене."
 
-#TODO #: Untranslated string
-#TODO OPTEXT_CONSTANT_WIND                         "Constant Wind"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_CONSTANT_WIND                        "If enabled, \"Wind\" specifies the exact value wind shall have on every turn. Otherwise, \"Wind\" sets the maximum strength of randomized wind (and a negative value inverts the wind bias)."
-#TODO #: Untranslated string
-#TODO OPTEXT_WIND_VALUE                            "Wind"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_WIND_VALUE                           "Percentage value indicating wind strength. Values outside -117..117 will extend invisibly beyond the edge of the wind indicator. \"Constant Wind\" controls the meaning of this field."
-#TODO #: Untranslated string
-#TODO OPTEXT_WIND_BIAS                             "Wind Bias"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_WIND_BIAS                            "For randomized wind, the higher this value, the stronger the bias will be for a worm towards the right side of the map to get leftwards wind on average (and vice versa)."
-#TODO #: Untranslated string
-#TODO OPTEXT_GRAVITY                               "Gravity"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_GRAVITY                              "Acceleration due to gravity, in pixels per frame per frame."
-#TODO #: Untranslated string
-#TODO OPTEXT_TERRAIN_FRICTION                      "Terrain Friction"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_TERRAIN_FRICTION                     "Proportion of velocity retained during certain collisions with terrain. 0 = Instant stop; 1 = No friction."
-#TODO #: Untranslated string
-#TODO OPTEXT_ROPE_PUSHES_WORM                      "Rope Knocking"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_ROPE_PUSHES_WORM                     "Strength of rope knocking in %, or 255 to use the channel\_/ offline setting value."
-#TODO #: Untranslated string
-#TODO OPTEXT_PHASED_WORM_FRIENDS                   "Phased Worms (Allied)\n"
-#TODO                                              "Off\n"
-#TODO                                              "Worms\n"
-#TODO                                              "Worms+Weapons\n"
-#TODO                                              "Worms+Weapons+Damage"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_PHASED_WORM_FRIENDS                  "Controls to what extent allied worms move through and cannot affect each other: Worms = worms move through allied worms, Weapons = weapon objects move through allied worms, Damage = allies won't receive damage"
-#TODO #: Untranslated string
-#TODO OPTEXT_PHASED_WORM_ENEMIES                   "Phased Worms (Enemy)\n"
-#TODO                                              "Off\n"
-#TODO                                              "Worms\n"
-#TODO                                              "Worms+Weapons\n"
-#TODO                                              "Worms+Weapons+Damage"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_PHASED_WORM_ENEMIES                  "Controls to what extent non-allied worms move through and cannot affect each other: Worms = worms move through enemy worms, Weapons = weapon objects move through enemy worms, Damage = enemies won't receive damage"
-#TODO #: Untranslated string
-#TODO OPTEXT_EXPLOSIONS_PUSH_ALL_OBJECTS           "Explosions push all objects"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_EXPLOSIONS_PUSH_ALL_OBJECTS          "Normally, explosions affect only certain objects but not others (e.g. one exploding Mad Cow will not push other Cows). Enabling this setting causes explosions to affect all objects."
-#TODO #: Untranslated string
-#TODO OPTEXT_PNEUMATIC_DRILL_MODIFICATION          "Pneumatic Drill imparts velocity"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_PNEUMATIC_DRILL_MODIFICATION         "Normally, the velocity of a worm using the Drill has no effect on worms hit by it. This setting causes horizontal velocity to be added to worms hit by the Drill, scaled to how fast it's moving."
-#TODO #: Untranslated string
-#TODO OPTEXT_PETROL_TURN_DECAY                     "Petrol Turn Decay"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_PETROL_TURN_DECAY                    "The rate per turn at which persistent flame from a Petrol Bomb shrinks and eventually disappears. A larger number will make petrol last a shorter number of turns. 0.99998\_=\_1\_turn."
-#TODO #: Untranslated string
-#TODO OPTEXT_PETROL_TOUCH_DECAY                    "Petrol Touch Decay"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_PETROL_TOUCH_DECAY                   "The rate at which persistent flame from a Petrol Bomb shrinks and eventually disappears every time a worm touches it (damaging that worm). A larger number tends to result in it doing less total damage."
-#TODO #: Untranslated string
-#TODO OPTEXT_MAX_INGAME_FIRES                      "Maximum flamelet count"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_MAX_INGAME_FIRES                     "The maximum number of individual fire objects (from Petrol, Napalm, or certain explosions) that can exist at once. Once this limit is reached, creation of new flamelets will erase older flamelets."
-#TODO #: Untranslated string
-#TODO OPTEXT_MAX_SPEED                             "Maximum projectile speed"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_MAX_SPEED                            "The maximum horizontal and vertical velocity at which an object following projectile physics can move, in pixels per frame. A value of zero disables the limit."
-#TODO #: Untranslated string
-#TODO OPTEXT_MAX_ROPE_SPEED                        "Maximum rope speed"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_MAX_ROPE_SPEED                       "The maximum speed at which a worm with a Ninja Rope or Bungee attached can move, in pixels per frame. A value of zero disables the limit."
-#TODO #: Untranslated string
-#TODO OPTEXT_MAX_JETPACK_SPEED                     "Maximum Jet Pack speed"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_MAX_JETPACK_SPEED                    "The maximum horizontal and vertical velocity at which a worm using the Jet Pack can move, in pixels per frame. A value of zero disables the limit."
+OPTEXT_CONSTANT_WIND                         "Постійний вітер"
+OPTEXT_HELP_CONSTANT_WIND                        "Коли увімкнено, \"Вітер\" визначає точне значення сили, з якою буде дути вітер кожного ходу. В іншому разі \"Вітер\" ставить максимальну силу випадкового вітру (негативне значення міняє зміщення вітру)."
+OPTEXT_WIND_VALUE                            "Вітер"
+OPTEXT_HELP_WIND_VALUE                           "Значення у відсотках, яке визначає силу вітру. Значення поза відрізком -117..117 не будуть впливати на індикатор вітру, але все одно мінятимуть силу. \"Постійнмй вітер\" керує значенням цього поля."
+OPTEXT_WIND_BIAS                             "Напрям вітру"
+OPTEXT_HELP_WIND_BIAS                            "Для випадкового вітру, чим вище це значення, тим сильніше буде зміщення в сторону до черв'яка на правому краю мапи отримати вітер в ліву сторону (і навпаки)."
+OPTEXT_GRAVITY                               "Гравітація"
+OPTEXT_HELP_GRAVITY                              "Гравітаційне прискорення, у пікселях на кадр."
+OPTEXT_TERRAIN_FRICTION                      "Сила тертя"
+OPTEXT_HELP_TERRAIN_FRICTION                     "Пропорція зменшення швидкості під час деяких зіткнень із ландшафтом. 0 = миттєва зупинка; 1 = відсутність тертя."
+OPTEXT_ROPE_PUSHES_WORM                      "Штовхання з мотузки"
+OPTEXT_HELP_ROPE_PUSHES_WORM                     "Сила штовхання з мотузки у %, використайте 255 для значення каналу\_/офлайну."
+OPTEXT_PHASED_WORM_FRIENDS                   "Нематеріальні черв'яки (соратники)\n"
+                                             "Вимк\n"
+                                             "Черв'яки\n"
+                                             "Черв'яки+зброя\n"
+                                             "Черв'яки+зброя+шкода"
+OPTEXT_HELP_PHASED_WORM_FRIENDS                  "Керує степенем проходимості союзних черв'яків: черв'яки - черв'яки можуть проходити крізь своїх соратників, зброя - снаряди можуть проходити крізь черв'яків-соратників, шкода - соратники не отримуватимуть шкоди"
+OPTEXT_PHASED_WORM_ENEMIES                   "Нематеріальні черв'яки (ворог)\n"
+                                             "Вимк\n"
+                                             "Черв'яки\n"
+                                             "Черв'яки+зброя\n"
+                                             "Черв'яки+зброя+шкода"
+OPTEXT_HELP_PHASED_WORM_ENEMIES                  "Керує степенем проходимості ворожих черв'яків: черв'яки - черв'яки можуть проходити крізь ворогів, зброя - снаряди можуть проходити крізь ворожих черв'яків, шкода - вороги не отримуватимуть шкоди"
+OPTEXT_EXPLOSIONS_PUSH_ALL_OBJECTS           "Вибухи штовхають усі об'єкти"
+OPTEXT_HELP_EXPLOSIONS_PUSH_ALL_OBJECTS          "Зазвичай вибухи відштовхують лишень деякі об'єкти (наприклад, скажена корова своїм вибухом не відштовхне інших корів). Коли цей параметр увімкнено, вибухи впливають на усі об'єкти."
+OPTEXT_PNEUMATIC_DRILL_MODIFICATION          "Пневмодриль надає прискорення"
+OPTEXT_HELP_PNEUMATIC_DRILL_MODIFICATION         "Зазвичай прискорення черв'яка, що використовує пневмодриль не поширюється на черв'яків, яких він вдаряє ним. Цей параметр додає черв'якам горизонтальне прискорення від ударів пневмодрилем, яке залежить від швидкості польоту."
+OPTEXT_PETROL_TURN_DECAY                     "Згасання вогню з ходом"
+OPTEXT_HELP_PETROL_TURN_DECAY                    "Швидкість згасання полум'я від коктейлю Молотова. Чим вище це значення, тим менше ходів займе повне згасання вогню. 0.99998\_=\_1\_хід."
+OPTEXT_PETROL_TOUCH_DECAY                    "Згасання вогню з дотиком"
+OPTEXT_HELP_PETROL_TOUCH_DECAY                   "Швидкість, з якою згасає полум'я, коли його торкається черв'як (отримуючи шкоду від вогню). Чим вище це значення, тим менше шкоди загалом зможе завдати полум'я."
+OPTEXT_MAX_INGAME_FIRES                      "Максимальна кількість язиків полум'я"
+OPTEXT_HELP_MAX_INGAME_FIRES                     "Максимальна кількість різних вогняних об'єктів (від коктейлю Молотова, напалму та деяких вибухів), які можуть існувати водночас. Коли досягнуто цього ліміту, старі язики полум'я зникатимуть при створенні нових."
+OPTEXT_MAX_SPEED                             "Максимальна швидкість снарядів"
+OPTEXT_HELP_MAX_SPEED                            "Максимальна горизонтальна й вертикальна швидкість в пікселях на кадр, з якою може рухатись об'єкт. Нульове значення знімає обмеження."
+OPTEXT_MAX_ROPE_SPEED                        "Максимальна швидкість мотузки"
+OPTEXT_HELP_MAX_ROPE_SPEED                       "Максимальна швидкість в пікселях на кадр, з якою може рухатися черв'як на мотузці ніндзя чи банджі. Нульове значення знімає обмеження."
+OPTEXT_MAX_JETPACK_SPEED                     "Максимальна швидкість реактивного ранця"
+OPTEXT_HELP_MAX_JETPACK_SPEED                    "Максимальна горизонтальна й вертикальна швидкість в пікселях на кадр, з якою може рухатись черв'як на реактивному ранці. Нульове значення знімає обмеження."
 
-#TODO #: Untranslated string
-#TODO OPTEXT_UNRESTRICT_ROPE                       "Unrestrict Rope"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_UNRESTRICT_ROPE                      "Allows firing the rope 54 degrees below the horizon, and reduces rope friction/drag."
-#TODO #: Untranslated string
-#TODO OPTEXT_MAX_CRATE_DROPS                       "Maximum crate count on map at once"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_MAX_CRATE_DROPS                      "The game will not spawn crates when doing so would exceed this limit."
-#TODO #: Untranslated string
-#TODO OPTEXT_SUDDEN_DEATH_DISABLES_SELECT          "Sudden Death disables Worm Select"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_SUDDEN_DEATH_DISABLES_SELECT         "Normally, Worm Select is unavailable after Sudden Death, but you can disable that behaviour here."
-#TODO #: Untranslated string
-#TODO OPTEXT_SUDDEN_DEATH_WORM_DAMAGE              "Sudden Death worm damage per turn"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_SUDDEN_DEATH_WORM_DAMAGE             "How many health points Worms lose during each turn of Sudden Death."
-#TODO #: Untranslated string
-#TODO OPTEXT_BATTY_ROPE                            "Batty Rope"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_BATTY_ROPE                           "After the end of their turns, worms with a Ninja Rope attached will remain attached, those using Bungee will stay on it, and those using Jet Pack will keep it equipped."
-#TODO #: Untranslated string
-#TODO OPTEXT_ROPE_ROLL_DROPS                       "Rope-roll drops\n"
-#TODO                                              "Disabled\n"
-#TODO                                              "As from rope only\n"
-#TODO                                              "As from rope or jump"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_ROPE_ROLL_DROPS                      "Whether dropping weapons (using the Enter key) during a rope roll (in-between Ninja Rope swings or after Bungee detachment) is allowed. The third setting also allows using weapons usable during jumps."
-#TODO #: Untranslated string
-#TODO OPTEXT_X_IMPACT_EFFECT                       "X-Impact loss of control"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_X_IMPACT_EFFECT                      "Whether a horizontal collision (skid or wall hit) at a high horizontal velocity causes loss of control."
-#TODO #: Untranslated string
-#TODO OPTEXT_KEEP_CONTROL_AFTER_BUMPING_HEAD       "Keep control after bumping head"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_KEEP_CONTROL_AFTER_BUMPING_HEAD      "Whether control is retained after an upwards vertical collision with terrain during Ninja Rope or Bungee use."
-#TODO #: Untranslated string
-#TODO OPTEXT_KEEP_CONTROL_AFTER_SKIMMING           "Keep control after skimming\n"
-#TODO                                              "Lose control\n"
-#TODO                                              "Keep control\n"
-#TODO                                              "Keep control and rope"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_KEEP_CONTROL_AFTER_SKIMMING          "Whether control is retained after a skim (collision with water at a high horizontal velocity) during Ninja Rope or Bungee use."
-#TODO #: Untranslated string
-#TODO OPTEXT_FALL_DAMAGE_AFTER_EXPLOSIONS          "Fall damage is triggered by explosions"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_FALL_DAMAGE_AFTER_EXPLOSIONS         "Normally, Worms thrown by explosions do not experience fall damage. This setting enables fall damage (in addition to whatever damage caused by the explosion itself)."
-#TODO #: Untranslated string
-#TODO OPTEXT_UNDETERMINED_CRATES                   "Undetermined Crates"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_UNDETERMINED_CRATES                  "Determines the contents of weapon and utility crates at the moment when the crate is picked up (or a player activates Crate Spy), instead of when the crate is created."
-#TODO #: Untranslated string
-#TODO OPTEXT_UNDETERMINED_FUSES                    "Undetermined Fuses"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_UNDETERMINED_FUSES                   "Determines the fuse of mines (when random mine fuses are enabled) at the moment when the mine is triggered, instead of when the mine is created."
-#TODO #: Untranslated string
-#TODO OPTEXT_PAUSE_TIMER_WHILE_FIRING              "Pause timer while firing"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_PAUSE_TIMER_WHILE_FIRING             "Whether the timer is paused while a Worm is firing their weapon."
-#TODO #: Untranslated string
-#TODO OPTEXT_LOSS_OF_CONTROL_DOESNT_END_TURN       "Loss of control doesn't end turn"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_LOSS_OF_CONTROL_DOESNT_END_TURN      "When enabled, events that cause loss of control will still have that effect, but control will eventually be regained without ending the current turn."
-#TODO #: Untranslated string
-#TODO OPTEXT_WEAPONS_DONT_END_TURN                 "Weapon use doesn't end turn"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_WEAPONS_DONT_END_TURN                "Allows weapons to be used multiple times in a single turn."
-#TODO #: Untranslated string
-#TODO OPTEXT_WEAPONS_DONT_END_TURN_ALL_WEAPONS     "Enabling above option doesn't block any weapons"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_WEAPONS_DONT_END_TURN_ALL_WEAPONS    "Normally, enabling \"Weapon use doesn't end turn\" will disable the Earth Quake, Armageddon, and Indian Nuclear Test weapons from ever being possessed or used, but you can disable that behaviour here."
-#TODO #: Untranslated string
-#TODO OPTEXT_SPEED                                 "Game engine speed"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_SPEED                                "Changes the speed at which all game physics and sound effects occur."
+OPTEXT_UNRESTRICT_ROPE                       "Необмежена мотузка"
+OPTEXT_HELP_UNRESTRICT_ROPE                      "Дозволяє запускати мотузку під кутом 54 градуси нижче горизонту та зменшує тертя мотузки."
+OPTEXT_MAX_CRATE_DROPS                       "Максимальна кількість ящиків на карті"
+OPTEXT_HELP_MAX_CRATE_DROPS                      "Гра припинить створювати нові ящики, коли буде досягнути цього ліміту."
+OPTEXT_SUDDEN_DEATH_DISABLES_SELECT          "Раптова смерть унеможливлює вибір черв'яка"
+OPTEXT_HELP_SUDDEN_DEATH_DISABLES_SELECT         "Зазвичай вибір черв'яка недоступний під час раптової смерті, але цю особливість можна змінити тут."
+OPTEXT_SUDDEN_DEATH_WORM_DAMAGE              "Шкода черв'якам під час раптової смерті за хід"
+OPTEXT_HELP_SUDDEN_DEATH_WORM_DAMAGE             "Скільки здоров'я втрачатимуть черв'яки кожного ходу під час раптової смерті."
+OPTEXT_BATTY_ROPE                            "Мотузка-\"кажан\""
+OPTEXT_HELP_BATTY_ROPE                           "У кінці ходу черв'яки, які прикріплені до якоїсь поверхні мотузкою чи банджі висітимуть до свого наступного ходу, а ті, хто використовував реактивний ранець триматимуть його спорядженим."
+OPTEXT_ROPE_ROLL_DROPS                       "Скидання в польоті\n"
+                                             "Вимкнено\n"
+                                             "Лишень з мотузки\n"
+                                             "З мотузки й стрибка"
+OPTEXT_HELP_ROPE_ROLL_DROPS                      "Визначає чи можна скидати з допомогою клавіші Enter зброю в польоті (між розгойдуванням на мотузці чи при від'єднанні від банджі). Третій варіант також дозволяє скидати зброю в стрибку."
+OPTEXT_X_IMPACT_EFFECT                       "Втрата контролю при зіткненні по осі X"
+OPTEXT_HELP_X_IMPACT_EFFECT                      "Коли відбувається зіткнення по горизонталі (наприклад, об стіну) на високій швидкості, ви втрачаєте контроль."
+OPTEXT_KEEP_CONTROL_AFTER_BUMPING_HEAD       "Не втрачати контроль після удару в голову"
+OPTEXT_HELP_KEEP_CONTROL_AFTER_BUMPING_HEAD      "Визначає, чи втратиться контроль від вертикального зіткнення черв'яка з ландфаштом під час використання мотузки чи банджі."
+OPTEXT_KEEP_CONTROL_AFTER_SKIMMING           "Зберігання контролю після ковзання\n"
+                                             "Втрачати контроль\n"
+                                             "Зберігати контроль\n"
+                                             "Зберігати контроль і мотузку"
+OPTEXT_HELP_KEEP_CONTROL_AFTER_SKIMMING          "Визначає, чи втрачається контроль після ковзання (зіткнення з водою на високій горизонтальній швидкості) під час використання мотузки ніндзя чи банджі."
+OPTEXT_FALL_DAMAGE_AFTER_EXPLOSIONS          "Шкода від падіння, викликана вибухами"
+OPTEXT_HELP_FALL_DAMAGE_AFTER_EXPLOSIONS         "Зазвичай черв'яки, яких відкинуло вибухом не отримують шкоди від падіння. Цей параметр вмикає шкоду від падіння (на додачу до шкоди, завданої самим вибухом)."
+OPTEXT_UNDETERMINED_CRATES                   "Невизначені ящики"
+OPTEXT_HELP_UNDETERMINED_CRATES                  "Визначає вміст ящиків зі зброєю та утилітами тоді, коли ящик підбирають (чи гравець використовує шпигун ящиків), замість того, щоб визначати це, коли ящик створюється."
+OPTEXT_UNDETERMINED_FUSES                    "Невизначений запал"
+OPTEXT_HELP_UNDETERMINED_FUSES                   "Визначає запал мін (коли увімкнено випадковий запал) тоді, коли міна активується, замість того, щоб визначити це при її створенні."
+OPTEXT_PAUSE_TIMER_WHILE_FIRING              "Призупинення відліку при стрільбі"
+OPTEXT_HELP_PAUSE_TIMER_WHILE_FIRING             "Визначає, чи призупиняється відлік, коли черв'як стріляє зі зброї."
+OPTEXT_LOSS_OF_CONTROL_DOESNT_END_TURN       "Втрата контролю не завершує хід"
+OPTEXT_HELP_LOSS_OF_CONTROL_DOESNT_END_TURN      "Коли цей параметр увімкнено, черв'яки досі втрачатимуть контроль від певних чинників, але можна буде повернути контроль без завершення ходу."
+OPTEXT_WEAPONS_DONT_END_TURN                 "Використання зброї не завершує хід"
+OPTEXT_HELP_WEAPONS_DONT_END_TURN                "Дозволяє стріляти за один хід багато разів."
+OPTEXT_WEAPONS_DONT_END_TURN_ALL_WEAPONS     "Увімкнення верхнього параметру не блокує жодної зброї"
+OPTEXT_HELP_WEAPONS_DONT_END_TURN_ALL_WEAPONS    "Зазвичай увімкнення \"Використання зброї не завершує хід\" забороняє використання землетрусу, армагедону та індійського ядерного випробування, але цим параметром можна дозволити їхнє використання."
+OPTEXT_SPEED                                 "Швидкість рушія гри"
+OPTEXT_HELP_SPEED                                "Змінює швидкість, на якій працює фізика гри та звукові ефекти."
 
-#TODO #: Untranslated string
-#TODO OPTEXT_FRACTIONAL_ROUND_TIMER                "Fractional round timer"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_FRACTIONAL_ROUND_TIMER               "Causes the Sudden Death round timer to count down in fractions of a second, instead of only one whole second at a time. This allows Sudden Death to approach even when all players finish their turns in under 1 second."
-#TODO #: Untranslated string
-#TODO OPTEXT_AUTOMATIC_END_TURN_RETREAT            "Automatic end-of-turn retreat"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_AUTOMATIC_END_TURN_RETREAT           "When enabled, a retreat will be triggered when turn time expires. This is especially useful in \"Weapon use doesn't end turn\" mode, where retreats (and controlling weapons after turn end) aren't possible otherwise."
-#TODO #: Untranslated string
-#TODO OPTEXT_HEALTH_CRATES_CURE_POISON             "Health crates cure poison\n"
-#TODO                                              "Don't cure\n"
-#TODO                                              "Cure collecting worm\n"
-#TODO                                              "Cure all worms in team\n"
-#TODO                                              "Cure all allied worms"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_HEALTH_CRATES_CURE_POISON            "Determines which worm(s) are cured of poison when a health crate is collected."
-#TODO #: Untranslated string
-#TODO OPTEXT_SHEEP_HEAVEN_BITMASK                  "Sheep Heaven's gate\n"
-#TODO                                              "explode\n"
-#TODO                                              "fuse\n"
-#TODO                                              "explode + fuse\n"
-#TODO                                              "odds\n"
-#TODO                                              "explode + odds\n"
-#TODO                                              "fuse + odds\n"
-#TODO                                              "explode + fuse + odds"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_SHEEP_HEAVEN_BITMASK                  "Controls what Sheep Heaven enables: explode = All crates emit sheep upon exploding; fuse = Extend fuse time of Super/Aqua Sheep and Sheep Launcher; odds = Boost crate probability for sheep-themed weapons"
-#TODO #: Untranslated string
-#TODO OPTEXT_CONSERVE_INSTANT_UTILITIES            "Conserve instant utilities"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_CONSERVE_INSTANT_UTILITIES           "When enabled, causes instant utilities to be consumed one at a time instead of all at once, staying in teams' inventories for later automatic use."
-#TODO #: Untranslated string
-#TODO OPTEXT_EXPEDITE_INSTANT_UTILITIES            "Expedite instant utilities"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_EXPEDITE_INSTANT_UTILITIES           "Forces instant utilities collected in crates to be instantly consumed in circumstances (such as after the end of a turn) when they would otherwise be stored in the team's inventory for later activation."
-#TODO #: Untranslated string
-#TODO OPTEXT_DOUBLE_TIME_STACK_LIMIT               "Double Time stack limit"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_DOUBLE_TIME_STACK_LIMIT              "The number of times a Double Time instant utility can be activated in a single turn. A value of zero represents unlimited activations. Stacking occurs with multipliers 2×, 3/2×, 4/3×, 5/4×, etc."
+OPTEXT_FRACTIONAL_ROUND_TIMER                "Дробовий відлік раунду"
+OPTEXT_HELP_FRACTIONAL_ROUND_TIMER               "Змушує відлік до раптовох смерті рахувати час в долях секунди, а не в цілих секундах. Завдяки цьому раптова смерть настане навіть тоді, якщо усі гравці завершуватимуть свої ходи менш, ніж за 1 секунду."
+OPTEXT_AUTOMATIC_END_TURN_RETREAT            "Автоматичний відступ наприкінці ходу"
+OPTEXT_HELP_AUTOMATIC_END_TURN_RETREAT           "Коли цей параметр увімкнено, при закінченні часу ходу активується час на відступ. Це особливо корисно в поєднанні з режимом \"Використання зброї не завершує хід\", де відступ (та керування зброєю після кінця ходу) інакше неможливе."
+OPTEXT_HEALTH_CRATES_CURE_POISON             "Ящики зі здоров'ям зцілюють отруєння\n"
+                                             "Не зцілюють\n"
+                                             "Зцілюють черв'яка, який його підібрав\n"
+                                             "Зцілюють усіх черв'яків у команді\n"
+                                             "Зцілюються усіх союзних черв'яків"
+OPTEXT_HELP_HEALTH_CRATES_CURE_POISON            "Визначає, які черв'яки вилікуються від отруєння при підбирання ящика зі здоров'ям."
+OPTEXT_SHEEP_HEAVEN_BITMASK                  "Брами овечого раю\n"
+                                             "вибух\n"
+                                             "запал\n"
+                                             "вибух + запал\n"
+                                             "шанс\n"
+                                             "вибух + шанс\n"
+                                             "запал + шанс\n"
+                                             "вибух + запал + шанс"
+OPTEXT_HELP_SHEEP_HEAVEN_BITMASK                  "Визначає, що дозволяє овечий рай: вибух = з усіх ящиків після вибуху вилазить вівця; запал = збільшує час запалу супер/водяної вівці та вівцемета; шанс = підвищує вірогідність випадіння з ящика \"овечої\" зброї."
+OPTEXT_CONSERVE_INSTANT_UTILITIES            "Зберігати миттєві утиліти"
+OPTEXT_HELP_CONSERVE_INSTANT_UTILITIES           "Коли цей параметр увімкнено, миттєві утиліти використовуватимуться по одному, а не всі зразу, лишаючись в інвентарях команди для подальшого автоматичного використання."
+OPTEXT_EXPEDITE_INSTANT_UTILITIES            "Вимушені миттєві утиліти"
+OPTEXT_HELP_EXPEDITE_INSTANT_UTILITIES           "Змушує миттєві утиліти автоматично використовуватись за певних обставин (наприклад, в кінці ходу), щоб вони не залишалися в інвентарі команди."
+OPTEXT_DOUBLE_TIME_STACK_LIMIT               "Ліміт подвоєння часу"
+OPTEXT_HELP_DOUBLE_TIME_STACK_LIMIT              "Кількість разів, скільки можна за один хід активувати подвоєння часу. Нульове значення означає необмежену кількість використань. Stacking occurs with multipliers 2×, 3/2×, 4/3×, 5/4×, etc."
 
-#TODO #: Untranslated string
-#TODO OPTEXT_INDIAN_ROPE_GLITCH                    "Indian Rope glitch"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_INDIAN_ROPE_GLITCH                   "Whether selecting the Ninja Rope while moving makes it possible to bypass the angle limit and shoot a rope that can even extend straight downwards."
-#TODO #: Untranslated string
-#TODO OPTEXT_HERD_DOUBLING_GLITCH                  "Herd-doubling glitch"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_HERD_DOUBLING_GLITCH                 "Whether jumping at just the right moment makes it possible to release double the number of Mad Cows as the selected herd count, in a single invocation of the Mad Cow weapon."
-#TODO #: Untranslated string
-#TODO OPTEXT_JET_PACK_BUNGEE_GLITCH                "Jet Pack Bungee glitch"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_JET_PACK_BUNGEE_GLITCH               "Whether it is possible to trigger a Bungee from midair using the Jet Pack."
-#TODO #: Untranslated string
-#TODO OPTEXT_ANGLE_CHEAT_GLITCH                    "Angle cheat glitch"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_ANGLE_CHEAT_GLITCH                   "Whether selecting the Longbow or Baseball Bat while moving makes it possible to bypass the angle limit of the respective weapon."
-#TODO #: Untranslated string
-#TODO OPTEXT_GLIDE_GLITCH                          "Glide glitch"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_GLIDE_GLITCH                         "Whether a certain type of leftward collision by a Jumping, post-Drilling, or post-retreat worm can trigger a glitch in which the worm continues moving in the air (with reduced speed) instead of landing."
-#TODO #: Untranslated string
-#TODO OPTEXT_SKIP_WALKING                          "Skip-walking\n"
-#TODO                                              "Disabled\n"
-#TODO                                              "Possible\n"
-#TODO                                              "Facilitated"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_SKIP_WALKING                         "\"Possible\" makes the skip-walking glitch behave as it historically did. \"Disabled\" prevents it from making walking faster than normal. \"Facilitated\" makes pressing Up or Down while walking do it."
-#TODO #: Untranslated string
-#TODO OPTEXT_BLOCK_ROOFING                         "Block roofing\n"
-#TODO                                              "Allow roofing\n"
-#TODO                                              "Block above\n"
-#TODO                                              "Block everywhere"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_BLOCK_ROOFING                        "Whether to block worms from getting above the roof, and if so, whether to block them only from getting directly above the visible roof, or the roof everywhere left and right to infinity."
-#TODO #: Untranslated string
-#TODO OPTEXT_FLOATING_WEAPON_GLITCH                "Floating weapon glitch"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_FLOATING_WEAPON_GLITCH               "Whether it is possible to drop a weapon (that normally would fall or fly) onto a surface, such that if done just right, it sits still until its hidden fuse expires before exploding or homing."
-#TODO #: Untranslated string
-#TODO OPTEXT_TERRAIN_OVERLAP_PHASING_GLITCH        "Terrain overlap phasing glitch"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_TERRAIN_OVERLAP_PHASING_GLITCH       "If enabled, any object whose collision mask intersects/overlaps with land will pass through the land until reaching space free of any land, at which point it will again behave normally. If disabled, land intersection pins objects in place."
+OPTEXT_INDIAN_ROPE_GLITCH                    "Глюк \"Індійська мотузка\""
+OPTEXT_HELP_INDIAN_ROPE_GLITCH                   "Якщо обрати мотузку ніндзя під час руху, то можна буде подолати обмеження куту та вистрелити мотузкою навіть прямо вниз."
+OPTEXT_HERD_DOUBLING_GLITCH                  "Глюк подвоєння стада"
+OPTEXT_HELP_HERD_DOUBLING_GLITCH                 "Якщо стрибнути вчасно, можна буде випустити подвійну кількість скажених корів за одне використання цієї зброї."
+OPTEXT_JET_PACK_BUNGEE_GLITCH                "Глюк банджі з реактивного ранця"
+OPTEXT_HELP_JET_PACK_BUNGEE_GLITCH               "Завдяки цьому можна використати банджі у повітрі з реактивного ранця."
+OPTEXT_ANGLE_CHEAT_GLITCH                    "Глюк шахраювання кута"
+OPTEXT_HELP_ANGLE_CHEAT_GLITCH                   "Якщо вибрати лук чи бейсбольну биту під час руху, можна буде подолати кутове обмеження відповідної зброї."
+OPTEXT_GLIDE_GLITCH                          "Глюк планирування"
+OPTEXT_HELP_GLIDE_GLITCH                         "Якщо відбудеться певне зіткнення зліва від стрибка, після пневмодрилю чи після відступу, черв'як зможе продовжити рухатися в повітрі (зі зменшеною швидкістю) замість падіння."
+OPTEXT_SKIP_WALKING                          "Skip-walking\n"
+                                             "Вимкнено\n"
+                                             "Можливо\n"
+                                             "Спрощено"
+OPTEXT_HELP_SKIP_WALKING                         "Якщо обрати \"Можливо\", глюк skip-walking буде відбуватися, як зазвичай. Якщо обрати \"Вимкнено\", цим глюк буде неможливо користуватись. Якщо обрати \"Спрощено\", ви зможете йти швидше, натискаючи кнопки вгорук чи вниз під час ходьби."
+OPTEXT_BLOCK_ROOFING                         "Блокувати руфінґ\n"
+                                             "Дозволити руфінґ\n"
+                                             "Блокувати зверху\n"
+                                             "Блокувати всюди"
+OPTEXT_HELP_BLOCK_ROOFING                        "Визначає, чи можна буде черв'якам залізати вище \"даху\", якщо ні, то чи блокуватиметьсяпопадання лишень на видимий \"дах\" згори, чи на \"дах\" повсюди зліва та справа."
+OPTEXT_FLOATING_WEAPON_GLITCH                "Глюк завислого снаряду"
+OPTEXT_HELP_FLOATING_WEAPON_GLITCH               "Чи можливо буде скинути зброю (яка зазвичай падає чи летить) на поверхню, якщо це зроблено правильно, то вона зависне на ній, поки її прихований запал не вигорить."
+OPTEXT_TERRAIN_OVERLAP_PHASING_GLITCH        "Глюк проходження через перекриття ландшафту"
+OPTEXT_HELP_TERRAIN_OVERLAP_PHASING_GLITCH       "Якщо цей параметр увімкнено, будь-який об'єкт, в якого маска колізії перетинається/перекриває землю проходитиме крізь неї доти, доки не досягне вільного від ландшафту місця, де він вже буде природньо поводитись. Якщо вимкнено, то при перетинанні зі землею об'єкти лишатимуться на місці."
 
-#TODO #: Untranslated string
-#TODO OPTEXT_PLACE_WORMS_BY_ALLY                   "Auto-place worms by ally"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_PLACE_WORMS_BY_ALLY                  "When worm placement is automatic, group worms by team colour. May make automatic placement feasible even in Fort-style maps."
-#TODO #: Untranslated string
-#TODO OPTEXT_CIRCULAR_AIM                          "Circular Aim"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_CIRCULAR_AIM                         "When holding the up or down arrow to aim, this will cause the aim to continue moving past the top or bottom, instead of stopping. Intended to make shots at specific angles more challenging."
-#TODO #: Untranslated string
-#TODO OPTEXT_ANTI_LOCK_AIM                         "Anti-lock Aim"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_ANTI_LOCK_AIM                        "The aiming angle is not preserved and is reset between turns (to an angle distinct from the last used one). Intended to make repeat shots more challenging."
-#TODO #: Untranslated string
-#TODO OPTEXT_ANTI_LOCK_POWER                       "Anti-lock Power"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_ANTI_LOCK_POWER                      "Holding down the space bar to fire will cause the power to begin decreasing after reaching its maximum. Intended to make full-power shots more challenging."
-#TODO #: Untranslated string
-#TODO OPTEXT_ADVANCE_WORM_DOESNT_END_HOT_SEAT      "Worm Selection doesn't end Hot Seat"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_ADVANCE_WORM_DOESNT_END_HOT_SEAT     "Using Worm Select does not cause the Hot Seat timer to end and the turn timer to start."
-#TODO #: Untranslated string
-#TODO OPTEXT_ADVANCE_WORM_ANY_TIME                 "Worm Selection is never cancelled"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_ADVANCE_WORM_ANY_TIME                "The Tab key can be always used during a turn to switch to another Worm."
-#TODO #: Untranslated string
-#TODO OPTEXT_GIRDER_RADIUS_ASSIST                  "Girder Radius Assist"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_GIRDER_RADIUS_ASSIST                 "Prevents the Girder mouse cursor from being moved to positions that are out of range (as determined by the Girder power) such that a beep would result if an attempt was made to place a girder there."
+OPTEXT_PLACE_WORMS_BY_ALLY                   "Автоматично розміщувати черв'яків біля соратників"
+OPTEXT_HELP_PLACE_WORMS_BY_ALLY                  "Коли обрано автоматичне розставлення черв'яків, групує черв'яків за кольором команди. Робить автоматичне розміщення черв'яків корисним навіть на мапах-фортах."
+OPTEXT_CIRCULAR_AIM                          "Круговий приціл"
+OPTEXT_HELP_CIRCULAR_AIM                         "Якщо затримати клавіші вгору чи вниз для прицілювання, то приціл не зупиниться, а продовжиться рухатись вгору чи вниз. Створено для ускладнення пострілів під певними кутами."
+OPTEXT_ANTI_LOCK_AIM                         "Заборона блокування прицілу"
+OPTEXT_HELP_ANTI_LOCK_AIM                        "Кут прицілу не зберігається та змінюється кожного ходу (на відмінний кут від вашого останнього). Створено для ускладнення прицілювання."
+OPTEXT_ANTI_LOCK_POWER                       "Заборона блокування потужності"
+OPTEXT_HELP_ANTI_LOCK_POWER                      "Якщо затримати пробіл для стрільби, потужність пострілу постуво зменшуватиметься після досягання максимуму. Створено для ускладнення пострілів максимальної потужності."
+OPTEXT_ADVANCE_WORM_DOESNT_END_HOT_SEAT      "Вибір черв'яка не закінчує час очікування"
+OPTEXT_HELP_ADVANCE_WORM_DOESNT_END_HOT_SEAT     "Використання вибору черв'яка не завершує відлік очікування та не починає відлік часу ходу."
+OPTEXT_ADVANCE_WORM_ANY_TIME                 "Вибір черв'яка неможливо скасувати"
+OPTEXT_HELP_ADVANCE_WORM_ANY_TIME                "Клавішу Tab можна використати будь-коли під час ходу для перемикання між черв'яками."
+OPTEXT_GIRDER_RADIUS_ASSIST                  "Допомога з радіусом балок"
+OPTEXT_HELP_GIRDER_RADIUS_ASSIST                 "Не дозволяє курсору при обраній балці рухатися за межі досяжності балки (досяжність визначається потужністю балки)."
 
-#TODO #: Untranslated string
-#TODO OPTEXT_BLOOD_LEVEL                           "Blood Level"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_BLOOD_LEVEL                          "Amount of blood in %, or 255 to use the channel / offline setting value. The offline default is 25%. (Note: The other setting, in \"Cheats\", is independent and controls blood colour.)"
+OPTEXT_BLOOD_LEVEL                           "Рівень крові"
+OPTEXT_HELP_BLOOD_LEVEL                          "Кількість крові у відсотках, 255 для канального/офлайнового значення. Стандартне офлайнове значення - 25%. (Увага: інший параметр, у \"Хитрощах\", не залежить від цього і впливає лише на колір крові.)"
 
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_BOUNCINESS                 "RubberWorm bounciness"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_BOUNCINESS                "Makes worms spring back like a banana (with the respective sound) upon any collision, without any fall damage or loss of control, and sets the strength (coefficient of restitution) of said bounciness. The bounce height ratio is the square of this."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_AIR_VISCOSITY              "RubberWorm air viscosity"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_AIR_VISCOSITY             "Makes objects such as projectiles experience \"friction\" when flying through the air, and sets the strength of said friction."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_AIR_VISCOSITY_WORMS        "RubberWorm air viscosity applies to Worms"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_AIR_VISCOSITY_WORMS       "Whether \"RubberWorm air viscosity\" should also affect Worms."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_WIND_INFLUENCE             "RubberWorm wind influence"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_WIND_INFLUENCE            "Extends the set of objects that are sensitive to wind, excluding Worms, and sets the level of said sensitivity."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_WIND_INFLUENCE_WORMS       "RubberWorm wind influence applies to Worms"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_WIND_INFLUENCE_WORMS      "Whether \"RubberWorm wind influence\" should also affect Worms."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_GRAVITY_TYPE               "RubberWorm gravity type\n"
-#TODO                                              "Unmodified\n"
-#TODO                                              "Standard\n"
-#TODO                                              "Black hole (constant)\n"
-#TODO                                              "Black hole (linear)"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_GRAVITY_TYPE              "Controls how certain objects such as Worms and projectiles are affected by gravity. Standard: gravity is multiplied normally. Black hole: objects are pulled to the middle of the map, with a force that is either constant or relative to the object's distance from the middle."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_GRAVITY_STRENGTH           "RubberWorm gravity strength"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_GRAVITY_STRENGTH          "Controls the extent to which objects such as Worms and projectiles are affected by gravity. Specified as a gravity multiplier, or with \"Black hole (linear)\", as the distance in pixels at which gravity is of normal strength."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_CRATE_RATE                 "RubberWorm crate rate"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_CRATE_RATE                "Specifies how many crates can potentially spawn simultaneously at the start of the turn, up to the maximum set by \"Maximum crate count on map at once\". With crate drop probabilities set to 100%, causes the exact amount specified to spawn."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_CRATE_SHOWER               "RubberWorm crate shower"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_CRATE_SHOWER              "Enables continuous crate drops during the turn, up to the maximum set by \"Maximum crate count on map at once\"."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_ANTI_SINK                  "RubberWorm anti-sink"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_ANTI_SINK                 "Prevents Worms from drowning when touching the sea (unless done two times in a row). Worms that touch the sea will automatically be teleported to the last piece of land they were standing on."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_REMEMBER_WEAPONS           "RubberWorm remember weapons"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_REMEMBER_WEAPONS          "Prevents the last used weapon selection from resetting to a common weapon regardless of its importance (as defined by the game engine). For example, multiple Bananas can be fired in a row without resetting to Grenades after the first shot."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_FUSE_EX                    "RubberWorm extended fuses/herds"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_FUSE_EX                   "Enables the use of numeric keys 0-9 instead of just 1-5 to set timed weapon fuses and animal herd sizes. The 0 key will set 0 seconds for timed weapons, and 10 animals for herds."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_ANTI_LOCK_AIM              "RubberWorm anti-lock aim"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_ANTI_LOCK_AIM             "The aiming angle is not preserved and is reset between turns. Compared to the regular Anti-lock Aim option, this always resets the angle to zero degrees in horizontal left or right direction."
-#TODO #: Untranslated string
-#TODO OPTEXT_RUBBERWORM_KAOS_MOD                   "RubberWorm Kaos mod\n"
-#TODO                                              "20, 10, 15, 5, 10, 15, 10, 15, 5 (Default)\n"
-#TODO                                              "20, 10, 10, 5, 10, 15, 10, 12, 5\n"
-#TODO                                              "20, 15, 10, 5, 10, 15, 10, 10, 0\n"
-#TODO                                              "25, 15, 5, 0, 20, 20, 10, 5, 0\n"
-#TODO                                              "25, 25, 0, 5, 20, 10, 10, 5, 0\n"
-#TODO                                              "25, 15, 5, 5, 25, 10, 10, 5, 0"
-#TODO #: Untranslated string
-#TODO OPTEXT_HELP_RUBBERWORM_KAOS_MOD                  "Changes the utility crate probabilities (Fast Walk, Laser Sight, Damage*2, Invisibility, Low Gravity, Crate Spy, Jet Pack, Double Time, Crate Shower) from a set of presets, tailored to the \"Kaos\" scheme."
+OPTEXT_RUBBERWORM_BOUNCINESS                 "Стрибучість RubberWorm"
+OPTEXT_HELP_RUBBERWORM_BOUNCINESS                "Змішує черв'яків відбиватися після будь-якого зіткнення, як банани (з відповідним звуком), анулюючи всю шкоду від падіння чи втрату контролю та визначаючи силу (коефіцієнт віддачі) вищезгаданої стрибучості. Співвідношення висоти відстрибування є квадратом цього значення."
+OPTEXT_RUBBERWORM_AIR_VISCOSITY              "В'язкість повітря RubberWorm"
+OPTEXT_HELP_RUBBERWORM_AIR_VISCOSITY             "Змушує об'єкти, наприклад, снаряди, відчувати \"тертя\" під час польоту через повітря та визначає силу вищезгаданого тертя."
+OPTEXT_RUBBERWORM_AIR_VISCOSITY_WORMS        "В'язкість повітря RubberWorm застосовується до черв'яків"
+OPTEXT_HELP_RUBBERWORM_AIR_VISCOSITY_WORMS       "Визначає, чи \"В'язкість повітря RubberWorm\" впливає на черв'яків."
+OPTEXT_RUBBERWORM_WIND_INFLUENCE             "Вплив вітру RubberWorm"
+OPTEXT_HELP_RUBBERWORM_WIND_INFLUENCE            "Розширює кількість об'єктів, на які впливає вітер, окрім черв'яків, та визначає рівень цього впливу."
+OPTEXT_RUBBERWORM_WIND_INFLUENCE_WORMS       "Вплив вітру RubberWorm також застосовується до черв'яків"
+OPTEXT_HELP_RUBBERWORM_WIND_INFLUENCE_WORMS      "Визначає, чи \"Вплив вітру RubberWorm\" поширюється на черв'яків."
+OPTEXT_RUBBERWORM_GRAVITY_TYPE               "Тип гравітації RubberWorm\n"
+                                             "Не змінено\n"
+                                             "Стандартний\n"
+                                             "Чорна дира (постійна)\n"
+                                             "Чорна дира (лінійна)"
+OPTEXT_HELP_RUBBERWORM_GRAVITY_TYPE              "Керує впливом гравітації на об'єкти типу черв'яків та снарядів. Стандартний: множник гравітації звичайний. Чорна дира: об'єкти засмоктуються до центру мапи, із постійною силою, відносною до відстані об'єкта від центру мапи."
+OPTEXT_RUBBERWORM_GRAVITY_STRENGTH           "Сила гравітації RubberWorm"
+OPTEXT_HELP_RUBBERWORM_GRAVITY_STRENGTH          "Керує, як сильно гравітація впливатиме на об'єкти типу черв'яків та снарядів. Визначається множником гравітації, або параметром \"Чорна дира (лінійна)\", як відстань у пікселях, на якій гравітація має нормальну силу."
+OPTEXT_RUBBERWORM_CRATE_RATE                 "Частота ящиків RubberWorm"
+OPTEXT_HELP_RUBBERWORM_CRATE_RATE                "Визначає, скільки ящиків можуть з'явитися водночас на початку ходу, але не більше значення \"Максимальної кількості ящиків на карті\". Якщо шанс на випадіння 100%, то ящиків випаде стільки ж, скільки й тут."
+OPTEXT_RUBBERWORM_CRATE_SHOWER               "Ящикопад RubberWorm"
+OPTEXT_HELP_RUBBERWORM_CRATE_SHOWER              "Дозволяє падати багатьом ящикам за один хід, але не більше значення \"Максимальної кількості ящиків на карті\"."
+OPTEXT_RUBBERWORM_ANTI_SINK                  "Заборона утоплення RubberWorm"
+OPTEXT_HELP_RUBBERWORM_ANTI_SINK                 "Не дозволяє черв'якам тонути при дотику до моря (хіба вони зроблять це двічі підряд). Черв'яки, що торкнулися моря, автоматично телепортуються до останнього клаптика землі, на якому вони стояли."
+OPTEXT_RUBBERWORM_REMEMBER_WEAPONS           "Запам'ятовування зброї RubberWorm"
+OPTEXT_HELP_RUBBERWORM_REMEMBER_WEAPONS          "Не дозволяє останній виористаній зброї замінитися на стандратну зброю незалежно від її важливості (як це визначено рушієм гри). Наприклад, завдяки цьому можна кинути кілька бананів підряд без скидання вибору на гранату після першого кидка."
+OPTEXT_RUBBERWORM_FUSE_EX                    "Збільшені запали/стада RubberWorm"
+OPTEXT_HELP_RUBBERWORM_FUSE_EX                   "Дозволяє використання клавіш 0-9 замість 1-5 для встановлення запалу зброї чи розміру стада. Клавіша 0 поставить запал 0 секунд для зброї, а для стада - 10 тварин."
+OPTEXT_RUBBERWORM_ANTI_LOCK_AIM              "Заборона блокування прицілу RubberWorm"
+OPTEXT_HELP_RUBBERWORM_ANTI_LOCK_AIM             "Кут прицілу не зберігається та змінюється кожного ходу. У порівнянні зі звичайним параметром заборони блокування прицілу, цей параметр завжди скидає кут до нуля градусів по горизонталі зліва чи справа."
+OPTEXT_RUBBERWORM_KAOS_MOD                   "RubberWorm мод Kaos\n"
+                                             "20, 10, 15, 5, 10, 15, 10, 15, 5 (Стандарт)\n"
+                                             "20, 10, 10, 5, 10, 15, 10, 12, 5\n"
+                                             "20, 15, 10, 5, 10, 15, 10, 10, 0\n"
+                                             "25, 15, 5, 0, 20, 20, 10, 5, 0\n"
+                                             "25, 25, 0, 5, 20, 10, 10, 5, 0\n"
+                                             "25, 15, 5, 5, 25, 10, 10, 5, 0"
+OPTEXT_HELP_RUBBERWORM_KAOS_MOD                  "Змінює вірогідність випадіння у ящиках утиліт (швидка ходьба, лазерний приціл, шкода*2, невидимість, низька гравітація, шпигун ящиків, реактивний ранець, подвійний час, ящикопад) через набір налаштуваня, з урахуванням схеми \"Kaos\"."
 
 # Option categories
 
