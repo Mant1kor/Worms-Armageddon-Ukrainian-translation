@@ -1918,496 +1918,916 @@ MATCHEND_H_WINNER             "Переможець гри."
 #TODO 	"\2B / \3B peak\m"
 #TODO 	"Click here to accept map\n"
 
+#TODO #: Untranslated string
+#TODO # Network screen
 
-# Network screen
+#TODO NET_LOC_NETWORKDLG            "Network options"
+#TODO #: Untranslated string
+#TODO NET_LOC_SERVERNETOPTIONS      "Network configuration"
+#TODO #: Untranslated string
+#TODO NET_LOC_NETOPTIONS            "Configuration"
+#TODO #: Untranslated string
+#TODO NET_HELP_NETOPTIONS           "Edit the server connection options."
+#TODO #: Untranslated string
+#TODO NET_LOC_LANSTATICGROUP        "Local area network game"
+#TODO #: Untranslated string
+#TODO NET_LOC_PLAYERINFOGROUP       "Player information"
+#TODO #: Untranslated string
+#TODO NET_LOC_SERVERSTATICGROUP     "WORMNET"
+#TODO #: Untranslated string
+#TODO NET_LOC_PLAYERNAME            "Player name (Nickname)"
+#TODO #: Untranslated string
+#TODO NET_PLAYERNAMEEDITHELP        "Enter your player name (Nickname) here."
+#TODO #: Untranslated string
+#TODO NET_LOC_LOCALNETWORK          "Local network"
+#TODO #: Untranslated string
+#TODO NET_HELP_LOCALNETWORK         "Click here to play via a local area network."
+#TODO #: Untranslated string
+#TODO NET_LOCALNETBUTTONHELP        "Click to play via a local area network."
+#TODO #: Untranslated string
+#TODO NET_SERVERCONNECTBUTTONHELP   "Connect to WORMNET for Internet play."
+#TODO #: Untranslated string
+#TODO NET_SERVEROPTIONSBUTTONHELP   "Click to edit your server options."
 
-NET_LOC_NETWORKDLG            "Налаштування мережі"
-NET_LOC_SERVERNETOPTIONS      "Конфігурація мережі"
-NET_LOC_NETOPTIONS            "Конфігурація"
-NET_HELP_NETOPTIONS           "Редагувата налаштування з'єднання зі сервером."
-NET_LOC_LANSTATICGROUP        "Гра в локальній мережі"
-NET_LOC_PLAYERINFOGROUP       "Інформація про гравця"
-NET_LOC_SERVERSTATICGROUP     "WORMNET"
-NET_LOC_PLAYERNAME            "Ім'я гравця (псевдонім)"
-NET_PLAYERNAMEEDITHELP        "Введіть тут своє ім'я гравця (псевдонім)."
-NET_LOC_LOCALNETWORK          "Локальна мережа"
-NET_HELP_LOCALNETWORK         "Натисніть тут, аби грати в локальній мережі."
-NET_LOCALNETBUTTONHELP        "Натисніть, аби грати в локальній мережі."
-NET_SERVERCONNECTBUTTONHELP   "Натисніть, аби під'єднатися до WORMNET для мережевої гри."
-NET_SERVEROPTIONSBUTTONHELP   "Натисніть, аби змінити свої налаштування сервера."
+#TODO #: Untranslated string
+#TODO NET_IPXNETTYPE                "IPX/SPX"
+#TODO #: Untranslated string
+#TODO NET_TCPNETTYPE                "TCP/IP"
+#TODO #: Untranslated string
+#TODO NET_PROTOCOLBUTTONHELP        "Toggle between IPX/SPX and TCP/IP as the selected protocol."
+#TODO #: Untranslated string
+#TODO NET_NOPROTOCOLSDETECTED       "No network protocol types have been detected!"
+#TODO #: Untranslated string
+#TODO NET_UNABLETOINITTCP           "Unable to initialise network for TCP/IP play!"
+#TODO #: Untranslated string
+#TODO NET_UNABLETOINITIPX           "Unable to initialise network for IPX/SPX play!"
+#TODO #: Untranslated string
+#TODO NET_PLAYERNAMENOTVALID        "The player name selected is not valid; please enter a valid name."
+#TODO #: Untranslated string
+#TODO NET_MUSTENTERIPADDRESS        "You must enter or select an IP address to be able to connect to another machine."
+#TODO #: Untranslated string
+#TODO NET_GAMENAMEREQUIRED          "You must enter a game title before you may host a game."
+#TODO #: Untranslated string
+#TODO NET_MUSTENTERPASSWORD         "You need to enter password or deselect the password option."
 
-NET_IPXNETTYPE                "IPX/SPX"
-NET_TCPNETTYPE                "TCP/IP"
-NET_PROTOCOLBUTTONHELP        "Керувати мережевим протоколом IPX/SPX чи TCP/IP."
-NET_NOPROTOCOLSDETECTED       "Не виявлено жодних мережевих протоколів!"
-NET_UNABLETOINITTCP           "Неможливо підготувати мережу для гри TCP/IP!"
-NET_UNABLETOINITIPX           "Неможливо підготувати мережу для гри IPX/SPX!"
-NET_PLAYERNAMENOTVALID        "Обране ім'я гравця некоректне; введіть коректне ім'я."
-NET_MUSTENTERIPADDRESS        "Ви мусите ввести або обрати IP-адресу для того, аби під'єднатися до іншого комп'ютера."
-NET_GAMENAMEREQUIRED          "Ви мусите ввести назву гри перед її створенням."
-NET_MUSTENTERPASSWORD         "Ви мусите ввести пароль або зняти вибір з параметру паролю."
+#TODO #: Untranslated string
+#TODO # Network options screen
 
-# Network options screen
+#TODO NET_LOC_FIREWALLSTATICGROUP   "Firewall support"
+#TODO #: Untranslated string
+#TODO NET_LOC_USEPROXY              "Enable firewall support"
+#TODO #: Untranslated string
+#TODO NET_HELP_USEPROXY             "Set if you have a firewall, allowing use of a proxy server."
+#TODO #: Untranslated string
+#TODO NET_LOC_PROXYSTATIC           "Proxy address"
+#TODO #: Untranslated string
+#TODO NET_HELP_PROXYADDRESSEDIT     "The I.P. address of your proxy machine."
+#TODO #: Untranslated string
+#TODO NET_LOC_PROXYPORTSTATIC       "Proxy port"
+#TODO #: Untranslated string
+#TODO NET_HELP_PROXYPORTEDIT        "The port number of the proxy."
+#TODO #: Untranslated string
+#TODO NET_NEEDPROXYADDRESS          "You must enter a proxy address, or deselect the proxy option."
 
-NET_LOC_FIREWALLSTATICGROUP   "Підтримка фаєрволу"
-NET_LOC_USEPROXY              "Увімкнути підтримку фаєрволу"
-NET_HELP_USEPROXY             "Оберіть, якщо у вас є фаєрвол, щоб використоувати проксі-сервер."
-NET_LOC_PROXYSTATIC           "Адреса проксі"
-NET_HELP_PROXYADDRESSEDIT     "IP-адреса вашого проксі."
-NET_LOC_PROXYPORTSTATIC       "Порт проксі"
-NET_HELP_PROXYPORTEDIT        "Номер порта проксі."
-NET_NEEDPROXYADDRESS          "Ви мусите ввести адресу проксі, або зняти вибір з параметру проксі."
+#TODO #: Untranslated string
+#TODO NET_PLAYERINFOGROUP           "Player Information"
+#TODO #: Untranslated string
+#TODO NET_YOURIPADDRESS             "Your I.P. address"
+#TODO #: Untranslated string
+#TODO NET_IPADDRESSEDITHELP         "Your IP address (no changes are usually required)"
+#TODO #: Untranslated string
+#TODO NET_FORCEIP                   "Force IP"
+#TODO #: Untranslated string
+#TODO NET_FORCEIPHELP               "Force the use of this IP when hosting games on wormnet."
+#TODO #: Untranslated string
+#TODO NET_UPNP                      "Forward with UPnP"
+#TODO #: Untranslated string
+#TODO NET_HELP_UPNP
+#TODO 	"Attempt to forward this port automatically\n"
+#TODO 	"using Universal Plug and Play."
+#TODO #: Untranslated string
+#TODO NETOPTIONS_FILTER             "Language filter"
+#TODO #: Untranslated string
+#TODO NETOPTIONS_H_FILTER           "Toggle the profanity filter."
+#TODO #: Untranslated string
+#TODO NET_NEEDIPADDRESS             "You must enter your I.P. address, or deselect the \"Force IP\" option."
 
-NET_PLAYERINFOGROUP           "Інформація про гравця"
-NET_YOURIPADDRESS             "Ваша IP-адреса"
-NET_IPADDRESSEDITHELP         "Ваша IP-адреса (зазвичай, ту нічого міняти не треба)"
-NET_FORCEIP                   "Змушене IP"
-NET_FORCEIPHELP               "Зробити використання цього IP обов'язковим при створенні ігор на wormnet."
-NET_UPNP                      "Переадресація UPnP"
-NET_HELP_UPNP
-	"Автоматично намагатися переадресовувати цей порт\n"
-	"з допомогою Universal Plug and Play."
-NETOPTIONS_FILTER             "Фільтр лайки"
-NETOPTIONS_H_FILTER           "Керувати фільтром лайливих слів."
-NET_NEEDIPADDRESS             "Ви мусите ввести вашу IP-адресу, або зняти вибір з параметра \"Змушене IP\"."
+#TODO #: Untranslated string
+#TODO NET_LOC_PINGSTATICGROUP       "Auto ping"
 
-NET_LOC_PINGSTATICGROUP       "Автопінґ"
+#TODO #: Untranslated string
+#TODO NET_LOC_AUTOUPDATESTATICGROUP "Auto update"
+#TODO #: Untranslated string
+#TODO NET_LOC_UPDATEPROMPTCHECK     "Prompt before automatically updating client"
+#TODO #: Untranslated string
+#TODO NET_HELP_UPDATEPROMPTCHECK    "Prompt before files are automatically updated by the server."
+#TODO #: Untranslated string
+#TODO NET_HELP_AUTOUPDATESERVERLISTCHECK
+#TODO                               "Update server list upon connection."
 
-NET_LOC_AUTOUPDATESTATICGROUP "Автооновлення"
-NET_LOC_UPDATEPROMPTCHECK     "Затримка перед автоматичними оновленнями клієнта"
-NET_HELP_UPDATEPROMPTCHECK    "Затримка перед автоматичними оновленнями файлів сервером."
-NET_HELP_AUTOUPDATESERVERLISTCHECK
-                              "Оновлювати список серверів при з'єднанні."
+#TODO #: Untranslated string
+#TODO NET_LOC_NETTEST               "Test network"
+#TODO #: Untranslated string
+#TODO NET_HELP_NETTEST              "Click to run through a series of diagnostic tests."
+#TODO #: Untranslated string
+#TODO NET_HELP_NETDIAGNOSEHISTORY   "The results of any diagnostic functions."
+#TODO #: Untranslated string
+#TODO NET_HELP_SAVETEST             "Save the results to a text file."
+#TODO #: Untranslated string
+#TODO NET_LOC_RESTOREDEFAULTS       "Restore defaults"
+#TODO #: Untranslated string
+#TODO NET_HELP_RESTOREDEFAULTS      "Click here to restore the default network configuration."
+#TODO #: Untranslated string
+#TODO NET_LOC_MAILSUPPORT           "Mail support"
+#TODO #: Untranslated string
+#TODO NET_HELP_MAILSUPPORT          "Mail the results of the tests to Team17's support department."
+#TODO #: Untranslated string
+#TODO NET_UNABLETOOPENDIAGNOSEFILE  "Unable to open the network diagnostics file; continuing without writing to file."
 
-NET_LOC_NETTEST               "Тестувати мережу"
-NET_HELP_NETTEST              "Натисніть, аби запустити серію діагностичних тестів."
-NET_HELP_NETDIAGNOSEHISTORY   "Результат діагноститки."
-NET_HELP_SAVETEST             "Зберегти результати до текстового файлу."
-NET_LOC_RESTOREDEFAULTS       "Скинути до стандартних"
-NET_HELP_RESTOREDEFAULTS      "Натисніть тут, аби скинути конфігурацію мережі до стандартної."
-NET_LOC_MAILSUPPORT           "Підтримка по пошті"
-NET_HELP_MAILSUPPORT          "Надіслати результати тестів до служби підтримки Team17."
-NET_UNABLETOOPENDIAGNOSEFILE  "Не вдалося відкрити файл мережевої діагностики; продовження без запису в файл."
+#TODO #: Untranslated string
+#TODO NET_HELP_DONE                 "Return to the previous menu."
 
-NET_HELP_DONE                 "Повернутись до попереднього меню."
+#TODO #: Untranslated string
+#TODO # Network connection dialog
 
-# Network connection dialog
+#TODO NET_NEW1                      "Network Address"
+#TODO #: Untranslated string
+#TODO NET_NEW2                      "You are now connected to \1 (Hosted by \2)..."
+#TODO #: Untranslated string
+#TODO NET_NEW3                      "A password is required to join this game."
+#TODO #: Untranslated string
+#TODO NET_NEW4                      "Please enter the password."
+#TODO #: Untranslated string
+#TODO NET_NEW5                      "The Password is incorrect; please try again."
 
-NET_NEW1                      "Мережева адреса"
-NET_NEW2                      "Тепер ви під'єднані до \1 (створено \2)..."
-NET_NEW3                      "Для приєднання до цієї гри необхідно ввести пароль."
-NET_NEW4                      "Будь ласка, введіть пароль."
-NET_NEW5                      "Неправильний пароль; спробуйте знову."
+#TODO #: Untranslated string
+#TODO NET_CONNECTINGTOHOST          "Connecting to host..."
+#TODO #: Untranslated string
+#TODO NET_CONNECTIONDELAYED         "Connection is taking a while... Make sure that the host's connection is not blocked by a firewall, router, or ISP."
+#TODO #: Untranslated string
+#TODO NET_CONNECTIONSUCCESS         "Connection successful."
+#TODO #: Untranslated string
+#TODO NET_CONNECTIONFAILED          "Connection failed."
+#TODO #: Untranslated string
+#TODO NET_GAMEFINDFAIL              "Unable to locate the specified game; please select a different game and try again."
+#TODO #: Untranslated string
+#TODO NET_GAMEJOINTIMEOUT           "A timeout error occurred whilst trying to join a game."
+#TODO #: Untranslated string
+#TODO NET_GAMEHOSTTIMEOUT           "A timeout error occurred whilst trying to host a game."
+#TODO #: Untranslated string
+#TODO NET_LOC_NEWMAXPLAYERS         "Max players"
+#TODO #: Untranslated string
+#TODO BAD_GAMEID                    "Incorrect Game ID."
+#TODO #: Untranslated string
+#TODO BAD_PROTO                     "Invalid Protocol."
+#TODO #: Untranslated string
+#TODO INVALID_DATA                  "Invalid Data"
 
-NET_CONNECTINGTOHOST          "Під'єднання до гри..."
-NET_CONNECTIONDELAYED         "З'єднання довго не відповідає... Переконайтеся, що з'єднання творця гри не блокується фаєрволом, роутером або ISP."
-NET_CONNECTIONSUCCESS         "З'єднання пройшло успішно."
-NET_CONNECTIONFAILED          "З'єднання пройшло невдало."
-NET_GAMEFINDFAIL              "Не вдалося знайти вказану гру; будь ласка, оберіть іншу гру та спробуйте знову."
-NET_GAMEJOINTIMEOUT           "Час на під'єднання до гри вийшов."
-NET_GAMEHOSTTIMEOUT           "Час на під'єднання до гри вийшов."
-NET_LOC_NEWMAXPLAYERS         "Максимум гравців"
-BAD_GAMEID                    "Некоректне ID гри."
-BAD_PROTO                     "Некоректний протокол."
-INVALID_DATA                  "Некоректні дані"
+#TODO #: Untranslated string
+#TODO # WormNET
 
-# WormNET
+#TODO NET_NOTINITIALISED            "Connection uninitialised."
+#TODO #: Untranslated string
+#TODO NET_INITIALISED               "Connection initialised."
+#TODO #: Untranslated string
+#TODO NET_CONNECTING                "Connecting, please wait."
+#TODO #: Untranslated string
+#TODO NET_CONNECTED                 "Connected."
+#TODO #: Untranslated string
+#TODO NET_DISCONNECTING             "Disconnecting."
+#TODO #: Untranslated string
+#TODO NET_CONNECTSUCCESS            "Connection successful."
+#TODO #: Untranslated string
+#TODO NET_CONNECTFAIL               "Connection failed."
 
-NET_NOTINITIALISED            "З'єднання не почато."
-NET_INITIALISED               "З'єднання почато."
-NET_CONNECTING                "Триває з'єднання, зачекайте."
-NET_CONNECTED                 "З'єднано."
-NET_DISCONNECTING             "Від'єднання."
-NET_CONNECTSUCCESS            "З'єднання пройшло успішно."
-NET_CONNECTFAIL               "Помилка з'єднання."
+#TODO #: Untranslated string
+#TODO NET_UNKNOWNSERVERERROR        "An unknown error has occurred on the server."
+#TODO #: Untranslated string
+#TODO NET_HOSTSESSIONTIMEOUT        "A timeout error occurred hosting the game."
+#TODO #: Untranslated string
+#TODO NET_JOINSESSIONTIMEOUT        "A timeout error occurred joining the game."
+#TODO #: Untranslated string
+#TODO NET_UNABLETOHOST              "Unable to host the game."
+#TODO #: Untranslated string
+#TODO NET_RANKTOOLOW                "Your rank is too low!"
+#TODO #: Untranslated string
+#TODO NET_RANKTOOHIGH               "Your rank is too high!"
+#TODO #: Untranslated string
+#TODO NET_USERLEVELTOOLOW           "Sorry, your rank is too low to join this game."
+#TODO #: Untranslated string
+#TODO NET_USERLEVELTOOHIGH          "Sorry, your rank is too high to join this game."
 
-NET_UNKNOWNSERVERERROR        "Виникла невідома помилка на сервері."
-NET_HOSTSESSIONTIMEOUT        "Час на створення гри вичерпано."
-NET_JOINSESSIONTIMEOUT        "Час на приєднання до гри вичерпано."
-NET_UNABLETOHOST              "Не вдалося створити гру."
-NET_RANKTOOLOW                "Ваш ранг надто низький!"
-NET_RANKTOOHIGH               "Ваш ранг надто високий!"
-NET_USERLEVELTOOLOW           "Вибачте, ваш ранг занадто низький для приєднання до цієї гри."
-NET_USERLEVELTOOHIGH          "Вибачте, ваш ранг занадто високий для приєднання до цієї гри."
+#TODO #: Untranslated string
+#TODO NET_UNKNOWNCOMMAND            "You have entered an unknown command; please type /help for a list of valid commands."
+#TODO #: Untranslated string
+#TODO NET_COMMANDLIST
+#TODO 	"A list of available commands.\n"
+#TODO 	"\n"
+#TODO 	"/msg <nickname> messagetext   ( Allows you to send a message to a specific channel member )\n"
+#TODO 	"/away messagetext   ( Send this message text to anyone sending you a message )\n"
+#TODO 	"/away   ( Clears the away message )\n"
+#TODO 	"/me actiontext   ( Sends a message to show you have performed an action )\n"
+#TODO 	"/ignore <nickname>   ( Ignores user, or clears ignores if nickname omitted )\n"
+#TODO 	"/time   ( Display the time and date both locally and GMT )\n"
+#TODO 	"/hb   ( Shortcut for /msg HostingBuddy )"
+#TODO #: Untranslated string
+#TODO NET_JOINEDCHANNEL             "joined the channel."
+#TODO #: Untranslated string
+#TODO NET_LEFTCHANNEL               "has left the channel."
+#TODO #: Untranslated string
+#TODO NET_USERAWAY                  "is away **"
+#TODO #: Untranslated string
+#TODO NET_NOWAWAY                   "You are now marked as being away."
+#TODO #: Untranslated string
+#TODO NET_UNAWAY                    "The away message has been removed."
 
-NET_UNKNOWNCOMMAND            "Ви ввели невідому команду; введіть /help для списку доступних команд."
-NET_COMMANDLIST
-	"Список доступних команд.\n"
-	"\n"
-	"/msg <псевдонім> текстповідомлення  ( Дозволяє вам надіслати повідомлення конкретному гравцю на каналі )\n"
-	"/away текстповідомлення  ( Надсилати це повідомлення усім, хто вам пише )\n"
-	"/away   ( Очистити повідомлення про відхід )\n"
-	"/me текстповідомлення  ( Надсилає повідомлення, аби показати, що ви виконали дію )\n"
-	"/ignore <псевдонім>   ( Ігнорувати користувача або зняти ігнор )\n"
-	"/time   ( Показувати як локальну дату й час, так і за часовим поясом GMT )\n"
-	"/hb   ( Скорочення для /msg HostingBuddy )"
-NET_JOINEDCHANNEL             "приєднався до каналу."
-NET_LEFTCHANNEL               "залишив канал."
-NET_USERAWAY                  "відійшов **"
-NET_NOWAWAY                   "Ви відійшли."
-NET_UNAWAY                    "Повідомлення про відхід вилучено."
+#TODO #: Untranslated string
+#TODO NET_GAMELIST                  "Game list"
+#TODO #: Untranslated string
+#TODO NET_GAMELISTHELP              "Double click on a highlight to jump to that location."
+#TODO #: Untranslated string
+#TODO NET_GAMELISTREFRESH           "Refresh game list"
 
-NET_GAMELIST                  "Список ігор"
-NET_GAMELISTHELP              "Натисніть двічі на виділення, аби перейти туди."
-NET_GAMELISTREFRESH           "Оновити список ігор"
+#TODO #: Untranslated string
+#TODO NET_USERLIST                  "User list"
+#TODO #: Untranslated string
+#TODO NET_USERLISTHELP              "Double click on a player's name to enter the channel they are in."
+#TODO #: Untranslated string
+#TODO NET_USERLISTREFRESH           "Refresh user list"
 
-NET_USERLIST                  "Список користувачів"
-NET_USERLISTHELP              "Натисніть двічі на ім'я гравця, аби увійти на канал того гравця."
-NET_USERLISTREFRESH           "Оновити список користувачів"
+#TODO #: Untranslated string
+#TODO NET_CHANNELLIST               "Channel list"
+#TODO #: Untranslated string
+#TODO NET_CHANNELISTHELP            "Double click a channel name to enter it."
+#TODO #: Untranslated string
+#TODO NET_CHANNELLISTREFRESH        "Refresh channel list"
 
-NET_CHANNELLIST               "Список каналів"
-NET_CHANNELISTHELP            "Натисніть двічі на назву каналу, аби увійти в нього."
-NET_CHANNELLISTREFRESH        "Оновити список каналів"
+#TODO #: Untranslated string
+#TODO NET_MEMBERLIST                "Member list"
+#TODO #: Untranslated string
+#TODO NET_MEMBERLISTHELP            "A list of the current members of this channel."
 
-NET_MEMBERLIST                "Список гравців"
-NET_MEMBERLISTHELP            "Список гравців, які знаходяться на цьому каналі."
+#TODO #: Untranslated string
+#TODO NET_TEXTLISTHELP              "Where any chat text is displayed."
+#TODO #: Untranslated string
+#TODO NET_EDITHELP                  "Type your message and press RETURN to submit."
 
-NET_TEXTLISTHELP              "Де показувати текст чату."
-NET_EDITHELP                  "Введіть ваше повідомлення та натисніть RETURN, щоб його надіслати."
+#TODO #: Untranslated string
+#TODO NET_SHOWRANKINGS              "Display rankings"
+#TODO #: Untranslated string
+#TODO NET_SHOWRANKINGSHELP          "Show the rankings for the current channel."
+#TODO #: Untranslated string
+#TODO NET_SHOWRANKINGSCLOSEHELP     "Return to the channel."
 
-NET_SHOWRANKINGS              "Показати рейтинг"
-NET_SHOWRANKINGSHELP          "Показати рейтинги наявного каналу."
-NET_SHOWRANKINGSCLOSEHELP     "Повернутися до каналу."
+#TODO #: Untranslated string
+#TODO NET_REFRESHCHANNELLIST        "Refresh channel list"
+#TODO #: Untranslated string
+#TODO NET_REFRESHCHANNELLISTHELP    "Refresh the channels list."
+#TODO #: Untranslated string
+#TODO NET_REFRESHUSERLIST           "Refresh"
+#TODO #: Untranslated string
+#TODO NET_REFRESHUSERLISTHELP       "Refresh the list of users currently on Wormnet."
+#TODO #: Untranslated string
+#TODO NET_REFRESHLIST               "Refresh list"
+#TODO #: Untranslated string
+#TODO NET_REFRESHLISTHELP           "Refresh the list of currently available games."
 
-NET_REFRESHCHANNELLIST        "Оновити список каналів"
-NET_REFRESHCHANNELLISTHELP    "Оновити список каналів."
-NET_REFRESHUSERLIST           "Оновити"
-NET_REFRESHUSERLISTHELP       "Оновити список користувачів, які зараз на Wormnet."
-NET_REFRESHLIST               "Оновити список"
-NET_REFRESHLISTHELP           "Оновити список наразі доступних ігор."
+#TODO #: Untranslated string
+#TODO NET_HOSTGAME                  "Host"
+#TODO #: Untranslated string
+#TODO NET_HOSTGAMEBUTTONHELP        "Host a game by selecting this button."
 
-NET_HOSTGAME                  "Створити"
-NET_HOSTGAMEBUTTONHELP        "Створити нову гру."
+#TODO #: Untranslated string
+#TODO NET_GAMENAME                  "Game"
+#TODO #: Untranslated string
+#TODO NET_PLAYERNAME                "Players"
 
-NET_GAMENAME                  "Гра"
-NET_PLAYERNAME                "Гравці"
+#TODO #: Untranslated string
+#TODO NET_NEW_CHANNEL               "Channel"
+#TODO #: Untranslated string
+#TODO NET_NEW_SYSTEM                "System"
+#TODO #: Untranslated string
+#TODO NET_NEW_MESSAGES              "Messages"
 
-NET_NEW_CHANNEL               "Канал"
-NET_NEW_SYSTEM                "Система"
-NET_NEW_MESSAGES              "Повідомлення"
+#TODO #: Untranslated string
+#TODO NET_LOC_HOSTGAME              "Host"
+#TODO #: Untranslated string
+#TODO NET_HELP_HOSTGAME             "Click to host a game."
 
-NET_LOC_HOSTGAME              "Створити"
-NET_HELP_HOSTGAME             "Натисніть, аби створити гру."
+#TODO #: Untranslated string
+#TODO NET_CANTFINDSERVERLIST        "Unable to find the server-list; trying the default server."
+#TODO #: Untranslated string
+#TODO NET_CANTCONNECT               "Unable to connect to the server; please try another server."
 
-NET_CANTFINDSERVERLIST        "Не вдалося знайти список сервері; під'єднання до стандартного сервера."
-NET_CANTCONNECT               "Не вдалося з'єднатися зі сервером; спробуйте інший сервер."
+#TODO #: Untranslated string
+#TODO NET_INCHANNEL                 "In channel:"
+#TODO #: Untranslated string
+#TODO NET_NOTINCHANNEL              "Not in a channel"
 
-NET_INCHANNEL                 "На каналі:"
-NET_NOTINCHANNEL              "Не на каналі"
+#TODO #: Untranslated string
+#TODO NET_CHAT                      "Chat"
+#TODO #: Untranslated string
+#TODO NET_DATA                      "Data"
 
-NET_CHAT                      "Чат"
-NET_DATA                      "Дані"
+#TODO #: Untranslated string
+#TODO # WormNET reopening
 
-# WormNET reopening
+#TODO WORMNET_TIMEOUT_NOTIFICATION  "Five minutes have passed since this game was hosted. WormNET automatically deletes games at this point. You may want to use the \"/open\" command."
+#TODO #: Untranslated string
+#TODO WORMNET_ALREADY_OPEN          "Game is already open on WormNET"
+#TODO #: Untranslated string
+#TODO WORMNET_NOT_FROM_LAN          "Cannot open a LAN game on WormNET"
+#TODO #: Untranslated string
+#TODO WORMNET_NOT_FROM_DIRECTIP     "Cannot open a Direct IP game on WormNET"
+#TODO #: Untranslated string
+#TODO WORMNET_REOPENING             "Reopening game on WormNET"
+#TODO #: Untranslated string
+#TODO WORMNET_REOPENING_AS          "Reopening game on WormNET with new name: \1"
 
-WORMNET_TIMEOUT_NOTIFICATION  "Відтоді, як гру було створено, пройшло п'ять хвилин. WormNET автоматично видаляє ігри після спливання цього часу. Ви можете скористатися командою \"/open\"."
-WORMNET_ALREADY_OPEN          "Цю гру вже відкрито на WormNET"
-WORMNET_NOT_FROM_LAN          "Неможливо відкрити гру в локальнвй мережі на WormNET"
-WORMNET_NOT_FROM_DIRECTIP     "Неможливо відкрити гру за прямою IP на WormNET"
-WORMNET_REOPENING             "Повторне відкриття гри на WormNET"
-WORMNET_REOPENING_AS          "Повторне відкриття гри на WormNET з новою назвою: \1"
+#TODO #: Untranslated string
+#TODO # Unsorted (network)
 
-# Unsorted (network)
+#TODO NET_SERVERERROR               "Server error"
+#TODO #: Untranslated string
+#TODO NET_GAMENAMETOOSMALL          "Game name too small; please enter a longer name."
+#TODO #: Untranslated string
+#TODO NET_PASSWORDREQUIRED          "Please enter a password, or uncheck the password option."
+#TODO #: Untranslated string
+#TODO NET_BADUSERLEVEL              "You cannot join this channel; you have not attained the appropriate rank."
+#TODO #: Untranslated string
+#TODO NET_NOPASSWORD                "A password is required before login can proceed."
+#TODO #: Untranslated string
+#TODO NET_NOUSERNAME                "A username is required before login can proceed."
+#TODO #: Untranslated string
+#TODO NET_FIREWALL                  "Bad connection, possible firewall. Check with your network administrator."
+#TODO #: Untranslated string
+#TODO NET_FATALSERVERERROR          "A server error has occurred. Disconnecting from the server."
+#TODO #: Untranslated string
+#TODO NET_RETRYLIMIT                "You have failed to enter the correct username/password; the server connection will now be closed."
+#TODO #: Untranslated string
+#TODO NET_CONNECTINGTOSERVER        "Connecting to server"
+#TODO #: Untranslated string
+#TODO NET_LOC_DONE                  "Done"
+#TODO #: Untranslated string
+#TODO NET_HELP_PLAYERNAMEEDIT       "Enter your player name (Nickname) here."
+#TODO #: Untranslated string
+#TODO NET_HELP_IPADDRESSEDIT        "This box contains your I.P. address."
+#TODO #: Untranslated string
+#TODO NET_LOC_SERVERNET             "Wormnet"
+#TODO #: Untranslated string
+#TODO NET_HELP_SERVERNET            "Connect to WORMNET via the Internet."
+#TODO #: Untranslated string
+#TODO NET_LOC_LOGIN                 "Login"
+#TODO #: Untranslated string
+#TODO NET_HELP_LOGIN                "Connect to the server."
+#TODO #: Untranslated string
+#TODO NET_HELP_USERNAME             "Enter your username."
+#TODO #: Untranslated string
+#TODO NET_LOC_STUSERNAME            "Username"
+#TODO #: Untranslated string
+#TODO NET_HELP_PASSWORD             "Enter a password."
+#TODO #: Untranslated string
+#TODO NET_HELP_STPASSWORD           "Enter a password."
+#TODO #: Untranslated string
+#TODO NET_LOC_LANLOBBYCAPTION       "Local network lobby"
+#TODO #: Untranslated string
+#TODO NET_HELP_LANMESSAGEHISTORY    "Chat messages from other players in the lobby."
+#TODO #: Untranslated string
+#TODO NET_HELP_LANPLAYERLIST        "A list of the players in the lobby."
+#TODO #: Untranslated string
+#TODO NET_HELP_LANTEXTENTRY         "Type messages here; press RETURN to submit them."
+#TODO #: Untranslated string
+#TODO NET_HELP_LANGAMELIST          "A list of games available."
+#TODO #: Untranslated string
+#TODO NET_LOC_LANSEND               "Send"
+#TODO #: Untranslated string
+#TODO NET_HELP_LANSEND              "Click to submit the current message."
+#TODO #: Untranslated string
+#TODO NET_HELP_GAMENAMEEDIT         "Enter the game name."
+#TODO #: Untranslated string
+#TODO NET_LOC_PASSWORDCHECK         "Password required"
+#TODO #: Untranslated string
+#TODO NET_HELP_PASSWORDCHECK        "Click to password protect your game."
+#TODO #: Untranslated string
+#TODO NET_HELP_PASSWORDEDIT         "Enter your password here."
+#TODO #: Untranslated string
+#TODO NET_LOC_GAMENAMESTATIC        "Game name"
+#TODO #: Untranslated string
+#TODO NET_HELP_REFRESH              "Refresh the game and player lists."
+#TODO #: Untranslated string
+#TODO NET_LOC_GAMEHOSTGROUP         "Game hosting"
+#TODO #: Untranslated string
+#TODO NET_LOC_CREATEGAMEDLGCAPTION  "Create a game"
+#TODO #: Untranslated string
+#TODO NET_HELP_CREATEGAMEDLGCAPTION "Create and host a game."
+#TODO #: Untranslated string
+#TODO NET_HELP_GAMENAMEHELP         "The name of your game."
+#TODO #: Untranslated string
+#TODO NET_LOC_REQUIRESPASSWORD      "Password-protected"
+#TODO #: Untranslated string
+#TODO NET_HELP_REQUIRESPASSWORDHELP "Password-protect a game."
+#TODO #: Untranslated string
+#TODO NET_HELP_GAMEPASSWORD         "Enter a password for your game."
+#TODO #: Untranslated string
+#TODO NET_HELP_MAXPLAYERSHELP       "The maximum number of teams allowed in your game."
+#TODO #: Untranslated string
+#TODO NET_HELP_SCENARIOCOMBO        "Select an option scheme for your game."
+#TODO #: Untranslated string
+#TODO NET_HELP_IDOK                 "Accept the information and proceed."
+#TODO #: Untranslated string
+#TODO NET_HELP_IDCANCELHELP         "Cancel the current operation."
+#TODO #: Untranslated string
+#TODO NET_LOC_NEWGAMENAME           "Name"
+#TODO #: Untranslated string
+#TODO NET_LOC_NEWSCENARIO           "Scenario"
+#TODO #: Untranslated string
+#TODO NET_LOC_CONNECTSTATECAPTION   "Connection status"
+#TODO #: Untranslated string
+#TODO NET_HELP_CONNECTSTATECAPTIONHELP
+#TODO                               "Shows the current connection status."
+#TODO #: Untranslated string
+#TODO NET_HELP_CONNECTSTATEHELP     "Shows the current status of the connection."
+#TODO #: Untranslated string
+#TODO NET_HELP_IDCANCELHELP2        "Cancels the current operation."
+#TODO #: Untranslated string
+#TODO NET_LOC_STATIC                "Personal details"
+#TODO #: Untranslated string
+#TODO NET_LOC_TITLESTATIC           "Title"
+#TODO #: Untranslated string
+#TODO NET_LOC_STFORENAME            "Firstname"
+#TODO #: Untranslated string
+#TODO NET_LOC_STSURNAME             "Surname"
+#TODO #: Untranslated string
+#TODO NET_LOC_STADDRESS             "Address"
+#TODO #: Untranslated string
+#TODO NET_LOC_STTELEPHONE           "Telephone"
+#TODO #: Untranslated string
+#TODO NET_LOC_STSEX                 "Gender"
+#TODO #: Untranslated string
+#TODO NET_LOC_STAGE                 "Age"
+#TODO #: Untranslated string
+#TODO NET_LOC_STPOSTCODE            "Post/Zip code"
+#TODO #: Untranslated string
+#TODO NET_LOC_GAMEUSERNAMESTATIC    "Username"
+#TODO #: Untranslated string
+#TODO NET_HELP_EMAILEDIT            "Your email address."
+#TODO #: Untranslated string
+#TODO NET_LOC_EMAILST               "Email Address"
 
-NET_SERVERERROR               "Помилка сервера"
-NET_GAMENAMETOOSMALL          "Назва гри закоротка; введіть довшу назву."
-NET_PASSWORDREQUIRED          "Будь ласка, введіть пароль, або заберіть вибір з параметру паролю."
-NET_BADUSERLEVEL              "Ви не можете приєднатись до цього каналу; ви ще не маєте відповідного рангу."
-NET_NOPASSWORD                "Перед входом треба ввести пароль."
-NET_NOUSERNAME                "Перед входом треба ввести псевдонім."
-NET_FIREWALL                  "Проблеми зі з'єднанням, можливо, через фаєрвол. Зв'яжіться зі своїм адміністратором мережі."
-NET_FATALSERVERERROR          "Виникла помилка на сервері. Від'єднання від серверу."
-NET_RETRYLIMIT                "Вам не вдалося ввести коректний псевдонім/пароль; з'єднання зі сервером розірвано."
-NET_CONNECTINGTOSERVER        "Під'єднання до сервера"
-NET_LOC_DONE                  "Завершено"
-NET_HELP_PLAYERNAMEEDIT       "Введіть своє ім'я гравця (псевдонім) тут."
-NET_HELP_IPADDRESSEDIT        "Тут знаходиться ваша IP-адреса."
-NET_LOC_SERVERNET             "Wormnet"
-NET_HELP_SERVERNET            "Пвдёєднатися до WORMNET."
-NET_LOC_LOGIN                 "Увійти"
-NET_HELP_LOGIN                "З'єднатися зі сервером."
-NET_HELP_USERNAME             "Введіть свій псевдонім."
-NET_LOC_STUSERNAME            "Псевдонім"
-NET_HELP_PASSWORD             "Введіть пароль."
-NET_HELP_STPASSWORD           "Введіть пароль."
-NET_LOC_LANLOBBYCAPTION       "Лобі локальної мережі"
-NET_HELP_LANMESSAGEHISTORY    "Повідомлення в чаті від інших гравців з лобі."
-NET_HELP_LANPLAYERLIST        "Список гравців у лобі."
-NET_HELP_LANTEXTENTRY         "Вводьте повідомлення тут; натискайте RETURN для того, аби їх відіслати."
-NET_HELP_LANGAMELIST          "Список доступних ігор."
-NET_LOC_LANSEND               "Надіслати"
-NET_HELP_LANSEND              "Натисніть, аби надіслати повідомлення."
-NET_HELP_GAMENAMEEDIT         "Введіть назву гри."
-NET_LOC_PASSWORDCHECK         "Потрібен пароль"
-NET_HELP_PASSWORDCHECK        "Натисніть, аби захистити свою гру паролем."
-NET_HELP_PASSWORDEDIT         "Введіть свій пароль тут."
-NET_LOC_GAMENAMESTATIC        "Назва гри"
-NET_HELP_REFRESH              "Оновити списки ігор та гравців."
-NET_LOC_GAMEHOSTGROUP         "Створення гри"
-NET_LOC_CREATEGAMEDLGCAPTION  "Створити гру"
-NET_HELP_CREATEGAMEDLGCAPTION "Створити та керувати грою."
-NET_HELP_GAMENAMEHELP         "Назва вашої гри."
-NET_LOC_REQUIRESPASSWORD      "Захищена паролем"
-NET_HELP_REQUIRESPASSWORDHELP "Захистити гру паролем."
-NET_HELP_GAMEPASSWORD         "Уведіть пароль для своєї гри."
-NET_HELP_MAXPLAYERSHELP       "Максимальна кількість команд у вашій грі."
-NET_HELP_SCENARIOCOMBO        "Оберіть схему для вашої гри."
-NET_HELP_IDOK                 "Прийняти інформацію та продовжити."
-NET_HELP_IDCANCELHELP         "Скасувати операцію."
-NET_LOC_NEWGAMENAME           "Назва"
-NET_LOC_NEWSCENARIO           "Сценарій"
-NET_LOC_CONNECTSTATECAPTION   "Статус з'єднання"
-NET_HELP_CONNECTSTATECAPTIONHELP
-                              "Показує наявний статус з'єднання."
-NET_HELP_CONNECTSTATEHELP     "Показує наявний статус з'єднання."
-NET_HELP_IDCANCELHELP2        "Скасовує операцію."
-NET_LOC_STATIC                "Особисті деталі"
-NET_LOC_TITLESTATIC           "Звертання"
-NET_LOC_STFORENAME            "Ім'я"
-NET_LOC_STSURNAME             "Прізвище"
-NET_LOC_STADDRESS             "Адреса"
-NET_LOC_STTELEPHONE           "Номер телефону"
-NET_LOC_STSEX                 "Стать"
-NET_LOC_STAGE                 "Вік"
-NET_LOC_STPOSTCODE            "Поштовий індекс"
-NET_LOC_GAMEUSERNAMESTATIC    "Псевдонім"
-NET_HELP_EMAILEDIT            "Ваша поштова скринька."
-NET_LOC_EMAILST               "Поштова скринька"
+#TODO #: Untranslated string
+#TODO PINGSPEED_FAST                "This player has a fast connection with you."
+#TODO #: Untranslated string
+#TODO PINGSPEED_MODERATE            "This player has a moderate connection with you."
+#TODO #: Untranslated string
+#TODO PINGSPEED_SLOW                "This player has a slow connection with you."
+#TODO #: Untranslated string
+#TODO PINGSPEED_VERYPOOR            "This connection to the player is very poor."
 
-PINGSPEED_FAST                "У цього гравця з вами швидке з'єднання."
-PINGSPEED_MODERATE            "У цього гравця з вами посереднє з'єднання."
-PINGSPEED_SLOW                "У цього гравця з вами повільне з'єднання."
-PINGSPEED_VERYPOOR            "У цього гравця з вами жахливе з'єднання."
+#TODO #: Untranslated string
+#TODO ERROR_CD_MISSING_2            "Copy Protection Error: Either you or the host is using a bad or missing W:A CD-ROM."
+#TODO #: Untranslated string
+#TODO NET_AWAYINGAME                "Away in a game"
+#TODO #: Untranslated string
+#TODO NET_GAMEHOSTERROR             "An error occurred trying to host a game."
+#TODO #: Untranslated string
+#TODO NET_LANPLAYGROUP              "Local area network games"
+#TODO #: Untranslated string
+#TODO NET_LOCALNETWORK              "Local area network"
+#TODO #: Untranslated string
+#TODO NET_CONNECTTOSERVER           "Connect to Wormnet"
+#TODO #: Untranslated string
+#TODO NET_SERVEROPTIONS             "Server connection options"
+#TODO #: Untranslated string
+#TODO NET_LOGINTITLE                "Please enter your login details"
+#TODO #: Untranslated string
+#TODO NET_USERNAME                  "Username"
+#TODO #: Untranslated string
+#TODO NET_LOGIN                     "Login"
+#TODO #: Untranslated string
+#TODO NET_LANGAMELISTHELP           "Shows a list of available games; double click on a name to join it."
+#TODO #: Untranslated string
+#TODO NET_SENDBUTTON                "Send"
+#TODO #: Untranslated string
+#TODO NET_SENDBUTTONHELP            "Submit the current message."
+#TODO #: Untranslated string
+#TODO NET_LANPLAYERLISTHELP         "List of players available to play."
+#TODO #: Untranslated string
+#TODO NET_GAMEHOSTINGGROUP          "Game hosting"
+#TODO #: Untranslated string
+#TODO NET_GAMENAMEEDITHELP          "A name to identify your game."
+#TODO #: Untranslated string
+#TODO NET_PASSWORDREQUIREDHELP      "Create a password secure game."
+#TODO #: Untranslated string
+#TODO NET_PASSWORDEDITHELP          "You can password protect a game."
+#TODO #: Untranslated string
+#TODO NET_FIREWALLSUPPORTGROUP      "Firewall support"
+#TODO #: Untranslated string
+#TODO NET_PROXYADDRESS              "Proxy address"
+#TODO #: Untranslated string
+#TODO NET_PROXYPORT                 "Proxy port"
+#TODO #: Untranslated string
+#TODO NET_PROXYADDRESSEDITHELP      "The address of your firewall. (Ignore if you have no firewall.)"
+#TODO #: Untranslated string
+#TODO NET_PROXYPORTEDITHELP         "The port number that the firewall is using, if firewall support is enabled."
+#TODO #: Untranslated string
+#TODO NET_TESTNETWORK               "Test/diagnose network"
+#TODO #: Untranslated string
+#TODO NET_SAVETEST                  "Save test"
+#TODO #: Untranslated string
+#TODO NET_AUTOUPDATEGROUP           "Auto update"
+#TODO #: Untranslated string
+#TODO NET_PROMPTBEFOREUPDATE        "Prompt before updating client files"
+#TODO #: Untranslated string
+#TODO NET_RESETDEFAULT              "Reset to default"
+#TODO #: Untranslated string
+#TODO NET_AUTOUPDATECLIENTHELP      "Automatically update all essential client files."
 
-ERROR_CD_MISSING_2            "Помилка захисту від піратства: або ви або творець гри використовують пошкоджений диск з W:A."
-NET_AWAYINGAME                "Відійшов у грі"
-NET_GAMEHOSTERROR             "Під час спроби створення гри виникла помилка."
-NET_LANPLAYGROUP              "Ігри в локальній мережі"
-NET_LOCALNETWORK              "Локальна мережа"
-NET_CONNECTTOSERVER           "З'єднатися з Wormnet"
-NET_SERVEROPTIONS             "Параметри з'єднання зі сервером"
-NET_LOGINTITLE                "Будь ласка, введіть свої дані входу"
-NET_USERNAME                  "Псевдонім"
-NET_LOGIN                     "Увійти"
-NET_LANGAMELISTHELP           "Показати список доступних ігор; натисніть двічі на назву гри, аби до неї приєднатись."
-NET_SENDBUTTON                "Надіслати"
-NET_SENDBUTTONHELP            "Відіслати наявне повідомлення."
-NET_LANPLAYERLISTHELP         "Список гравців, які можуть грати."
-NET_GAMEHOSTINGGROUP          "Створення гри"
-NET_GAMENAMEEDITHELP          "Назва для розпізнання вашої гри."
-NET_PASSWORDREQUIREDHELP      "Створити захищену паролем гру."
-NET_PASSWORDEDITHELP          "Ви можете захистити гру паролем."
-NET_FIREWALLSUPPORTGROUP      "Підтримка фаєрволу"
-NET_PROXYADDRESS              "Адреса проксі"
-NET_PROXYPORT                 "Порт проксі"
-NET_PROXYADDRESSEDITHELP      "Адреса вашого фаєрволу. (Не зважайте, якщо у вас нема фаєрволу.)"
-NET_PROXYPORTEDITHELP         "Номер порта, який використовує фаєрвол, якщо увімкнено підтримку фаєрволу."
-NET_TESTNETWORK               "Тестування/діагностика мережі"
-NET_SAVETEST                  "Зберегти тест"
-NET_AUTOUPDATEGROUP           "Автооновлення"
-NET_PROMPTBEFOREUPDATE        "Затримка перед оновленням файлів клієнту"
-NET_RESETDEFAULT              "Скинути до стандартних"
-NET_AUTOUPDATECLIENTHELP      "Автоматично оновлювати усі необхідні файли клієнту."
+#TODO #: Untranslated string
+#TODO NET_EMAILADDRESS              "Email address"
+#TODO #: Untranslated string
+#TODO NET_EMAILADDRESSHELP          "Please enter your email address. (Optional)"
+#TODO #: Untranslated string
+#TODO NET_GAMEUSERNAME              "Game username"
+#TODO #: Untranslated string
+#TODO NET_GAMEUSERNAMEHELP          "Please enter a username whenever you logon."
+#TODO #: Untranslated string
+#TODO NET_GAMEPASSWORD              "Game password"
+#TODO #: Untranslated string
+#TODO NET_GAMEPASSWORDHELP          "Please enter a password used whenever you logon."
 
-NET_EMAILADDRESS              "Електронна скринька"
-NET_EMAILADDRESSHELP          "Будь ласка, введіть свою електронну скриньку. (Не обов'язково)"
-NET_GAMEUSERNAME              "Ігровий псевдонім"
-NET_GAMEUSERNAMEHELP          "Введіть псевдонім під час входу."
-NET_GAMEPASSWORD              "Пароль гри"
-NET_GAMEPASSWORDHELP          "Введіть пароль під час входу."
+#TODO #: Untranslated string
+#TODO NET_LEAVECHANNEL              "Leave channel"
+#TODO #: Untranslated string
+#TODO NET_LEAVECHANNELHELP          "Leave the current channel."
+#TODO #: Untranslated string
+#TODO NET_RETURN                    "Return to the channel"
+#TODO #: Untranslated string
+#TODO NET_MESSAGEHISTORY            "Message history"
+#TODO #: Untranslated string
+#TODO NET_TEXTENTRY                 "Text entry"
+#TODO #: Untranslated string
+#TODO NET_LEAVEROOMBUTTON           "Leave channel"
+#TODO #: Untranslated string
+#TODO NET_SENDMESSAGE               "Send message"
+#TODO #: Untranslated string
+#TODO NET_LOC_LANLOBBY              "Local network lobby"
+#TODO #: Untranslated string
+#TODO NET_LOC_USERDETAILS           "Please enter your personal details"
+#TODO #: Untranslated string
+#TODO MCHLST_HOST                   "Left click to remove a player from the game."
+#TODO #: Untranslated string
+#TODO MCHLST_JOIN                   "These are the players in the game."
+#TODO #: Untranslated string
+#TODO NET_JOIN_H_SPECTATE           "Join the game as a spectator."
+#TODO #: Untranslated string
+#TODO NET_JOIN_H_SCHEME             "This is the setting selected by the host."
+#TODO #: Untranslated string
+#TODO NET_HOST_H_SCHEME             "Choose an option scheme to play with."
+#TODO #: Untranslated string
+#TODO NET_HOST_H_WEAPON             "Edit the weapon settings."
+#TODO #: Untranslated string
+#TODO NET_HOST_H_OPTION             "Edit the game option settings."
+#TODO #: Untranslated string
+#TODO NET_JOIN_H_WEAPON             "View the weapon settings."
+#TODO #: Untranslated string
+#TODO NET_JOIN_H_OPTION             "View the game option settings."
+#TODO #: Untranslated string
+#TODO NET_H_TEAMPANEL               "A list of teams on your computer."
+#TODO #: Untranslated string
+#TODO NET_HOST_START                "Start"
+#TODO #: Untranslated string
+#TODO NET_HOST_H_START              "Start the game."
+#TODO #: Untranslated string
+#TODO KICKED_INFO                   "The host has removed you from the game."
+#TODO #: Untranslated string
+#TODO NET_INVALID_STARTGAME         "Error: The signal to start a game has been received either malformed, or in combination with an invalid or incomplete map or scheme. The game session will be disconnected due to the impossibility of regaining synchronization with the host."
+#TODO #: Untranslated string
+#TODO FAILED_TEAM                   "Sorry, there is no room for your team!"
+#TODO #: Untranslated string
+#TODO TEAM_NAME_COLLISION           "Someone has already teamed in with the same team name as the one you tried to use. Please team in with a different team name."
+#TODO #: Untranslated string
+#TODO ERROR_CONNECTION              "The connection to the network has been lost."
+#TODO #: Untranslated string
+#TODO NET_SEXINVALIDERROR           "You entered an invalid character in the Sex field; please enter either M (male) or F (female)."
+#TODO #: Untranslated string
+#TODO NET_AGEINVALIDERROR           "You entered an invalid age; age range is from 1-100."
+#TODO #: Untranslated string
+#TODO NET_FIRSTNAMEREQUIREDFIELD    "The firstname field is required; please enter a firstname and try again."
+#TODO #: Untranslated string
+#TODO NET_SURNAMEREQUIREDFIELD      "The surname field is required; please enter a surname and try again."
+#TODO #: Untranslated string
+#TODO NET_ADDRESSREQUIREDFIELD      "The address field is required; please enter your address and try again."
+#TODO #: Untranslated string
+#TODO NET_EMAILREQUIREDFIELD        "The email field is required; please enter an email address and try again."
+#TODO #: Untranslated string
+#TODO NET_POSTCODEREQUIREDFIELD     "The postcode field is required; please enter a postcode and try again."
+#TODO #: Untranslated string
+#TODO NET_TITLEREQUIREDFIELD        "The title field is required; please enter a title (Mr., Mrs., Ms) and try again."
+#TODO #: Untranslated string
+#TODO NET_PASSWORDREQUIREDFIELD     "The password field is required; please enter a password and try again."
+#TODO #: Untranslated string
+#TODO NET_USERNAMEREQUIREDFIELD     "The username field is required; please enter a username and try again."
+#TODO #: Untranslated string
+#TODO NET_USERNAMENUMPREFIX         "Username cannot begin with a number"
+#TODO #: Untranslated string
+#TODO NET_PASSWORDCONFIRM           "Retype password for confirmation"
+#TODO #: Untranslated string
+#TODO NET_PASSWORDCONFIRMREQUIRED   "The password confirmation field is required; please enter your password and try again."
+#TODO #: Untranslated string
+#TODO NET_BADCHARACTERS             "You have entered some illegal characters; please try again."
+#TODO #: Untranslated string
+#TODO NET_CONSTATECONNECTING        "Connecting to server, please wait..."
+#TODO #: Untranslated string
+#TODO NET_CONSTATECONNECTED         "Connected to server."
+#TODO #: Untranslated string
+#TODO NET_CONSTATECLOSING           "Closing server connection, please wait..."
+#TODO #: Untranslated string
+#TODO NET_CONSTATECLOSED            "Connection closed."
+#TODO #: Untranslated string
+#TODO NET_CONSTATECONLOST           "Connection to server has been lost."
+#TODO #: Untranslated string
+#TODO NET_CONSTATERECONNECT         "Reconnecting to the server, please wait..."
+#TODO #: Untranslated string
+#TODO NET_CONSTATECONFAILED         "Connection failed."
+#TODO #: Untranslated string
+#TODO NET_CONSTATEFAILEDRETRY       "Connection failed; please review the configuration and try again."
+#TODO #: Untranslated string
+#TODO NET_AUTHENTICATE              "Please enter your authentication details"
+#TODO #: Untranslated string
+#TODO NET_CONSTATEAUTHFAILEDRETRY   "You failed to authenticate; please review your configuration and try again."
+#TODO #: Untranslated string
+#TODO NET_CONSTATEAUTHFAILED        "Authentication failed."
+#TODO #: Untranslated string
+#TODO NET_BADPASSWORDCONFIRM        "The password supplied was different; please re-enter."
+#TODO #: Untranslated string
+#TODO NET_ACCOUNTCREATECANCEL       "You pressed cancel; this will not create a new account. Are you sure?"
+#TODO #: Untranslated string
+#TODO NET_GAMEREQUIRESPASSWORD      "The chosen game is password protected. Please enter the game password."
+#TODO #: Untranslated string
+#TODO NET_CONNECTFAILEDINGAMECLIENT "Your connection to the server was lost during play; please reconnect."
+#TODO #: Untranslated string
+#TODO NET_POSTINGRESULTS            "Posting game results to the server; please wait..."
+#TODO #: Untranslated string
+#TODO NET_POSTRESULTSFAILED         "Unable to post the game results to the server."
+#TODO #: Untranslated string
+#TODO NET_PLAYERKICKED              "You have been kicked from the game!"
+#TODO #: Untranslated string
+#TODO NET_CHANNELKICK               "You have been kicked from the channel!"
+#TODO #: Untranslated string
+#TODO NET_CANTJOINCHANNEL           "Unable to join the channel."
+#TODO #: Untranslated string
+#TODO NET_CHATCOMMANDNOTALLOWED     "That command is currently unsupported."
+#TODO #: Untranslated string
+#TODO NET_TIMEOUT                   "Network operation timed out."
+#TODO #: Untranslated string
+#TODO NET_INITFAIL                  "Network initialisation failed."
+#TODO #: Untranslated string
+#TODO NET_SERVEROPTIMEOUT           "Server operation has timed out."
+#TODO #: Untranslated string
+#TODO NET_SERVERDIED                "The server may have failed."
+#TODO #: Untranslated string
+#TODO NET_LANGUAGEFILTERENABLE      "Enable the profanity filter."
+#TODO #: Untranslated string
+#TODO NET_TERMSANDCONDITIONS        "By connecting to this service, you agree to be bound by the terms and conditions agreement for the WORMNET service; do you wish to continue?"
+#TODO #: Untranslated string
+#TODO NET_INVALID                   "Invalid operation."
+#TODO #: Untranslated string
+#TODO NET_OPFAILED                  "Operation failed."
+#TODO #: Untranslated string
+#TODO NET_OPSUCCESS                 "Operation successful"
+#TODO #: Untranslated string
+#TODO NET_DATATRANSFER              "Transferring data, please wait..."
+#TODO #: Untranslated string
+#TODO NET_OPCOMPLETE                "Operation complete."
+#TODO #: Untranslated string
+#TODO NET_PLEASEPOST                "A file \1 has been written to the \2 folder (in the folder where the game is installed); please refer to this file when contacting support."  # Parameter \1 is the filename and \2 is the relative pathname (e.g. User)
+#TODO #: Untranslated string
+#TODO NET_PIRACYCHECKFAILED         "You have failed the CD authentication check; your account on WORMNET has been disabled. Please contact Team17 support if there is a problem."
+#TODO #: Untranslated string
+#TODO NET_POSTING                   "Posting..."
+#TODO #: Untranslated string
+#TODO NET_RECEIVING                 "Receiving..."
+#TODO #: Untranslated string
+#TODO NET_SENDING                   "Sending..."
+#TODO #: Untranslated string
+#TODO NET_SERVERPAGEFAILED          "A fatal server operation occurred. Disconnecting from the server."
+#TODO #: Untranslated string
+#TODO NET_UNABLE                    "Unable"
+#TODO #: Untranslated string
+#TODO NET_UNKNOWNERROR              "An unknown error occurred; exiting back to main menu."
+#TODO #: Untranslated string
+#TODO NET_NOGAMEID                  "Game identifier not found; unable to host game."
+#TODO #: Untranslated string
+#TODO NET_FATAL                     "Fatal"
+#TODO #: Untranslated string
+#TODO NET_ERROR                     "Network Error"
+#TODO #: Untranslated string
+#TODO NET_KICKPLAYERHELP            "Press this button to kick the player from this game."
+#TODO #: Untranslated string
+#TODO NET_CHANNELNAME               "ChannelName"
+#TODO #: Untranslated string
+#TODO NET_NUMINCHANNEL              "# in Channel"
+#TODO #: Untranslated string
+#TODO NET_CHANNELTITLE              "Topic"
+#TODO #: Untranslated string
+#TODO NET_PLEASEWAIT                "Please wait..."
+#TODO #: Untranslated string
+#TODO NET_CHATMODEHELP              "Type /HELP <commandname> for more help on commands."
+#TODO #: Untranslated string
+#TODO NET_INVALIDCHATCOMMAND
+#TODO 	"You typed an invalid chat command. Chat commands are anything that begin with /.\n"
+#TODO 	"Type /HELP for more information on commands and their usage."
+#TODO #: Untranslated string
+#TODO NET_VALIDCOMMANDS             "Valid commands are the following:"
+#TODO #: Untranslated string
+#TODO NET_NOCOMMANDHELP             "No help is available for this command."
+#TODO #: Untranslated string
+#TODO NET_NICKNAME                  "NickName"
+#TODO #: Untranslated string
+#TODO NET_LANADDRESS                "IP Address"
+#TODO #: Untranslated string
+#TODO NET_ONSERVER                  "On server"
+#TODO #: Untranslated string
+#TODO NET_REALNAME                  "Real name"
+#TODO #: Untranslated string
+#TODO NET_CHANNEL                   "In channel:"
+#TODO #: Untranslated string
+#TODO NET_NAME                      "Name"
+#TODO #: Untranslated string
+#TODO NET_PING                      "Ping"
+#TODO #: Untranslated string
+#TODO NET_AWAY                      "You are trying to message someone currently in a game but they will not be able to answer you. Please wait until the user gets back from the game before retrying."
+#TODO #: Untranslated string
+#TODO NET_SECUREFAILURE             "Security failure."
+#TODO #: Untranslated string
+#TODO NET_SERVERDOWN                "The remote server may be down."
+#TODO #: Untranslated string
+#TODO NET_SERVERDISCONNECTED        "You have been disconnected from the server for sending too many messages at once. (Excess flood error.)"
+#TODO #: Untranslated string
+#TODO NET_NEWSTATS27                "The team's record time in this training event."
+#TODO #: Untranslated string
+#TODO NET_NEW_GAMES                 "Games"
+#TODO #: Untranslated string
+#TODO NET_PORT                      "Port"
+#TODO #: Untranslated string
+#TODO NET_HELP_PORT                 "The port used for hosting games."
+#TODO #: Untranslated string
+#TODO NET_LOC_HOSTER                "Host"
+#TODO #: Untranslated string
+#TODO NET_SERVERLIST_SUGGEST        "Would you like to switch to the \1 server list?"
+#TODO #: Untranslated string
+#TODO NET_SERVERLIST_OK             "Now using \1 server list. Try connecting again. The setting can be changed in the Advanced Options screen."
+#TODO #: Untranslated string
+#TODO NET_SERVERLIST_OFFICIAL       "official"
+#TODO #: Untranslated string
+#TODO NET_SERVERLIST_COMMUNITY      "community"
 
-NET_LEAVECHANNEL              "Залишити канал"
-NET_LEAVECHANNELHELP          "Залишити цей канал."
-NET_RETURN                    "Повернутися до каналу"
-NET_MESSAGEHISTORY            "Історія повідомлень"
-NET_TEXTENTRY                 "Текст"
-NET_LEAVEROOMBUTTON           "Залишити канал"
-NET_SENDMESSAGE               "Надіслати повідомлення"
-NET_LOC_LANLOBBY              "Лобі локальної мережі"
-NET_LOC_USERDETAILS           "Будь ласка,, введіть свої особисті дані"
-MCHLST_HOST                   "Ліва кнопка миші - вилучення гравця з гри."
-MCHLST_JOIN                   "Це - гравці, які приєдналися до гри."
-NET_JOIN_H_SPECTATE           "Приєднатися до гри в якості глядача."
-NET_JOIN_H_SCHEME             "Це - налаштування, обрані творцем гри."
-NET_HOST_H_SCHEME             "Оберіть схему, на якій ви будете грати."
-NET_HOST_H_WEAPON             "Редагувати налаштування зброї."
-NET_HOST_H_OPTION             "Редагувати налаштування ігрової схеми."
-NET_JOIN_H_WEAPON             "Переглянути налаштування зброї."
-NET_JOIN_H_OPTION             "Переглянути налаштування ігрової схеми."
-NET_H_TEAMPANEL               "Список команд на вашому комп'ютері."
-NET_HOST_START                "Почати"
-NET_HOST_H_START              "Почати гру."
-KICKED_INFO                   "Творець вилучив вас зі гри."
-NET_INVALID_STARTGAME         "Помилка: сигнал до початку гри або отримано пошкодженим, або поєднано з некоректною або пошкодженою мапою чи схемою. Вас буде від'єднано від гри через неможливість синхронізації з творцем."
-FAILED_TEAM                   "Вибачте, для вашої команди немає місця!"
-TEAM_NAME_COLLISION           "Хтось вже увійшов за команду з такою ж назвою, як у вашої команди. Будь ласка, оберіть команду з іншою назвою."
-ERROR_CONNECTION              "З'єднання з мережею було втрачено."
-NET_SEXINVALIDERROR           "Ви ввели некоректний символ у полі \"Стать\"; введіть або M (чоловік) або F (жінка)."
-NET_AGEINVALIDERROR           "Ви ввели некоректний вік; можливий вік від 1 до 100."
-NET_FIRSTNAMEREQUIREDFIELD    "Необхідно ввести ім'я; введіть ім'я та спробуйте знову."
-NET_SURNAMEREQUIREDFIELD      "Необхідно ввести прізвище; введіть прізвище та спробуйте знову."
-NET_ADDRESSREQUIREDFIELD      "Необхідно ввести адресу; введіть свою адресу та спробуйте знову."
-NET_EMAILREQUIREDFIELD        "Необхідно ввести електронну скриньку; введіть електронну скриньку та спробуйте знову."
-NET_POSTCODEREQUIREDFIELD     "Необхідно ввести поштовий індекс; введіть поштовий індекс та спробуйте знову."
-NET_TITLEREQUIREDFIELD        "Необхідно ввести як до вас звертатись; введіть звертання (Mr., Mrs., Ms) та спробуйте знову."
-NET_PASSWORDREQUIREDFIELD     "Необхідно ввести пароль; введіть пароль та спробуйте знову."
-NET_USERNAMEREQUIREDFIELD     "Необхідно ввести псевдонім; введіть псевдонім та спробуйте знову."
-NET_USERNAMENUMPREFIX         "Псевдонім не може починатися з цифри"
-NET_PASSWORDCONFIRM           "Введіть пароль повторн6о для підтвердження"
-NET_PASSWORDCONFIRMREQUIRED   "Необхідно підтвердити пароль; введіть свій пароль та спробуйте знову."
-NET_BADCHARACTERS             "Ви ввели некоректні символи; спробуйте знову."
-NET_CONSTATECONNECTING        "З'єднання зі сервером, зачекайте..."
-NET_CONSTATECONNECTED         "З'єднано зі сервером."
-NET_CONSTATECLOSING           "Розривання з'єднання зі сервером, зачекайте..."
-NET_CONSTATECLOSED            "З'єднання розірвано."
-NET_CONSTATECONLOST           "З'єднання зі сервером було втрачено."
-NET_CONSTATERECONNECT         "Повторне з'єднання зі сервером, чекайте..."
-NET_CONSTATECONFAILED         "Помилка з'єднання."
-NET_CONSTATEFAILEDRETRY       "Помилка з'єднання; перегляньте конфігурацію та спробуйте знову."
-NET_AUTHENTICATE              "Будь ласка, введіть свої дані автентифікації"
-NET_CONSTATEAUTHFAILEDRETRY   "Виникла помилка автентифікації; перегляньте свою конфігурацію та спробуйте знову."
-NET_CONSTATEAUTHFAILED        "Помилка автентифікації."
-NET_BADPASSWORDCONFIRM        "Введений пароль відрізняється; введіть його знову."
-NET_ACCOUNTCREATECANCEL       "Ви натиснули скасувати; тому не зможете створити новий акаунт. Ви впевнені?"
-NET_GAMEREQUIRESPASSWORD      "Обрана гра захищена паролем. Уведіть пароль гри."
-NET_CONNECTFAILEDINGAMECLIENT "Ваше з'єднання зі сервером було втрачено під час гри; під'єднайтеся знову."
-NET_POSTINGRESULTS            "Поширення результатів гри на сервері; зачекайте..."
-NET_POSTRESULTSFAILED         "Не вдалося пошири результати гри на сервері."
-NET_PLAYERKICKED              "Вас вигнали з гри!"
-NET_CHANNELKICK               "Вас вигнали з каналу!"
-NET_CANTJOINCHANNEL           "Не вдалося приєднатись до каналу."
-NET_CHATCOMMANDNOTALLOWED     "Ця команда наразі не підтримується."
-NET_TIMEOUT                   "Час на виконання мережевої операції вичерпано."
-NET_INITFAIL                  "Помилка ініціалізації мережі."
-NET_SERVEROPTIMEOUT           "Час на виконання операції сервера вичерпано."
-NET_SERVERDIED                "Помилка операції сервера."
-NET_LANGUAGEFILTERENABLE      "Увімкнути фільтр лайки."
-NET_TERMSANDCONDITIONS        "З'єднуючись зі цим сервісом, ви приймаєте умови договору сервісу WORMNET; бажаєте продовжити?"
-NET_INVALID                   "Некоректна операція."
-NET_OPFAILED                  "Помилка операції."
-NET_OPSUCCESS                 "Операція пройшла успішно"
-NET_DATATRANSFER              "Передача даних, зачекайте..."
-NET_OPCOMPLETE                "Операцію завершено."
-NET_PLEASEPOST                "Файл \1 записано до папки \2 (яка зназодиться у кореневій папці гри); при зв'язку з командою підтримки, надішліть цей файл."  # Parameter \1 is the filename and \2 is the relative pathname (e.g. User)
-NET_PIRACYCHECKFAILED         "Не вдалося перевірити диск; ваш акаунт WORMNET заморожено. Зв'яжіться з Team17, якщо це непорозуміння."
-NET_POSTING                   "Поширення..."
-NET_RECEIVING                 "Отримання..."
-NET_SENDING                   "Надсилання..."
-NET_SERVERPAGEFAILED          "Виникла фатальна помилка на сервері. Від'єднання від сервера."
-NET_UNABLE                    "Неможливо"
-NET_UNKNOWNERROR              "Виникла невідома помилка; вихід до головного меню."
-NET_NOGAMEID                  "Ідентифікатор гри не знайдено; неможливо створитиг гру."
-NET_FATAL                     "Фатальна"
-NET_ERROR                     "Помилка мережі"
-NET_KICKPLAYERHELP            "Натисніть цю кнопку, аби вигнати гравця з цієї гри."
-NET_CHANNELNAME               "НазваКаналу"
-NET_NUMINCHANNEL              "# на каналі"
-NET_CHANNELTITLE              "Тема"
-NET_PLEASEWAIT                "Будь ласка, зачекайте..."
-NET_CHATMODEHELP              "Введіть /HELP <назвакоманди> для додаткової допомоги з командою."
-NET_INVALIDCHATCOMMAND
-	"Ви ввели некоректну чатову команду. Усі чатові команди починаються з /.\n"
-	"Введіть /HELP для детальнішої інформації про використання команд."
-NET_VALIDCOMMANDS             "Коректні команди - це наступні:"
-NET_NOCOMMANDHELP             "З цією командою ми вам не допоможемо."
-NET_NICKNAME                  "Псевдонім"
-NET_LANADDRESS                "IP-адреса"
-NET_ONSERVER                  "На сервері"
-NET_REALNAME                  "Справжнє ім'я"
-NET_CHANNEL                   "На каналі:"
-NET_NAME                      "Ім'я"
-NET_PING                      "Пінґ"
-NET_AWAY                      "Ви намагаєтесь написати комусь, хто зараз грає, але вони не зможуть вам відповісти. Зачекайте, поки користувач завершить гру перед тим, як пробувати писати знову."
-NET_SECUREFAILURE             "Помилка безпеки."
-NET_SERVERDOWN                "Технічні неполадки на віддаленому сервері."
-NET_SERVERDISCONNECTED        "Вас від'єднало від сервера за надсилання надто великої кількості повідомлень за короткий проміжок часу. (Помилка через флуд.)"
-NET_NEWSTATS27                "Рекордний час команди у цьому тренуванні."
-NET_NEW_GAMES                 "Ігри"
-NET_PORT                      "Порт"
-NET_HELP_PORT                 "Порт для створення ігор."
-NET_LOC_HOSTER                "Творець гри"
-NET_SERVERLIST_SUGGEST        "Бажаєте перемкнутися на \1 список серверів?"
-NET_SERVERLIST_OK             "Ви використовуєте \1 список серверів. Спробуйте під'єднатися знову. Параметр можна змінити у додаткових налаштуваннях."
-NET_SERVERLIST_OFFICIAL       "офіційний"
-NET_SERVERLIST_COMMUNITY      "створений спільнотою"
+#TODO #: Untranslated string
+#TODO NET_SENDING_PASSWORD          "Sending password"
+#TODO #: Untranslated string
+#TODO NET_CHECKING_HOST_STATUS      "Checking Status of Host"
+#TODO #: Untranslated string
+#TODO NET_HOST_CHECKING_STATUS      "The host is now checking your status"
+#TODO #: Untranslated string
+#TODO NET_WAITING_PLAYER_INFO       "Waiting for player information"
+#TODO #: Untranslated string
+#TODO NET_WAITING_TEAM_INFO         "Waiting for team information"
+#TODO #: Untranslated string
+#TODO NET_LOADED_TEAM               "Loaded team '\1', Looking for more"
 
-NET_SENDING_PASSWORD          "Надсилання паролю"
-NET_CHECKING_HOST_STATUS      "Перевірка стану творця гри"
-NET_HOST_CHECKING_STATUS      "Творець гри перевіряє ваш стан"
-NET_WAITING_PLAYER_INFO       "Очікування на інформацію про гравця"
-NET_WAITING_TEAM_INFO         "Очікування на інформацію про команду"
-NET_LOADED_TEAM               "Завнтажено команду '\1', пошук триває"
+#TODO #: Untranslated string
+#TODO NET_AWAY_SET_TO               "Your away message has been set to:"
+#TODO #: Untranslated string
+#TODO NET_AWAY_CLEARED              "Your away message has now been cleared"
+#TODO #: Untranslated string
+#TODO NET_CONNECTION_TERMINATED     "WormNET connection terminated!"
+#TODO #: Untranslated string
+#TODO NET_ERROR_WEB_CONN_RECV       "Web Connection Receive Error"
+#TODO #: Untranslated string
+#TODO NET_SERVER_FATAL_ERROR        "Fatal error during gameserver connection, disconnecting"
+#TODO #: Untranslated string
+#TODO NET_WEB_FATAL_ERROR           "Fatal error during web request, disconnecting"
+#TODO #: Untranslated string
+#TODO NET_INVALID_URL               "Invalid URL: \1"
+#TODO #: Untranslated string
+#TODO NET_CHANNEL_INFO_TIMEOUT      "Timeout waiting for channel information!"
+#TODO #: Untranslated string
+#TODO NET_UNAUTHORISED              "You are not authorised to enter this channel!"
+#TODO #: Untranslated string
+#TODO NET_IGNORING                  "Ignoring \1"
+#TODO #: Untranslated string
+#TODO NET_NOT_IGNORING              "Not ignoring \1"
+#TODO #: Untranslated string
+#TODO NET_CLEARING_IGNORES          "Clearing all ignores"
+#TODO #: Untranslated string
+#TODO NET_CHANNEL_KICKED            "You were kicked from Channel \1 by \2 (\3)"
+#TODO #: Untranslated string
+#TODO NET_CHANNEL_KICK              "** \1 ** was kicked from channel \2 by \3 (\4)"
+#TODO #: Untranslated string
+#TODO NET_CONNECTION_TERMINATED_EX  "Your WormNET connection has been terminated."
+#TODO #: Untranslated string
+#TODO NET_FATAL_SERVER_ERROR        "Fatal server error"
+#TODO #: Untranslated string
+#TODO NET_ERROR_NICKCOLLISION       "Error: The nickname you have entered is currently in use by someone else."
+#TODO #: Untranslated string
+#TODO NET_ERROR_ERRONEUSNICKNAME    "Error: Your username is invalid, please re-enter your details."
+#TODO #: Untranslated string
+#TODO NET_ERROR_YOUREBANNEDCREEP    "Error: You have been banned from using the WormNET service."
+#TODO #: Untranslated string
+#TODO NET_DIRECT_IP                 "Direct IP"
+#TODO #: Untranslated string
+#TODO NET_URL_COPIED                "Copied URL into clipboard:"
+#TODO #: Untranslated string
+#TODO NET_URL_COPIED_PRIVATELY      "Copied URL into clipboard."  # Used in Streaming Mode, where the URL itself is not shown.
+#TODO #: Untranslated string
+#TODO NET_STREAM_ENABLED            "Streaming mode has been enabled."
+#TODO #: Untranslated string
+#TODO NET_STREAM_DISABLED           "Streaming mode has been disabled."
+#TODO #: Untranslated string
+#TODO NET_WARN_MAP_FILESIZE         "Warning: downloading large level file (\1B)"
+#TODO #: Untranslated string
+#TODO NET_AWAY_ENABLED              "You are Away. Light Bulb will be automatic. Turns will be auto-skipped if game starts."
+#TODO #: Untranslated string
+#TODO NET_ERROR_WEB_BUSY            "ERROR: WEB always Busy"
+#TODO #: Untranslated string
+#TODO NET_ERROR_WEB_SENDING         "ERROR: WEB Never stopped sending"
+#TODO #: Untranslated string
+#TODO NET_ERROR_ROOM_NOWEAPDATA     "ERROR: Not enough data for weapon"
+#TODO #: Untranslated string
+#TODO NET_ERROR_ROOM_BADDATA        "ERROR: Bad data found"
+#TODO #: Untranslated string
+#TODO NET_ERROR_CHECKSUM            "ERROR: Could not get checksum \1: \2"
+#TODO #: Untranslated string
+#TODO NET_SKIPPED_PACKET            "Skipped packet? Index jump of \1 from \2"
+#TODO #: Untranslated string
+#TODO NET_UNKNOWNUSERQUIT           "unknown user is quitting"
+#TODO #: Untranslated string
+#TODO NET_INVALIDDATAFROM           "invalid data received from \1"
+#TODO #: Untranslated string
+#TODO NET_X_IS_QUITTING             "\1 is quitting"
+#TODO #: Untranslated string
+#TODO NET_X_IS_DISCONNECTING        "\1 is disconnecting"
+#TODO #: Untranslated string
+#TODO NET_X_DISCONNECTED            "\1 disconnected"
+#TODO #: Untranslated string
+#TODO NET_X_IS_BEING_DISCONNECTED   "\1 is being disconnected"
+#TODO #: Untranslated string
+#TODO NET_DISCONNECT_TEXT           "\1 disconnected with error \2 (\3)"
+#TODO #: Untranslated string
+#TODO NET_DUE_TO_X                  "due to \1"
+#TODO #: Untranslated string
+#TODO NET_DROP_NETDROP              "network drop"
+#TODO #: Untranslated string
+#TODO NET_DROP_NETDROP_REMOTEDESYNC "network drop (remote desynchronisation)"
+#TODO #: Untranslated string
+#TODO NET_DROP_DESYNC               "desynchronisation"
+#TODO #: Untranslated string
+#TODO NET_DROP_TIMEOUT              "timeout"
+#TODO #: Untranslated string
+#TODO NET_DROP_TIMEOUT_SEND         "timeout on send"
+#TODO #: Untranslated string
+#TODO NET_DROP_TIMEOUT_RECV         "timeout on receive"
+#TODO #: Untranslated string
+#TODO NET_DROP_QUIT                 "quitting"
+#TODO #: Untranslated string
+#TODO NET_DROP_UNKNOWNNOTQUIT       "network drop, timeout, or desynchronisation"
+#TODO #: Untranslated string
+#TODO NET_DROP_UNKNOWN              "unrecorded reason"
+#TODO #: Untranslated string
+#TODO NET_DROP_VERSION_BUG          "[reason not recorded due to v\1 bug]"
+#TODO #: Untranslated string
+#TODO NET_DETECTED_LOCAL_PLAYER     "Detected Local Player: \1"
+#TODO #: Untranslated string
+#TODO NET_ROUND_FINISH_ACK          "Round Finish acknowledged by \1"
+#TODO #: Untranslated string
+#TODO NET_FORCED_OUT_BY             "\1 (\2) forced out by"
+#TODO #: Untranslated string
+#TODO NET_DISCONNECTION_DUE_TO_X    "disconnection due to \1"
+#TODO #: Untranslated string
+#TODO NET_DISCONNECTION_OF_HOST     "disconnection of host (\1)"
+#TODO #: Untranslated string
+#TODO NET_HOSTINGBUDDY_BUG          "HostingBuddy bug"
+#TODO #: Untranslated string
+#TODO NET_POSSIBLE_INJECTION        "possible message injection"
+#TODO #: Untranslated string
+#TODO NET_UNKNOWN_CAUSE             "an unknown cause"
+#TODO #: Untranslated string
+#TODO NET_DETECTED_LOCAL_SPECTATOR  "Detected Local Spectator: \1"
+#TODO #: Untranslated string
+#TODO NET_DETECTED_LOCAL_SPECTATOR_MULTI
+#TODO                               "Detected Local Spectator as one of:"
+#TODO                               
+#TODO #: Untranslated string
+#TODO # The parameter here is the date in YYYY.MM.DD format (Greenwich Mean Time) when the recording of game logic checksums was added to the .WAgame file format
+#TODO NET_DETECTED_NO_CHECKSUMS     "Detected pre-\1 GMT game file (no checksums)"
 
-NET_AWAY_SET_TO               "Ваше повідомлення про відхід:"
-NET_AWAY_CLEARED              "Ваше повідомлення про відхід очищено"
-NET_CONNECTION_TERMINATED     "З'єднання з WormNET розірвано!"
-NET_ERROR_WEB_CONN_RECV       "Помилка з'єднання з інтернетом"
-NET_SERVER_FATAL_ERROR        "Виникла фатальна помилка під час з'єднання зі сервером гри, від'єднання"
-NET_WEB_FATAL_ERROR           "Виникла фатальна помилка під час мережевого запиту, від'єднання"
-NET_INVALID_URL               "Некоректний URL: \1"
-NET_CHANNEL_INFO_TIMEOUT      "Час на очікування інформації каналу вичерпано!"
-NET_UNAUTHORISED              "Ви не авторизовані!"
-NET_IGNORING                  "Ігнорування \1"
-NET_NOT_IGNORING              "Нема ігнорування \1"
-NET_CLEARING_IGNORES          "Очистити всі ігнорування"
-NET_CHANNEL_KICKED            "\2 (\3) вигнав(ла) вас із каналу \1"
-NET_CHANNEL_KICK              "\3 (\4) вигнав(ла) ** \1 ** із каналу \2"
-NET_CONNECTION_TERMINATED_EX  "Ваше з'єдання з WormNET було розірвано."
-NET_FATAL_SERVER_ERROR        "Фатальна помилка сервера"
-NET_ERROR_NICKCOLLISION       "Помилка: введений вами псевдонім вже кимось використовується."
-NET_ERROR_ERRONEUSNICKNAME    "Помилка: ваш псевдонім некоректний, введіть свої дані повторно."
-NET_ERROR_YOUREBANNEDCREEP    "Помилка: вам заборонено використання сервісу WormNET."
-NET_DIRECT_IP                 "Пряме IP"
-NET_URL_COPIED                "URL скопійовано в буфер обміну:"
-NET_URL_COPIED_PRIVATELY      "URL скопійовано в буфер обміну."  # Used in Streaming Mode, where the URL itself is not shown.
-NET_STREAM_ENABLED            "Режим стрімера увімкнено."
-NET_STREAM_DISABLED           "Режим стрімера вимкнено."
-NET_WARN_MAP_FILESIZE         "Увага: завантаження великого файлу мапи (\1Б)"
-NET_AWAY_ENABLED              "Ви відійшли. Лампочка загориться автоматично. Якщо гра почнеться, ходи будуть автоматично пропускатись."
-NET_ERROR_WEB_BUSY            "ПОМИЛКА: мережа завжди зайнята"
-NET_ERROR_WEB_SENDING         "ПОМИЛКА: мережа припинила відповідати"
-NET_ERROR_ROOM_NOWEAPDATA     "ПОМИЛКА: недостатньо даних для зброї"
-NET_ERROR_ROOM_BADDATA        "ПОМИЛКА: виявлено пошкоджені дані"
-NET_ERROR_CHECKSUM            "ПОМИЛКА: не вдалося отримати контрольну суму \1: \2"
-NET_SKIPPED_PACKET            "Пропустити пакет? Переміщення індекса \1 з \2"
-NET_UNKNOWNUSERQUIT           "невідомий користувач виходить"
-NET_INVALIDDATAFROM           "від \1 отримано некоректні дані"
-NET_X_IS_QUITTING             "\1 виходить"
-NET_X_IS_DISCONNECTING        "\1 від'єднується"
-NET_X_DISCONNECTED            "\1 від'єднало"
-NET_X_IS_BEING_DISCONNECTED   "\1 від'єднують"
-NET_DISCONNECT_TEXT           "\1 від'єднався з помилкою \2 (\3)"
-NET_DUE_TO_X                  "через \1"
-NET_DROP_NETDROP              "втрата з'єднання"
-NET_DROP_NETDROP_REMOTEDESYNC "втрата з'єднання (віддалена розсинхронізація)"
-NET_DROP_DESYNC               "розсинхронізація"
-NET_DROP_TIMEOUT              "час вичерпано"
-NET_DROP_TIMEOUT_SEND         "вичерпано час на надсилання"
-NET_DROP_TIMEOUT_RECV         "вичерпано час на отримання"
-NET_DROP_QUIT                 "вихід"
-NET_DROP_UNKNOWNNOTQUIT       "втрата з'єднання, час вичерпано чи розсинхронізація"
-NET_DROP_UNKNOWN              "незаписана причина"
-NET_DROP_VERSION_BUG          "[причину не записано через баг v\1]"
-NET_DETECTED_LOCAL_PLAYER     "Виявлено локального гравця: \1"
-NET_ROUND_FINISH_ACK          "Про завершення раунду дізнався \1"
-NET_FORCED_OUT_BY             "\1 (\2) вигнано"
-NET_DISCONNECTION_DUE_TO_X    "від'єднання через \1"
-NET_DISCONNECTION_OF_HOST     "від'єднання творця (\1)"
-NET_HOSTINGBUDDY_BUG          "Глюк HostingBuddy"
-NET_POSSIBLE_INJECTION        "можливе вставлення повідомлень"
-NET_UNKNOWN_CAUSE             "невідома причина"
-NET_DETECTED_LOCAL_SPECTATOR  "Виявлено локального глядача: \1"
-NET_DETECTED_LOCAL_SPECTATOR_MULTI
-                              "Виявлено одного з локальних глядачів:"
-                              
-# The parameter here is the date in YYYY.MM.DD format (Greenwich Mean Time) when the recording of game logic checksums was added to the .WAgame file format
-NET_DETECTED_NO_CHECKSUMS     "Виявлено файл гри до \1 GMT (без контрольних сум)"
+#TODO #: Untranslated string
+#TODO # The parameter here is a version, "3.6.22.0", and the bug happens when some players have a version < v3.6.22.0, and some have a version >= v3.6.22.0 (which is why "threshold" is in the message)
+#TODO NET_DETECTED_VERSION_THRESHOLD_CHECKSUM_MISMATCH
+#TODO                               "Detected Local/Remote v\1 threshold checksum mismatch"
 
-# The parameter here is a version, "3.6.22.0", and the bug happens when some players have a version < v3.6.22.0, and some have a version >= v3.6.22.0 (which is why "threshold" is in the message)
-NET_DETECTED_VERSION_THRESHOLD_CHECKSUM_MISMATCH
-                              "Виявлено локальну/віддалену різницю контрольних сум v\1"
-
-# In-game strings
+#TODO #: Untranslated string
+#TODO # In-game strings
 
 
 GAME_REPLAY_COMMENT
