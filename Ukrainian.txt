@@ -1066,7 +1066,7 @@ TEAM_FORMAT_ERROR_LOAD_RESET
 
 
 # Main Menu screen
-#TODO MAINMENU_VCPU                 "Однокористувацькі ігри"
+MAINMENU_VCPU                 "Однокористувацькі ігри"
 MAINMENU_H_VCPU               "До меню однокористувацьких ігор."
 MAINMENU_CREATEGAME           "Створити гру."
 MAINMENU_H_CREATEGAME         "Створити одно- або багатокористувацьку гру."
@@ -1414,7 +1414,7 @@ REGISTER_ASSOCIATIONS         "Реєструвати асоціації"
 H_REGISTER_ASSOCIATIONS       "Асоціювати W:A з файлами повторів і URL-протоколом wa://"
 
 # Multiplayer screens
-#TODO MULTIPLAY_H_WORMS             "Ліва кнопка миші - додати черв'яка до команди. Права кнопка миші - вилучити."
+MULTIPLAY_H_WORMS             "Ліва кнопка миші - додати черв'яка до команди. Права кнопка миші - вилучити."
 MULTIPLAY_H_ALLY              "Обрати союзну групу для цієї команди."
 MULTIPLAY_H_HANDICAP          "Оберіть, щоб підсилити або послабити команду."
 MULTIPLAY_BOX_SCHEME          "Налаштування схеми"
@@ -1747,177 +1747,105 @@ MATCHEND_H_RESULTS            "Це нагороди, які видали."
 MATCHEND_H_DETAILS            "Деталі гри."
 MATCHEND_H_WINNER             "Переможець гри."
 
-#TODO #: Untranslated string
-#TODO # Map editor
+# Map editor
 
-#TODO LEVEL_HELP_JOIN               "An outline of the current terrain."
-#TODO #: Untranslated string
-#TODO LEVEL_HELP_HOST               "Left click to generate a new terrain; Right click to edit one; Shift+Click to backtrack."
-#TODO #: Untranslated string
-#TODO H_OPENLEVELTEXT               "These thumbnails generate island terrains."
-#TODO #: Untranslated string
-#TODO H_CAVERNLEVELTEXT             "These thumbnails generate cavern terrains."
-#TODO #: Untranslated string
-#TODO H_OPENLEVELTEXTSTR            "ISLAND TEMPLATES"
-#TODO #: Untranslated string
-#TODO H_CAVERNLEVELTEXTSTR          "CAVERN TEMPLATES"
-#TODO #: Untranslated string
-#TODO H_UNDO                        "Undo the last change to your custom level."
-#TODO #: Untranslated string
-#TODO H_LEVELNAME                   "Select a terrain to load, or type a terrain code."
-#TODO #: Untranslated string
-#TODO H_SAVE                        "Save this terrain."
-#TODO #: Untranslated string
-#TODO H_DELETE                      "Delete this terrain."
-#TODO #: Untranslated string
-#TODO H_BRIDGES                     "Left click to increase the number of bridges on the terrain. Right click to decrease."
-#TODO #: Untranslated string
-#TODO H_OBJECTS                     "Left click to increase the number of objects on the terrain. Right click to decrease."
-#TODO #: Untranslated string
-#TODO H_TERRAINTHUMBNAIL
-#TODO 	"Left click to generate a new terrain; Right click to edit it;\n"
-#TODO 	"Shift+Click to backtrack."
-#TODO #: Untranslated string
-#TODO H_WATERLEVEL                  "Click or drag to raise and lower the water level."
-#TODO #: Untranslated string
-#TODO H_DRAWING
-#TODO 	"Left mouse button paints; right mouse button erases.\n"
-#TODO 	"Alt=fine tune, Ctrl=constrain, Shift+click=draw line"
-#TODO #: Untranslated string
-#TODO H_SOIL                        "Select the soil and background for your custom level."
-#TODO #: Untranslated string
-#TODO H_INVERT                      "Click to invert the landscape."
-#TODO #: Untranslated string
-#TODO H_BORDERS
-#TODO 	"Click to turn the indestructible border on or off.\n"
-#TODO 	"Right click to toggle the top cavern border."
-#TODO #: Untranslated string
-#TODO H_TUNNELS                     "Click to draw a tunnel system in the terrain."
-#TODO #: Untranslated string
-#TODO H_HOLES                       "Click to draw holes in the terrain."
-#TODO #: Untranslated string
-#TODO H_IMPORT                      "Click to import a custom terrain."
-#TODO #: Untranslated string
-#TODO H_EDITMODE
-#TODO 	"Click to preview this terrain.\n"
-#TODO 	"Right Click to convert to a colour map."
-#TODO #: Untranslated string
-#TODO H_BRUSHSIZE                   "Left click to increase brush size. Right click to decrease it."
-#TODO #: Untranslated string
-#TODO H_EDITMODE2
-#TODO 	"Click to return to edit mode.\n"
-#TODO 	"Right Click to convert to a colour map."
-#TODO #: Untranslated string
-#TODO H_CLEAR                       "Left click to clear the terrain. Right click to solid fill."
-#TODO #: Untranslated string
-#TODO H_FILL                        "Left click to fill a solid area. Right click to clear it."
-#TODO #: Untranslated string
-#TODO H_GENERATE                    "Click to generate a level based on the text entered."
-#TODO #: Untranslated string
-#TODO H_TOPBORDERTOOLTIP            "This terrain will behave like a cavern."
-#TODO #: Untranslated string
-#TODO H_MAPEDEXIT                   "Exit from the terrain editor."
-#TODO #: Untranslated string
-#TODO H_RESEED
-#TODO 	"Change placement of objects, bridges\n"
-#TODO 	"and holes. Shift+click to backtrack."
-#TODO #: Untranslated string
-#TODO H_MAP_DETAIL_SLIDER
-#TODO 	"Drag to adjust complexity range for all map generation\n"
-#TODO 	"(currently \1% - \2%). Hold Shift to drag both ends."
-#TODO #: Untranslated string
-#TODO RESEED                        "Reseed"
-#TODO #: Untranslated string
-#TODO SHRINKORCROP                  "Your image is larger than the terrain area. Would you like to shrink or crop the image?"
-#TODO #: Untranslated string
-#TODO SHRINK                        "Shrink"
-#TODO #: Untranslated string
-#TODO CROP                          "Crop"
-#TODO #: Untranslated string
-#TODO COLOURMODE
-#TODO 	"Click to remove the colour from this map.\n"
-#TODO 	"Right Click to toggle Worm Placement Holes."
-#TODO #: New string
-#TODO CM_MAP_TRANSPARENCY_TITLE     "Ambiguous Transparency"
-#TODO #: New string
-#TODO CM_MAP_TRANSPARENCY_MESSAGE   "This image file contains transparency information but no pixels are identified as being transparent. Treat the first black in the palette as transparent instead (as was always done before W:A v3.8)?"
-#TODO #: Untranslated string
-#TODO CM_DELETE_MAP_TITLE           "Delete map?"
-#TODO #: Untranslated string
-#TODO CM_DELETE_MAP_MESSAGE         "Are you sure you wish to delete the map \"\1\"?"
-#TODO #: Untranslated string
-#TODO CM_OVERWRITE_MAP_TITLE        "Overwrite map?"
-#TODO #: Untranslated string
-#TODO CM_OVERWRITE_MAP_MESSAGE      "Are you sure you wish to overwrite the map \"\1\"?"
-#TODO #: Untranslated string
-#TODO LOADINGIMAGE                  "Loading image, please wait..."
-#TODO #: Untranslated string
-#TODO REDUCINGCOLOURS               "Colour reduction process, please wait..."
-#TODO #: Untranslated string
-#TODO RESAMPLINGIMAGE               "Resizing image, please wait"
-#TODO #: Untranslated string
-#TODO GENERATE                      "Generate"
-#TODO #: Untranslated string
-#TODO LOSECOLOUR                    "Switching to edit mode will lose all colour information. Are you sure you want to do this?"
-#TODO #: Untranslated string
-#TODO STRETCHORCENTRE               "Your image is smaller than the terrain area. Would you like to stretch or centre the image?"
-#TODO #: Untranslated string
-#TODO STRETCH                       "Stretch"
-#TODO #: Untranslated string
-#TODO CENTRE                        "Centre"
-#TODO #: Untranslated string
-#TODO MAPEDQUITTEXT                 "You have made changes; do you want to exit and lose the changes?"
-#TODO #: Untranslated string
-#TODO CHOOSESOIL                    "Choose the soil background for your custom level."
-#TODO #: Untranslated string
-#TODO HOLECOUNT                     "Change the maximum number of objects, bridges and holes that can be automatically placed on the map."
+LEVEL_HELP_JOIN               "Контур цього ландшафту."
+LEVEL_HELP_HOST               "Ліва кнопка миші - генерація нового ландшафту; права - для його редагування; Shift+клік - крок назад."
+H_OPENLEVELTEXT               "Ці іконки відповідають за острівні мапи."
+H_CAVERNLEVELTEXT             "Ці іконки відповідають за печерні мапи."
+H_OPENLEVELTEXTSTR            "ШАБЛОНИ ОСТРОВІВ"
+H_CAVERNLEVELTEXTSTR          "ШАБЛОНИ ПЕЧЕР"
+H_UNDO                        "Скасувати останню зміну в цій користувацькій мапі."
+H_LEVELNAME                   "Обрати мапу для завантаження, або ввести код генерації."
+H_SAVE                        "Зберегти ландшафт."
+H_DELETE                      "Видалити цей ландшафт."
+H_BRIDGES                     "Ліва кнопка миші - збільшити кількість мостів на мапі. Права - для зменшення."
+H_OBJECTS                     "Ліва кнопка миші - збільшити кількість об'єктів на мапі. Права - для зменшення."
+H_TERRAINTHUMBNAIL
+	"Ліва кнопка миші - генерація нового ландшафту; права - для редагування;\n"
+	"Shift+клік - крок назад."
+H_WATERLEVEL                  "Натисніть чи потягніть для підняття/зниження рівню води."
+H_DRAWING
+	"Ліва кнопка миші = малювати; права - для стирання.\n"
+	"Alt=точне малювання, Ctrl=обмежене, Shift+клік=намалювати лінію"
+H_SOIL                        "Обрати ґрунт та задній фон вашої мапи."
+H_INVERT                      "Натисніть, аби інвертувати ландшфат."
+H_BORDERS
+	"Натисніть, аби увімкнути/вимкнути незнищенні межі.\n"
+	"Права кнопка миші - керування верхньою межею печери."
+H_TUNNELS                     "Натисніть, аби створити у ландшафті систему тунелів."
+H_HOLES                       "Натисніть, аби створити у ландшафті дірки."
+H_IMPORT                      "Натисніть, аби імпортувати користувацький ландшафт."
+H_EDITMODE
+	"Натисніть, аби переглянути ландшафт.\n"
+	"Права кнопка миші - перетворення на кольорову мапу."
+H_BRUSHSIZE                   "Ліва кнопка миші - збільшення розміру пензля. Права - зменшення."
+H_EDITMODE2
+	"Натисніть, аби повернутися до режиму редагування.\n"
+	"Права кнопка миші - перетворення на кольорову мапу."
+H_CLEAR                       "Ліва кнопка миші - очистити ландшафт. Права - заповнити."
+H_FILL                        "Ліва кнопка миші - заповнити замкнену ділянку. Права - очистити її."
+H_GENERATE                    "Натисніть, аби згенерувати мапу, основану на введеному тексті."
+H_TOPBORDERTOOLTIP            "Цей ландшафт є печерою."
+H_MAPEDEXIT                   "Вийти з редактора ландшафту."
+H_RESEED
+	"Змінює розміщення об'єктів, мостів\n"
+	"та дірок. Shift+клік - крок назад."
+H_MAP_DETAIL_SLIDER
+	"Тягніть, щоб підлаштувати діапазон складності для генерації усіх мап\n"
+	"(наразі \1% - \2%). Утримуйте Shift для того, аби тягнути обидва кінці."
+RESEED                        "Повторна генерація"
+SHRINKORCROP                  "Ваше зображення більше за ділянку ландшафту. Бажаєте його стиснути чи обрізати?"
+SHRINK                        "Стиснути"
+CROP                          "Обрізати"
+COLOURMODE
+	"Натисніть, аби вилучити колір з цієї мапи.\n"
+	"Права кнопка миші - керування дірками для черв'яків."
+CM_MAP_TRANSPARENCY_TITLE     "Неоднозначна прозорість"
+CM_MAP_TRANSPARENCY_MESSAGE   "Цей файл зображення містить інформацію про прозорість, але не має прозорих пікселів. Вважати чорний колір палітри прозорим (як воно зазвичай було до W:A v3.8)?"
+CM_DELETE_MAP_TITLE           "Видалити мапу?"
+CM_DELETE_MAP_MESSAGE         "Ви певні, що хочете видалити мапу \"\1\"?"
+CM_OVERWRITE_MAP_TITLE        "Перезаписати мапу?"
+CM_OVERWRITE_MAP_MESSAGE      "Ви певні, що хочете перезаписати мапу \"\1\"?"
+LOADINGIMAGE                  "Завантаження зображення, зачекайте..."
+REDUCINGCOLOURS               "Зменшення кількості кольорів, зачекайте..."
+RESAMPLINGIMAGE               "Зміна розміру зображення, зачекайте"
+GENERATE                      "Згенерувати"
+LOSECOLOUR                    "Перемикання на режим редагування зітре всю інформацію про колір. Ви певні, що хочете цього?"
+STRETCHORCENTRE               "Ваше зображення менше за ділянку ландшафту. Ви хочете його розтягнути чи відцентрувати?"
+STRETCH                       "Розтягнути"
+CENTRE                        "Відцентрувати"
+MAPEDQUITTEXT                 "Бажаєте вийти й не зберігати зміни?"
+CHOOSESOIL                    "Обрати задній фон ґрунту для вашої мапи."
+HOLECOUNT                     "Змінити максимальну кількість об'єктів, мостів та дірок, які можуть бути автоматично створеними на мапі."
 
-#TODO #: Untranslated string
-#TODO MAP_CAVERN_TOO_BIG            "A map that is wider than \1 pixels or taller than \2 pixels must be a cavern."
-#TODO #: Untranslated string
-#TODO MAP_TOO_MANY_COLOURS          "This map has too many colours, and must be dithered to \1 colours."
-#TODO #: Untranslated string
-#TODO MAP_PNG_ERROR                 "PNG Error"
-#TODO #: Untranslated string
-#TODO MAP_PNG_WARNING               "PNG Warning"
-#TODO #: Untranslated string
-#TODO MAP_UNRECOGNISED_FILE         "Invalid or unrecognised map file"
-#TODO #: Untranslated string
-#TODO MAP_OPEN_ERROR                "Error opening map file"
-#TODO #: Untranslated string
-#TODO MAP_INVALID_FILE              "Invalid map file"
-#TODO #: Untranslated string
-#TODO MAP_PREPARE_ERROR             "Error preparing to load map"
-#TODO #: Untranslated string
-#TODO MAP_LOAD_ERROR                "Error loading map"
-#TODO #: Untranslated string
-#TODO MAP_INVALID_PALETTE           "Invalid palette in map file"
-#TODO #: Untranslated string
-#TODO MAP_SIZE_WRONG                "Invalid map dimensions.\nMust be \1."
-#TODO #: Untranslated string
-#TODO MAP_SIZE_TOO_SMALL            "Invalid map dimensions.\nMust be at least \1."
-#TODO #: Untranslated string
-#TODO MAP_SIZE_TOO_BIG_CAVERN       "Invalid map dimensions.\nMust be \1 or smaller."
-#TODO #: Untranslated string
-#TODO MAP_SIZE_TOO_BIG_ISLAND       "Invalid island map dimensions.\nMust be \1 or smaller."
-#TODO #: Untranslated string
-#TODO MAP_SIZE_ODD                  "Invalid map dimensions.\nMust be divisible by \1."
+MAP_CAVERN_TOO_BIG            "Мапа, ширша за \1 пікселів або вища за \2 мусить бути печерою."
+MAP_TOO_MANY_COLOURS          "У цієї мапи забагато кольорів, їхню кількість буде зменшено до \1."
+MAP_PNG_ERROR                 "Помилка PNG"
+MAP_PNG_WARNING               "Попередження PNG"
+MAP_UNRECOGNISED_FILE         "Некоректний або нерозпізнаний файл мапи"
+MAP_OPEN_ERROR                "Помилка відкриття файлу мапи"
+MAP_INVALID_FILE              "Некоректний файл мапи"
+MAP_PREPARE_ERROR             "Помилка підготовки завантаження мапи"
+MAP_LOAD_ERROR                "Помилка завантаження мапи"
+MAP_INVALID_PALETTE           "У файлі карти некоректна палітра"
+MAP_SIZE_WRONG                "Некоректні розміри мапи.\nМає бути \1."
+MAP_SIZE_TOO_SMALL            "Некоректні розміри мапи.\nМає бути як мінімум \1."
+MAP_SIZE_TOO_BIG_CAVERN       "Некоректні розміри мапи.\nМає бути \1 або менше."
+MAP_SIZE_TOO_BIG_ISLAND       "Некоректні розміри острівної мапи.\nМає бути \1 або менше."
+MAP_SIZE_ODD                  "Некоректні розміри мапи.\nВони мають ділитись на \1."
 
-#TODO #: Untranslated string
-#TODO LARGE_MAP_WARNING_TITLE       "Large map warning"
-#TODO #: Untranslated string
-#TODO LARGE_MAP_WARNING_DIALOG
-#TODO 	"You are about to load a map with the dimensions \1. "
-#TODO 	"This will require approximately \2B of memory, "
-#TODO 	"with a peak usage of about \3B for processing. "
-#TODO 	"Proceed?"
-#TODO #: Untranslated string
-#TODO LARGE_MAP_WARNING
-#TODO 	"\1 colour map\n"
-#TODO 	"Approximate memory use:\n"
-#TODO 	"\2B / \3B peak\m"
-#TODO 	"Click here to accept map\n"
-
+LARGE_MAP_WARNING_TITLE       "Попередження великої мапи"
+LARGE_MAP_WARNING_DIALOG
+	"Ви збираєтесь завантажити мапу з розміром \1. "
+	"Для цього необхідно приблизно \2Б пам'яті, "
+	"а максимальне використання для обробки - \3Б. "
+	"Продовжити?"
+LARGE_MAP_WARNING
+	"Кольорова мапа \1\n"
+	"Приблизне використання пам'яті:\n"
+	"\2Б / \3Б маскимум\m"
+	"Натисніть, аби прийняти мапу\n"
 
 # Network screen
 
@@ -2777,457 +2705,267 @@ GAME_WORM_SICKNESS_COMMENTS
 	"У \1 всього лиш туберкульоз.\,"
 	"\1 відчуває слабкість.\,"
   
-#TODO #: Untranslated string
-#TODO GAME_PLAYER_WAIT              "Waiting for Players - \1"
-#TODO #: Untranslated string
-#TODO GAME_INVALID_FKEY             "Invalid Function-Key"
-#TODO #: Untranslated string
-#TODO GAME_UNKNOWN_COMMAND          "unknown command"
-#TODO #: Untranslated string
-#TODO GAME_UNKNOWN_MACHINE          "unknown machine"
-#TODO #: Untranslated string
-#TODO GAME_NO_MESSAGE               "no message specified"
-#TODO #: Untranslated string
-#TODO GAME_NO_MACHINE               "no machine specified"
-#TODO #: Untranslated string
-#TODO GAME_UTIL                     "Util."
+GAME_PLAYER_WAIT              "Очікування на гравців - \1"
+GAME_INVALID_FKEY             "Некоректна функціональна клавіша"
+GAME_UNKNOWN_COMMAND          "недома команда"
+GAME_UNKNOWN_MACHINE          "невідомий комп'ютер"
+GAME_NO_MESSAGE               "не обрано повідомлення"
+GAME_NO_MACHINE               "не обрано комп'ютера"
+GAME_UTIL                     "Утил."
 
-#TODO #: Untranslated string
-#TODO GAME_AWAY                     "While you are Away, your turns will be automatically skipped."
-#TODO #: Untranslated string
-#TODO GAME_CHATHINT                 "This chat window is opened by pressing Page Down."
-#TODO #: Untranslated string
-#TODO GAME_CHATPINNED               "The chat window is pinned - press Page Down to activate it or Ctrl+Page Up to unpin it."
+GAME_AWAY                     "Поки ви відійшли, ваші ходи будуть автоматично пропускатись."
+GAME_CHATHINT                 "Це вікно чату можна відкрити, натиснувши Page Down."
+GAME_CHATPINNED               "Вікно чату прикріплено - натисніть Page Down, аби активувати його, або Ctrl+Page Up, аби відкріпити його."
 
-#TODO #: Untranslated string
-#TODO GAME_AUTOIGNORE               "Automatically ignoring \1 due to flood, type \"/unignore \1\" or press Ctrl+F\2 to unignore"
-#TODO #: Untranslated string
-#TODO GAME_WRONGGROUP               "You are not a member of that group!"
+GAME_AUTOIGNORE               "Автоматичне ігнорування \1 через флуд, введіть \"/unignore \1\" або натисніть Ctrl+F\2, аби припинити ігнор"
+GAME_WRONGGROUP               "Ви не є учасником цієї групи!"
 
-#TODO #: Untranslated string
-#TODO # Export Log
+# Export Log
 
-#TODO LOG_ACCEPT_INCOMING           "Incoming connection on slot \1"
-#TODO #: Untranslated string
-#TODO LOG_ACCEPT_REJECTED           "Incoming connection rejected"
-#TODO #: Untranslated string
-#TODO LOG_HOSTING                   "\1 is hosting a game on \2 named \"\3\""
-#TODO #: Untranslated string
-#TODO LOG_STARTING                  "Starting game, recorded as file \"\1\""
-#TODO #: Untranslated string
-#TODO LOG_GAMEID_UNKNOWN            "Game ID unknown; game joined by Direct IP or URL"
-#TODO #: Untranslated string
-#TODO LOG_GAMEID                    "Game ID: \"\1\""
+LOG_ACCEPT_INCOMING           "Наступне з'єднання на комірці \1"
+LOG_ACCEPT_REJECTED           "Наступне з'єднання скасовано"
+LOG_HOSTING                   "\1 створив(ла) гру з назвою \"\3\" на каналі \2"
+LOG_STARTING                  "Початок гри, записано як файл \"\1\""
+LOG_GAMEID_UNKNOWN            "ID гри невідомий; до цієї гри під'єднуються за прямим IP або URL"
+LOG_GAMEID                    "ID гри: \"\1\""
 
-#TODO #: Untranslated string
-#TODO LOG_TS_EVENT                  "\1 at \2"
-#TODO #: Untranslated string
-#TODO LOG_TS_CREATION               "Game Started"
-#TODO #: Untranslated string
-#TODO LOG_TS_REDUB                  "Redubbed"
-#TODO #: Untranslated string
-#TODO LOG_TS_UNDO                   "Rerecorded"
-#TODO #: Untranslated string
-#TODO LOG_GMT                       "\1 GMT"
-#TODO #: Untranslated string
-#TODO LOG_GAME_ENGINE_VERSION       "Game Engine Version"
-#TODO #: Untranslated string
-#TODO LOG_FILE_FORMAT_VERSION       "File Format Version"
-#TODO #: Untranslated string
-#TODO LOG_EXPORTED_WITH_VERSION     "Exported with Version"
-#TODO #: Untranslated string
-#TODO LOG_ORIGINALLY                "originally"
-#TODO #: Untranslated string
-#TODO LOG_EXTRACTED                 "extracted from network log"
-#TODO #: Untranslated string
-#TODO LOG_ENCRYPTED                 "encrypted"
-#TODO #: Untranslated string
-#TODO LOG_CPU                       "CPU"
-#TODO #: Untranslated string
-#TODO LOG_LOCAL_PLAYER              "Local Player"
-#TODO #: Untranslated string
-#TODO LOG_HOST                      "Host"
-#TODO #: Untranslated string
-#TODO LOG_SPECTATOR                 "Spectator"
-#TODO #: Untranslated string
-#TODO LOG_LOCAL                     "Local"
-#TODO #: Untranslated string
-#TODO LOG_PARTED_OR_KICKED          "Player parted or was kicked"
-#TODO #: Untranslated string
-#TODO LOG_JOINED                    "Player joined"
-#TODO #: Untranslated string
-#TODO LOG_JOIN_FAILED               "Failed to join game / Connection aborted"
+LOG_TS_EVENT                  "\1 на \2"
+LOG_TS_CREATION               "Гру почато"
+LOG_TS_REDUB                  "Переозвучено"
+LOG_TS_UNDO                   "Перезаписано"
+LOG_GMT                       "\1 GMT"
+LOG_GAME_ENGINE_VERSION       "Версія рушія гри"
+LOG_FILE_FORMAT_VERSION       "Версія формату файлів"
+LOG_EXPORTED_WITH_VERSION     "Експортовано на версії"
+LOG_ORIGINALLY                "з початку"
+LOG_EXTRACTED                 "витягнути з мережевого логу"
+LOG_ENCRYPTED                 "зашифровано"
+LOG_CPU                       "Комп'ютер"
+LOG_LOCAL_PLAYER              "Локальний гравець"
+LOG_HOST                      "Творець гри"
+LOG_SPECTATOR                 "Глядач"
+LOG_LOCAL                     "Локальний"
+LOG_PARTED_OR_KICKED          "Гравець вийшов або його вигнали"
+LOG_JOINED                    "Гравець приєднався"
+LOG_JOIN_FAILED               "Не вдалося приєднатись до гри / з'єднання розірвано"
 
-#TODO #: Untranslated string
-#TODO LOG_SESSION_ENDED             "Session ended"
-#TODO #: Untranslated string
-#TODO LOG_BOOTING                   "Booting player"
-#TODO #: Untranslated string
-#TODO LOG_CONN_VALIDATED            "Validated connection"
-#TODO #: Untranslated string
-#TODO LOG_PLAYERLIST                "Successfully joined game. Players are:"
-#TODO #: Untranslated string
-#TODO LOG_MISSION_SUCCESSFUL        "Mission Successful"
-#TODO #: Untranslated string
-#TODO LOG_MISSION_FAILED            "Mission Failed"
-#TODO #: Untranslated string
-#TODO LOG_JETPACK_FUEL              "used \1 units of Jet Pack fuel"
-#TODO #: Untranslated string
-#TODO LOG_WALK_POSITION_GLITCH      "triggers walk position glitch"
-#TODO #: Untranslated string
-#TODO LOG_USES                      "uses"
-#TODO #: Untranslated string
-#TODO LOG_FIRES                     "fires"
-#TODO #: Untranslated string
-#TODO LOG_JETPACK_FUEL_RESET        "resetting Jet Pack fuel use to 0"
-#TODO #: Untranslated string
-#TODO LOG_HERD                      "herd of \1"
-#TODO #: Untranslated string
-#TODO LOG_FUSE                      "\1 sec"
-#TODO #: Untranslated string
-#TODO LOG_BOUNCE_MAX                "max bounce"
-#TODO #: Untranslated string
-#TODO LOG_BOUNCE_MIN                "min bounce"
+LOG_SESSION_ENDED             "Гру завершено"
+LOG_BOOTING                   "Завантаження гравця"
+LOG_CONN_VALIDATED            "З'єднання перевірено"
+LOG_PLAYERLIST                "Успішне приєдання до гри. Гравці:"
+LOG_MISSION_SUCCESSFUL        "Місію пройдено успішно"
+LOG_MISSION_FAILED            "Місію провалено"
+LOG_JETPACK_FUEL              "використано \1 одиниць пального реактивного ранця"
+LOG_WALK_POSITION_GLITCH      "викликає глюк позиції ходьби"
+LOG_USES                      "використовує"
+LOG_FIRES                     "стріляє"
+LOG_JETPACK_FUEL_RESET        "скидання використання пального реактивного ранця до 0"
+LOG_HERD                      "стадо з \1"
+LOG_FUSE                      "\1 сек"
+LOG_BOUNCE_MAX                "макс. відскок"
+LOG_BOUNCE_MIN                "мін. відскок"
 
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_ALTF4            "User Quit with Alt+F4"
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_QUIT             "User Quit"
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_USERDRAW         "User Draw"
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_ROUNDFINISHED    "Round Finished"
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_MISSIONFAILED    "Mission Failed"
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_MISSIONCOMPLETE  "Mission Complete"
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_AVOIDINGCRASH    "Avoiding Crash"
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_ENDOFFILE        "End of file"
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_ENDLESSLOOP      "Avoiding Endless Loop"
-#TODO #: Untranslated string
-#TODO LOG_EXITMODE_BADFILEDATA      "Invalid file data"
-#TODO #: Untranslated string
-#TODO LOG_GAMEENDS                  "Game Ends"
+LOG_EXITMODE_ALTF4            "Вихід користувача через Alt+F4"
+LOG_EXITMODE_QUIT             "Вихід користувача"
+LOG_EXITMODE_USERDRAW         "Користувач здався"
+LOG_EXITMODE_ROUNDFINISHED    "Раунд завершено"
+LOG_EXITMODE_MISSIONFAILED    "Місію провалено"
+LOG_EXITMODE_MISSIONCOMPLETE  "Місію виконано успішно"
+LOG_EXITMODE_AVOIDINGCRASH    "Уникнення вильоту"
+LOG_EXITMODE_ENDOFFILE        "Кінець файлу"
+LOG_EXITMODE_ENDLESSLOOP      "Уникнення замкненого кола"
+LOG_EXITMODE_BADFILEDATA      "Некоректні дані файлу"
+LOG_GAMEENDS                  "Кінець гри"
 
-#TODO #: Untranslated string
-#TODO LOG_CRASH_TOO_MANY_OBJECTS    "Too many objects"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_NO_DROP_WEAPON      "No weapon to drop"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_RELEASE_AND_INJURY  "Simultaneous herd release and fatal injury"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_BADNAPALM           "Invalid Napalm Strike power"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_BADPETROL           "Invalid Petrol Bomb power"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_CPUZEROPOWER        "CPU analysed a zero-power weapon"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_CPU_SEARCH_OVERFLOW "CPU walk enumeration reached maximum search depth at a fall"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_UNDEFINEDFIREDECAY  "Undefined fire decay rate"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_RANDOMWORMORDER     "Random Worm Order failure"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_WORMSELECTFAILURE   "Worm selection failure"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_WORMOUTOFRANGE      "Worm suddenly out of range"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_UNDEADWORM          "Dead worm got a turn due to having nonzero energy"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_BADSTARTHEALTH      "Invalid initial worm health"
-#TODO #: Untranslated string
-#TODO LOG_CRASH_WORMPLACEMENTFAIL   "Worm placement failure"
+LOG_CRASH_TOO_MANY_OBJECTS    "Забагато об'єктів"
+LOG_CRASH_NO_DROP_WEAPON      "Нема зброї для скидання"
+LOG_CRASH_RELEASE_AND_INJURY  "Одночасне випускання стада та смертельна шкода"
+LOG_CRASH_BADNAPALM           "Некоректна потужність напалму"
+LOG_CRASH_BADPETROL           "Некоректна потужність коктейлю Молотова"
+LOG_CRASH_CPUZEROPOWER        "Комп'ютер проаналізував зброю з нульовою потужністю"
+LOG_CRASH_CPU_SEARCH_OVERFLOW "Прорахування комп'ютером пересування досягнуло вакимальної глибини пошуку на падінні"
+LOG_CRASH_UNDEFINEDFIREDECAY  "Невизначена швидкість згасання полум'я"
+LOG_CRASH_RANDOMWORMORDER     "Помилка випадкового наказу черв'яка"
+LOG_CRASH_WORMSELECTFAILURE   "Помилка вибору черв'яка"
+LOG_CRASH_WORMOUTOFRANGE      "Черв'як раптово зник зі зони досяжності"
+LOG_CRASH_UNDEADWORM          "Мертвий черв'як може ходити, бо в нього не нульове здоров'я"
+LOG_CRASH_BADSTARTHEALTH      "Некоректне початкове здоров'я черв'яка"
+LOG_CRASH_WORMPLACEMENTFAIL   "Помилка розміщення черв'яків"
 
-#TODO #: Untranslated string
-#TODO LOG_TEAM_TIMES                "Team time totals:"
-#TODO #: Untranslated string
-#TODO LOG_TEAM_TIME_TURN            "Turn:"
-#TODO #: Untranslated string
-#TODO LOG_TEAM_TIME_RETREAT         "Retreat:"
-#TODO #: Untranslated string
-#TODO LOG_TEAM_TIME_TOTAL           "Total:"
-#TODO #: Untranslated string
-#TODO LOG_TEAM_TURN_COUNT           "Turn count:"
-#TODO #: Untranslated string
-#TODO LOG_JETPACK_FUEL_TOTAL        "Total Jet Pack fuel used:"
-#TODO #: Untranslated string
-#TODO LOG_SILKWORM_AUTOCHUTE_V1     "Silkworm - global autochute v1 enabled"
-#TODO #: Untranslated string
-#TODO LOG_PLACES_WORM               "is placing a Worm"
-#TODO #: Untranslated string
-#TODO LOG_WORMPLACEMENTDONE         "Worm placement completed"
-#TODO #: Untranslated string
-#TODO LOG_STARTS_TURN               "starts turn"
-#TODO #: Untranslated string
-#TODO LOG_LOSETURN_CONTROL          "loses turn due to loss of control"
-#TODO #: Untranslated string
-#TODO LOG_LOSETURN_DIE              "loses turn by dying"
-#TODO #: Untranslated string
-#TODO LOG_ENDTURN                   "ends turn"
-#TODO #: Untranslated string
-#TODO LOG_TIME_USED                 "time used: \1 sec turn, \2 sec retreat"
-#TODO #: Untranslated string
-#TODO LOG_DAMAGE_DEALT              "Damage dealt:"
-#TODO #: Untranslated string
-#TODO LOG_DAMAGE_DEALT_TO           "to"
-#TODO #: Untranslated string
-#TODO LOG_KILLS_SINGULAR            "kill"
-#TODO #: Untranslated string
-#TODO LOG_KILLS_PLURAL              "kills"
-#TODO #: Untranslated string
-#TODO LOG_SUDDEN_DEATH              "Sudden Death"
-#TODO #: Untranslated string
-#TODO LOG_CONNECTION_CLOSED         "Connection closed"
-#TODO #: Untranslated string
-#TODO LOG_GLIDE_GLITCH              "Glide Glitch"
-#TODO #: Untranslated string
-#TODO LOG_ALIEN_GLITCH              "Alien Glitch"
-#TODO #: Untranslated string
-#TODO LOG_SPURIOUS_FRAME            "Spurious Extra Frame (will probably cause a desynchronisation)"
+LOG_TEAM_TIMES                "Загальний час команди:"
+LOG_TEAM_TIME_TURN            "Ходи:"
+LOG_TEAM_TIME_RETREAT         "Відступ:"
+LOG_TEAM_TIME_TOTAL           "Загалом:"
+LOG_TEAM_TURN_COUNT           "Кількість ходів:"
+LOG_JETPACK_FUEL_TOTAL        "Загальне використане пальне реактивного ранця:"
+LOG_SILKWORM_AUTOCHUTE_V1     "Silkworm - глобальний автопарашут v1 увімкнено"
+LOG_PLACES_WORM               "розміщує черв'яка"
+LOG_WORMPLACEMENTDONE         "Розміщення черв'яків завершено"
+LOG_STARTS_TURN               "починає хід"
+LOG_LOSETURN_CONTROL          "завершує хід через втрату контролю"
+LOG_LOSETURN_DIE              "завершує хід через смерть"
+LOG_ENDTURN                   "завершує хід"
+LOG_TIME_USED                 "використано часу: \1 сек на хід, \2 сек на відступ"
+LOG_DAMAGE_DEALT              "Завдано шкоди:"
+LOG_DAMAGE_DEALT_TO           ""
+LOG_KILLS_SINGULAR            "убивство"
+LOG_KILLS_PLURAL              "убивств"
+LOG_SUDDEN_DEATH              "Раптова смерть"
+LOG_CONNECTION_CLOSED         "З'єднання розірвано"
+LOG_GLIDE_GLITCH              "Глюк планирування"
+LOG_ALIEN_GLITCH              "Глюк \"Прибулець\""
+LOG_SPURIOUS_FRAME            "Помилковий зайвий кадр (може спричинити розсинхронізацію)"
 
-#TODO #: Untranslated string
-#TODO # Shell (integration, command-line)
+# Shell (integration, command-line)
 
-#TODO SHELL_PROGID_WAGAME           "Worms Armageddon Recorded Game"
+SHELL_PROGID_WAGAME           "Записана гра Worms Armageddon"
 
-#TODO #: Untranslated string
-#TODO SHELL_MENU_PLAY               "Playback"
-#TODO #: Untranslated string
-#TODO SHELL_MENU_PLAYAT             "Playback &at..."
-#TODO #: Untranslated string
-#TODO SHELL_MENU_CONTINUE           "&Continue Online"
-#TODO #: Untranslated string
-#TODO SHELL_MENU_GETMAP             "Extract &Map"
-#TODO #: Untranslated string
-#TODO SHELL_MENU_GETSCHEME          "Extract &Scheme"
-#TODO #: Untranslated string
-#TODO SHELL_MENU_GETVIDEO           "Export &Video..."
-#TODO #: Untranslated string
-#TODO SHELL_MENU_GETLOG             "Export &Log"
-#TODO #: Untranslated string
-#TODO SHELL_MENU_SANITIZE           "Saniti&ze Replay"
-#TODO #: Untranslated string
-#TODO SHELL_MENU_REPAIR             "&Repair"
-#TODO #: Untranslated string
-#TODO SHELL_MENU_CONVERT            "Convert to &Beta"
+SHELL_MENU_PLAY               "Програвання"
+SHELL_MENU_PLAYAT             "Програвання &на..."
+SHELL_MENU_CONTINUE           "&Продовжити в мережі"
+SHELL_MENU_GETMAP             "Витягнути &мапу"
+SHELL_MENU_GETSCHEME          "Витягнути &схему"
+SHELL_MENU_GETVIDEO           "Витягнути &відео..."
+SHELL_MENU_GETLOG             "Витягнути &лог"
+SHELL_MENU_SANITIZE           "Очисти&ти повтор"
+SHELL_MENU_REPAIR             "&Відновити"
+SHELL_MENU_CONVERT            "Перетворити на &бету"
 
-#TODO #: Untranslated string
-#TODO SHELL_ASSOCIATIONS_RESTORED   "File and URL associations have been restored."
-#TODO #: Untranslated string
-#TODO SHELL_ASSOCIATIONS_FAILED     "There was a problem restoring file and URL associations."
+SHELL_ASSOCIATIONS_RESTORED   "Асоціації файлів та URL було відновлено."
+SHELL_ASSOCIATIONS_FAILED     "Виникла проблема під час відновлення асоціацій файлів та URL."
 
-#TODO #: Untranslated string
-#TODO SHELL_LOADING                 "Loading, please wait..."
+SHELL_LOADING                 "Зачекайте, триває завантаження..."
 
-#TODO #: Untranslated string
-#TODO SHELL_PLAYAT_TITLE            "Playback"
-#TODO #: Untranslated string
-#TODO SHELL_PLAYAT_TIME_START       "&Start at"
-#TODO #: Untranslated string
-#TODO SHELL_PLAYAT_START_PAUSED     "Start &Paused"
+SHELL_PLAYAT_TITLE            "Програвання"
+SHELL_PLAYAT_TIME_START       "&Почати з"
+SHELL_PLAYAT_START_PAUSED     "Почати на &паузі"
 
-#TODO #: Untranslated string
-#TODO SHELL_GETVIDEO_TITLE          "Export Video"
-#TODO #: Untranslated string
-#TODO SHELL_GETVIDEO_FPS            "Frames per second"
-#TODO #: Untranslated string
-#TODO SHELL_GETVIDEO_FPS_DIV        "Frame rate divider"
-#TODO #: Untranslated string
-#TODO SHELL_GETVIDEO_TIME_START     "Start at"
-#TODO #: Untranslated string
-#TODO SHELL_GETVIDEO_TIME_END       "End at"
-#TODO #: Untranslated string
-#TODO SHELL_GETVIDEO_RESOLUTION     "Resolution"
-#TODO #: Untranslated string
-#TODO SHELL_GETVIDEO_BASENAME       "Basename"
+SHELL_GETVIDEO_TITLE          "Експортувати відео"
+SHELL_GETVIDEO_FPS            "Кадри на секунду"
+SHELL_GETVIDEO_FPS_DIV        "Дільник частоти кадрів"
+SHELL_GETVIDEO_TIME_START     "Почати з"
+SHELL_GETVIDEO_TIME_END       "Закінчити на"
+SHELL_GETVIDEO_RESOLUTION     "Розширення"
+SHELL_GETVIDEO_BASENAME       "Базове ім'я"
 
-#TODO #: Untranslated string
-#TODO SHELL_BADTIME_CAPTION         "Invalid time"
-#TODO #: Untranslated string
-#TODO SHELL_BADTIME                 "Invalid time entered"
-#TODO #: Untranslated string
-#TODO SHELL_BADTIME_START           "Invalid start time entered"
-#TODO #: Untranslated string
-#TODO SHELL_BADTIME_END             "Invalid end time entered"
-#TODO #: Untranslated string
-#TODO SHELL_BADTIME_RANGE           "Start time must precede end time"
-#TODO #: Untranslated string
-#TODO SHELL_BADRES_CAPTION          "Invalid resolution"
-#TODO #: Untranslated string
-#TODO SHELL_BADRES                  "Resolution must be at least \1"
-#TODO #: Untranslated string
-#TODO SHELL_BADFPS_CAPTION          "Invalid frame rate"
-#TODO #: Untranslated string
-#TODO SHELL_BADFPS                  "Frame rate must be between \1 fps and \2 fps"
+SHELL_BADTIME_CAPTION         "Некоректний час"
+SHELL_BADTIME                 "Введено некоректний час"
+SHELL_BADTIME_START           "Введено некоректний початковий час"
+SHELL_BADTIME_END             "Введено некоректний кінцевий час"
+SHELL_BADTIME_RANGE           "Початковий час має йти перед кінцевим"
+SHELL_BADRES_CAPTION          "Некоректне розширення"
+SHELL_BADRES                  "Мінімальний розмір розширення - \1"
+SHELL_BADFPS_CAPTION          "Некоректна частота кадрів"
+SHELL_BADFPS                  "Частота кадрів мусить знаходитись в діапазоні \1 - \2 fps"
 
-#TODO #: Untranslated string
-#TODO SHELL_DIRECTIP_INVALID        "Ignoring invalid parameter (\"\1\")"
-#TODO #: Untranslated string
-#TODO SHELL_DIRECTIP_UNRECOGNISED   "Ignoring unrecognised parameter (\"\1\")"
-#TODO #: Untranslated string
-#TODO SHELL_PARAMETER_UNRECOGNISED  "Ignoring unrecognised command-line parameter (\"\1\")"
+SHELL_DIRECTIP_INVALID        "Ігнорування некоректного параметру (\"\1\")"
+SHELL_DIRECTIP_UNRECOGNISED   "Ігнорування нерозпізнаного параметру (\"\1\")"
+SHELL_PARAMETER_UNRECOGNISED  "Ігнорування нерозпізнаного параметру командного рядка (\"\1\")"
 
-#TODO #: Untranslated string
-#TODO SHELL_SANITIZE                "Sanitize"
-#TODO #: Untranslated string
-#TODO SHELL_SANITIZE_OK             "Game file has been successfully sanitized as \"\1\"."
-#TODO #: Untranslated string
-#TODO SHELL_SANITIZE_FORMAT_ERROR   "Format Error: Cannot sanitize file \"\1\""
-#TODO #: Untranslated string
-#TODO SHELL_SANITIZE_INCOMPLETE
-#TODO 	"Invalid data in game file \"\1\".\n"
-#TODO 	"Game file has been sanitized as \"\2\".\n"
-#TODO 	"Sanitized copy is incomplete."
-#TODO #: Untranslated string
-#TODO SHELL_REPAIR_CHECK            "Checking if repair is needed..."
-#TODO #: Untranslated string
-#TODO SHELL_REPAIR_NOT_NEEDED       "not needed"
-#TODO #: Untranslated string
-#TODO SHELL_REPAIR_TRYING           "Trying intrinsic map \1..."
-#TODO #: Untranslated string
-#TODO SHELL_REPAIR_MATCH            "match"
-#TODO #: Untranslated string
-#TODO SHELL_REPAIR_OK               "Game file has been successfully repaired as \"\1\"."
-#TODO #: Untranslated string
-#TODO SHELL_REPAIR_UNNECESSARY      "Game file \"\1\" does not need repairing."
-#TODO #: Untranslated string
-#TODO SHELL_REPAIR_IMPOSSIBLE       "Game file cannot be auto-repaired: \"\1\""
-#TODO #: Untranslated string
-#TODO SHELL_REPAIR_IMPOSSIBLE_OR_UNNECESSARY
-#TODO                               "Game file cannot be auto-repaired, or does not need repairing: \"\1\""
-#TODO #: Untranslated string
-#TODO SHELL_PLAYBACK_ERROR          "Playback Error"
-#TODO #: Untranslated string
-#TODO SHELL_PLAYBACK_X_ERROR        "\1 Error: Cannot play game file \"\2\""
-#TODO #: Untranslated string
-#TODO SHELL_PLAYBACK_RESULT_FILE    "File"
-#TODO #: Untranslated string
-#TODO SHELL_PLAYBACK_RESULT_FORMAT  "Format"
-#TODO #: Untranslated string
-#TODO SHELL_PLAYBACK_RESULT_VERSION "Version"
-#TODO #: Untranslated string
-#TODO SHELL_PLAYBACK_RESULT_MEMORY  "Memory"
-#TODO #: Untranslated string
-#TODO SHELL_PLAYBACK_RESULT_MAP     "Map"
-#TODO #: Untranslated string
-#TODO SHELL_PLAYBACK_RESULT_UNKNOWN "Unknown"
-#TODO #: Untranslated string
-#TODO SHELL_GETLOG_OK               "The requested log file has been extracted."
-#TODO #: Untranslated string
-#TODO SHELL_LOG_CREATION_ERROR      "ERROR: Cannot create log file"
-#TODO #: Untranslated string
-#TODO SHELL_GETMAP_OK               "The map has been extracted to your \1 folder."
-#TODO #: Untranslated string
-#TODO SHELL_GETMAP_NOT_EXPORTABLE   "Error: The map is not exportable"
-#TODO #: Untranslated string
-#TODO SHELL_GETMAP_CREATION_ERROR   "Error creating map file"
-#TODO #: Untranslated string
-#TODO SHELL_GETSCHEME_OK            "The scheme has been extracted to your \1 folder."
-#TODO #: Untranslated string
-#TODO SHELL_GETSCHEME_NOT_EXPORTABLE
-#TODO                               "Error: The scheme is not exportable"
-#TODO #: Untranslated string
-#TODO SHELL_GETSCHEME_CREATION_ERROR
-#TODO                               "Error creating scheme file"
-#TODO #: Untranslated string
-#TODO SHELL_MKDIR_ERROR             "Error creating output folder"
+SHELL_SANITIZE                "Очистити"
+SHELL_SANITIZE_OK             "Файл гри було успішно очищено: \"\1\"."
+SHELL_SANITIZE_FORMAT_ERROR   "Помилка формату: неможливо очистити файл \"\1\""
+SHELL_SANITIZE_INCOMPLETE
+	"Некоректні дані у файлі гри \"\1\".\n"
+	"Файл гри було очищено: \"\2\".\n"
+	"Очищено копій незавершена."
+SHELL_REPAIR_CHECK            "Перевірка необхідності відновлення..."
+SHELL_REPAIR_NOT_NEEDED       "непотрібно"
+SHELL_REPAIR_TRYING           "Перевірка внутрішньої мапи \1..."
+SHELL_REPAIR_MATCH            "співпадіння"
+SHELL_REPAIR_OK               "Файл гри успішно відновлено до \"\1\"."
+SHELL_REPAIR_UNNECESSARY      "Файл гри \"\1\" не потребує відновлення."
+SHELL_REPAIR_IMPOSSIBLE       "Файл гри неможливо автоматично відновити: \"\1\""
+SHELL_REPAIR_IMPOSSIBLE_OR_UNNECESSARY
+                              "Файл гри неможливо автоматично відновити, або він не потребує відновлення: \"\1\""
+SHELL_PLAYBACK_ERROR          "Помилка програвання"
+SHELL_PLAYBACK_X_ERROR        "Помилка \1: неможливо програти файл гри \"\2\""
+SHELL_PLAYBACK_RESULT_FILE    "Файл"
+SHELL_PLAYBACK_RESULT_FORMAT  "Формат"
+SHELL_PLAYBACK_RESULT_VERSION "Версія"
+SHELL_PLAYBACK_RESULT_MEMORY  "Пам'ять"
+SHELL_PLAYBACK_RESULT_MAP     "Мапа"
+SHELL_PLAYBACK_RESULT_UNKNOWN "Невідомо"
+SHELL_GETLOG_OK               "Ваш файл логу було витягнуто."
+SHELL_LOG_CREATION_ERROR      "ПОМИЛКА: неможливо створити файл логу"
+SHELL_GETMAP_OK               "Мапу було витягнути до папки \1."
+SHELL_GETMAP_NOT_EXPORTABLE   "Помилка: цю мапу неможливо витягнути"
+SHELL_GETMAP_CREATION_ERROR   "Помилка створення файлу мапи"
+SHELL_GETSCHEME_OK            "Схему було витягнуто до папки \1."
+SHELL_GETSCHEME_NOT_EXPORTABLE
+                              "Помилка: неможливо витягнути схему"
+SHELL_GETSCHEME_CREATION_ERROR
+                              "Помилка створення файлу схеми"
+SHELL_MKDIR_ERROR             "Помилка створення цільової папки"
 
-#TODO #: Untranslated string
-#TODO SHELL_FILE_OPEN_ERROR         "ERROR: Cannot open file \"\1\""
-#TODO #: Untranslated string
-#TODO SHELL_FILE_CREATE_ERROR       "ERROR: Cannot create file \"\1\""
+SHELL_FILE_OPEN_ERROR         "ПОМИЛКА: неможливо відкрити файл \"\1\""
+SHELL_FILE_CREATE_ERROR       "ПОМИЛКА: неможливо створити файл \"\1\""
 
-#TODO #: Untranslated string
-#TODO # Start-up
+# Start-up
 
-#TODO START_WRITETEST
-#TODO 	"Warning: the current directory (\"\1\") is not writable.\n"
-#TODO 	"W:A will not be able to create temporary files, and will not function properly.\n\n"
-#TODO 	"Please modify the directory permissions to allow write access to the specified directory, "
-#TODO 	"or reinstall the game to a location writable by unprivileged users.\n"
-#TODO 	"Alternatively, you may try launching W:A as the administrator user, however this is not recommended."
-#TODO #: Untranslated string
-#TODO START_FILEMISSING             "A required file is missing:\n\n\1\n\nWorms Armageddon will exit."
-#TODO #: Untranslated string
-#TODO START_RENAMETEST
-#TODO 	"Warning: files in the current directory (\"\1\") are not writable.\n"
-#TODO 	"W:A will not be able to save changes to existing files, and will not function properly.\n\n"
-#TODO 	"Please modify the directory permissions to allow write access to the specified directory, "
-#TODO 	"or reinstall the game to a location writable by unprivileged users.\n"
-#TODO 	"Alternatively, you may try launching W:A as the administrator user, however this is not recommended."
-#TODO #: Untranslated string
-#TODO START_LOWSPACE
-#TODO 	"Warning: low disk space on drive \1:\n"
-#TODO 	"W:A may not be able to create temporary files or save network logs and game replays.\n\n"
-#TODO 	"Please free up disk space on the specified drive, "
-#TODO 	"or reinstall the game to a location with more disk space."
-#TODO #: Untranslated string
-#TODO START_ELEVATED
-#TODO 	"It looks like you ran W:A \"As Administrator\" with UAC enabled.\n\n"
-#TODO 	"This is not recommended. Please be aware that this may cause issues such as not being able to restore a minimized game."
-#TODO #: Untranslated string
-#TODO START_WORMKIT_ERROR           "Failed to load WormKit module \1:\n\2\n\nPlease check that all files required by the module are present in the W:A directory."
-#TODO #: Untranslated string
-#TODO START_SUGGEST_TWEAKS
-#TODO 	"It looks like you are running W:A for the first time under \1.\n"
-#TODO 	"Would you like to enable \1-specific compatibility tweaks?\n\n"
-#TODO 	"Selecting \"Yes\" will enable the following tweaks:\n"
-#TODO 	"\2"
-#TODO 	"These compatibility tweaks can be enabled or disabled manually by importing the "
-#TODO 	"corresponding registry scripts from the Tweaks subdirectory. "
-#TODO 	"Detailed information can be found in the update documentation."
-#TODO #: Untranslated string
-#TODO START_SUGGEST_COMPATFLAGS
-#TODO 	"It looks like you are running W:A for the first time under \1.\n"
-#TODO 	"W:A can configure the Windows compatibility flags, which should improve compatibility and performance.\n\n"
-#TODO 	"Would you like W:A to configure the Windows compatibility flags?"
-#TODO #: Untranslated string
-#TODO START_SUGGEST_COMPATFLAGS_OK
-#TODO 	"Compatibility flags have been set.\nRestart W:A for the settings to take effect.\n\n"
-#TODO 	"For even better performance, try selecting \"Direct3D 9 (shader)\" on the Advanced Options screen, but it may not work on all systems."
-#TODO #: Untranslated string
-#TODO START_GRAPHICS_LOAD_ERROR     "Front-end initialisation failure.\nSome graphic files failed to load.\n\nTry reinstalling the game."
-#TODO #: Untranslated string
-#TODO START_SOUND_LOAD_ERROR        "Front-end sound samples failed to load.\nTry reinstalling the game."
-#TODO #: Untranslated string
-#TODO START_WRONG_CD
-#TODO 	"You have inserted a \1 CD-ROM in the drive, however not all files required to run the game correctly are present.\n"
-#TODO 	"As a result, some features the game may malfunction or be unavailable.\n\nContinue anyway?"
-#TODO #: Untranslated string
-#TODO START_INSERT_CD               "Please insert the \1 CD-ROM in the drive."
+START_WRITETEST
+	"Увага: папка (\"\1\") відкрита лише для читання.\n"
+	"W:A не зможе створити тимчасові файли та нормально працювати.\n\n"
+	"Поміняйте дозволи папки, аби дозволити в ній запис файлів, "
+	"або перевстановіть гру до папки, в якій доступний запис для усіх користувачів.\n"
+	"Також ви можете спробувати запустити W:A від імені адміністратора."
+START_FILEMISSING             "Не знайдено необхідний файл:\n\n\1\n\nЗакриття Worms Armageddon."
+START_RENAMETEST
+	"Увага: файли у папці (\"\1\") відкриті лише для читання.\n"
+	"W:A не зможе зберегти зміни у наявних файлах та нормально працювати.\n\n"
+	"Поміняйте дозволи папки, аби дозволити в ній запис файлів, "
+	"або перевстановіть гру до папки, в якій доступний запис для усіх користувачів.\n"
+	"Також ви можете спробувати запустити W:A від імені адміністратора."
+START_LOWSPACE
+	"Увага: на диску \1 мало вільного місця:\n"
+	"W:A не зможе створити тимчасові файли чи зберегти мережеві логи та повтори гри.\n\n"
+	"Звільніть місце на диску зі встановленою грою, "
+	"або перевстановіть гру туди, де більше вільного місця."
+START_ELEVATED
+	"Здається, ви запустили W:A \"Від імені адміністратора\" з увімкненою cлужбою захисту користувачів.\n\n"
+	"Попереджаємо, через це можуть виникнути проблеми, наприклад, ви не зможете розгорнути згорнуту гру."
+START_WORMKIT_ERROR           "Не вдалося завантажити модуль WormKit \1:\n\2\n\nПереконайтесь, що усі необхідні файли модуля знаходяться у папці W:A."
+START_SUGGEST_TWEAKS
+	"Здається, ви вперше запустили W:A на \1.\n"
+	"Бажаєте увімкнути налаштування сумісності для \1?\n\n"
+	"Обравши \"Так\", ви увімкнете наступні налаштування:\n"
+	"\2"
+	"Ці налаштування сумісності можна увімкнути або вимкнути вручну,"
+	"імпортувавши  відповідні файли реєстру з папки Tweaks. "
+	"Докладнішу інформацію можна знайти в документації оновлень."
+START_SUGGEST_COMPATFLAGS
+	"Здається, ви вперше запустили W:A на \1.\n"
+	"W:A може налаштувати параметри сумісності Windows для покращення роботи та швидкодії.\n\n"
+	"Хочете, щоб W:A налаштував параметри сумісності Windows?"
+START_SUGGEST_COMPATFLAGS_OK
+	"Параметри сумісності виставлено.\nПерезапустіть W:A, аби застосувати зміни.\n\n"
+	"Для кращої швидкодії спробуйте обрати \"Direct3D 9 (шейдер)\" в додаткових параметрах, якщо на вашій системі так можна."
+START_GRAPHICS_LOAD_ERROR     "Помилка ініціалізації інтерфейсу.\nНе вдалося завантажити деякі графічні файли.\n\nСпробуйте перевстановити гру."
+START_SOUND_LOAD_ERROR        "Не вдалося завантажити звуки інтерфейсу.\nСпробуйте перевстановити гру."
+START_WRONG_CD
+	"Ви вставили диск \1 в дисковод, але не всі необхідні для коректної робити гри файли наявні.\n"
+	"У зв'язку з цим деякі функції гри можуть бути недоступними.\n\nВсе одно продовжити?"
+START_INSERT_CD               "Будь ласка, вставте диск \1 в дисковод."
 
-#TODO #: Untranslated string
-#TODO GRAPHICS_INIT_ERROR           "Graphics initialisation error"
-#TODO #: Untranslated string
-#TODO GRAPHICS_RESET_PROMPT         "Reset graphics settings to safe values?"
-#TODO #: Untranslated string
-#TODO GRAPHICS_RESET_DONE
-#TODO 	"Graphics settings have been reset to safe values.\n"
-#TODO 	"Start W:A again to use the new settings."
-#TODO #: Untranslated string
-#TODO GRAPHICS_RESET2_PROMPT        "Reset graphics settings to alternative values?"
-#TODO #: Untranslated string
-#TODO GRAPHICS_RESET2_DONE
-#TODO 	"Graphics settings have been reset to alternative values.\n"
-#TODO 	"Start W:A again to use the new settings."
-#TODO #: Untranslated string
-#TODO GRAPHICS_INIT_FAILURE         "Couldn't initialise graphics"
-#TODO #: Untranslated string
-#TODO GRAPHICS_WINDOWEDMODE_PROMPT  "Unable to initialise graphics using the required video mode. It is possible that the requested fullscreen mode is not supported by your system. Would you like to try switching to the windowed mode?"
-#TODO #: Untranslated string
-#TODO GRAPHICS_WINDOWEDMODE_RESTART "Windowed mode has been enabled. You must restart the game before you can start using windowed mode with DirectDraw."
+GRAPHICS_INIT_ERROR           "Помилка ініціалізації графіки"
+GRAPHICS_RESET_PROMPT         "Скинути налаштування графіки до безпечних?"
+GRAPHICS_RESET_DONE
+	"Налаштування графіки було скинуто до безпечних.\n"
+	"Перезапустіть W:A для застосування нових налаштувань."
+GRAPHICS_RESET2_PROMPT        "Скинути налаштування графіки до альтернативних?"
+GRAPHICS_RESET2_DONE
+	"Налаштування графіки було скинуто до альтернативних.\n"
+	"Перезапустіть W:A для застосування нових налаштувань."
+GRAPHICS_INIT_FAILURE         "Не вдалося зініціалізувати графіку"
+GRAPHICS_WINDOWEDMODE_PROMPT  "Не вдалося зініціалізувати графіку з використанням обраного режиму відео. Можливо, ваша система не підтримує повноекранний режим. Бажаєте спробувати перемкнутися на віконний?"
+GRAPHICS_WINDOWEDMODE_RESTART "Віконний режим увімкнено. Ви мусите перезапустити гру перед використанням віконного режиму через DirectDraw."
 
-#TODO #: Untranslated string
-#TODO TIMESTAMPFORMAT_ERROR         "Invalid formatting code in TimestampFormat.\n"
-#TODO                               "Chat timestamps will be disabled."
+TIMESTAMPFORMAT_ERROR         "Некоректний код форматування у TimestampFormat.\n"
+                              "Таймстампи чату буде відімкнено."
 
-#TODO #: New string
-#TODO # Extended (v3) scheme options.
+# Extended (v3) scheme options.
 
- OPTEXT_BOX_OPTEXT                            "Розширені налаштування гри"
+OPTEXT_BOX_OPTEXT                            "Розширені налаштування гри"
 
 OPTEXT_HELP_RESET_EDIT                       "Скинути це поле до стандартного значення."
 OPTEXT_HELP_RESET_VIEW                       "Показує, що це поле було змінене."
